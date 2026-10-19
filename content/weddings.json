@@ -8,24 +8,66 @@
   "day": {
     "heading": "How a day works here",
     "steps": [
-      { "title": "Get ready in the ell", "body": "The bridal room and the groom's room are steps from the barn, each with a mirror and a place to sit." },
-      { "title": "Ceremony in the field", "body": "Benches made from the barn's old floorboards, facing Pleasant Mountain. On a wet day, the ceremony moves into the barn." },
-      { "title": "Reception in the barn", "body": "Dinner on the main floor and in the loft, dancing under the original beams, your caterer in the prep kitchen." },
-      { "title": "Sunset on the patio", "body": "String lights, the stone seating circle, and the view down the field as the light goes." }
+      {
+        "title": "Get ready in the ell",
+        "body": "The bridal room and the groom's room are steps from the barn, each with a mirror and a place to sit."
+      },
+      {
+        "title": "Ceremony in the field",
+        "body": "Benches made from the barn's old floorboards, facing Pleasant Mountain. On a wet day, the ceremony moves into the barn."
+      },
+      {
+        "title": "Reception in the barn",
+        "body": "Dinner on the main floor and in the loft, dancing under the original beams, your caterer in the prep kitchen."
+      },
+      {
+        "title": "Sunset on the patio",
+        "body": "String lights, the stone seating circle, and the view down the field as the light goes."
+      }
     ]
   },
   "details_heading": "The details",
   "details": [
-    { "label": "Guests", "value": "Up to 135" },
-    { "label": "When", "value": "Sundays, May through October. We also book Monday through Friday" },
-    { "label": "Ceremony", "value": "In the field, or in the barn in rain" },
-    { "label": "Getting ready", "value": "Bridal room and groom's room in the ell" },
-    { "label": "Tables and chairs", "value": "Included. 6-foot and 8-foot tables, 5-foot rounds, and ceremony seating" },
-    { "label": "Food", "value": "Your caterer, with a prep kitchen on site" },
-    { "label": "Alcohol", "value": "None. We are an alcohol-free venue" },
-    { "label": "Music", "value": "Inside the barn. The deck and patio stay quiet after the ceremony, by town permit" },
-    { "label": "Parking", "value": "66 cars, plus three accessible spaces" },
-    { "label": "Pricing", "value": "Ask for the pricing brochure. [CONFIRM: starting price]" }
+    {
+      "label": "Guests",
+      "value": "Up to 135"
+    },
+    {
+      "label": "When",
+      "value": "Sundays, May through October. We also book Monday through Friday"
+    },
+    {
+      "label": "Ceremony",
+      "value": "In the field, or in the barn in rain"
+    },
+    {
+      "label": "Getting ready",
+      "value": "Bridal room and groom's room in the ell"
+    },
+    {
+      "label": "Tables and chairs",
+      "value": "Included. 6-foot and 8-foot tables, 5-foot rounds, and ceremony seating"
+    },
+    {
+      "label": "Food",
+      "value": "Your caterer, with a prep kitchen on site"
+    },
+    {
+      "label": "Alcohol",
+      "value": "None. We are an alcohol-free venue"
+    },
+    {
+      "label": "Music",
+      "value": "Inside the barn. The deck and patio stay quiet after the ceremony, by town permit"
+    },
+    {
+      "label": "Parking",
+      "value": "66 cars, plus three accessible spaces"
+    },
+    {
+      "label": "Pricing",
+      "value": "Ask for the pricing brochure. [CONFIRM: starting price]"
+    }
   ],
   "sunday": {
     "heading": "Why Sundays",
@@ -33,15 +75,42 @@
   },
   "faq_heading": "Questions couples ask",
   "faq": [
-    { "q": "How many guests can the barn hold?", "a": "135. That is the capacity on our town permit for any event." },
-    { "q": "Can we have our ceremony outside?", "a": "Yes. The ceremony field faces Pleasant Mountain, with benches made from the barn's old floorboards. In rain, the ceremony moves into the barn." },
-    { "q": "Can we bring our own caterer?", "a": "Yes. There is a prep kitchen with barn doors your caterer can close while they finish the meal." },
-    { "q": "Can we serve alcohol?", "a": "No. We are an alcohol-free venue, and that is part of our town permit. Many couples tell us it makes for a family day." },
-    { "q": "Do you host Saturday weddings?", "a": "No. Our weddings are on Sundays, and we also book weekdays." },
-    { "q": "What months are you open?", "a": "May through October. October is our favorite." },
-    { "q": "Are tables and chairs included?", "a": "Yes. 6-foot and 8-foot tables, 5-foot rounds, and chairs for the ceremony and the reception." },
-    { "q": "Is the barn accessible?", "a": "Yes. There are three accessible parking spaces in the driveway, a wooden ramp to the main floor, an ADA accessible bathroom, and a paved path around the barn to the patio." },
-    { "q": "How do we book?", "a": "Email or text Susan to schedule a tour. After the tour we send the contract and the pricing brochure. [CONFIRM: deposit and booking steps]" }
+    {
+      "q": "How many guests can the barn hold?",
+      "a": "135. That is the capacity on our town permit for any event."
+    },
+    {
+      "q": "Can we have our ceremony outside?",
+      "a": "Yes. The ceremony field faces Pleasant Mountain, with benches made from the barn's old floorboards. In rain, the ceremony moves into the barn."
+    },
+    {
+      "q": "Can we bring our own caterer?",
+      "a": "Yes. There is a prep kitchen with barn doors your caterer can close while they finish the meal."
+    },
+    {
+      "q": "Can we serve alcohol?",
+      "a": "No. We are an alcohol-free venue, and that is part of our town permit. Many couples tell us it makes for a family day."
+    },
+    {
+      "q": "Do you host Saturday weddings?",
+      "a": "No. Our weddings are on Sundays, and we also book weekdays."
+    },
+    {
+      "q": "What months are you open?",
+      "a": "May through October. October is our favorite."
+    },
+    {
+      "q": "Are tables and chairs included?",
+      "a": "Yes. 6-foot and 8-foot tables, 5-foot rounds, and chairs for the ceremony and the reception."
+    },
+    {
+      "q": "Is the barn accessible?",
+      "a": "Yes. There are three accessible parking spaces in the driveway, a wooden ramp to the main floor, an ADA accessible bathroom, and a paved path around the barn to the patio."
+    },
+    {
+      "q": "How do we book?",
+      "a": "Email or text Susan to schedule a tour. After the tour we send the contract and the pricing brochure. [CONFIRM: deposit and booking steps]"
+    }
   ],
   "closing": {
     "heading": "Plan your 2027 wedding here",

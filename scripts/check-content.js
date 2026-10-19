@@ -26,6 +26,7 @@ function walk(obj, where, file) {
       if (k === "image" && v && !(obj.alt || obj.hero_alt)) fail(`${file} ${where}: photo "${v}" has no alt text`);
       if (k === "hero_image" && v && !obj.hero_alt) fail(`${file} ${where}: hero photo "${v}" has no hero_alt text`);
       if (["heading", "headline", "title"].includes(k) && typeof v === "string" && /!/.test(v)) fail(`${file} ${where}.${k}: headings do not take exclamation marks on the site`);
+      if (k === "caption") fail(`${file} ${where}.caption: the site never uses image captions (Mike, Oct 19). Remove the field.`);
       walk(v, `${where}.${k}`, file);
     }
   }
@@ -41,7 +42,7 @@ if (site) {
   walk(site, "", "site.json");
 }
 
-for (const f of ["home.json", "barn.json", "weddings.json", "events.json", "story.json", "inquire.json", "privacy.json"]) {
+for (const f of ["home.json", "barn.json", "weddings.json", "pricing.json", "events.json", "story.json", "inquire.json", "privacy.json"]) {
   const p = load(f);
   if (!p) continue;
   if (!p.title || !p.description) fail(`${f}: needs a title and a description (they appear in search results)`);

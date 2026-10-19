@@ -1,0 +1,32 @@
+{
+  "title": "Pricing and What Is Included | R&SVP – Hio Ridge, Bridgton, Maine",
+  "description": "What a wedding at Hio Ridge includes: the barn and loft for 135, bridal and groom rooms, prep kitchen, patio and ceremony field. Ask for the pricing brochure.",
+  "heading": "Pricing",
+  "lede": "One barn, one couple, one Sunday. Everything below is included. For the current rates, ask for the pricing brochure and we will send it the same day.",
+  "price_label": "Weddings start at",
+  "price": "[CONFIRM: starting price]",
+  "price_note": "Sunday weddings, May through October. Weekday events are priced separately. [CONFIRM: weekday and event rates]",
+  "included_heading": "Included with every wedding",
+  "included": [
+    "The barn, main floor and loft, for up to 135 guests",
+    "The bridal room and the groom's room in the ell",
+    "The ceremony field facing Pleasant Mountain, with benches",
+    "The patio with string lights and the stone seating circle",
+    "6-foot and 8-foot tables, 5-foot rounds, and chairs for the ceremony and the reception",
+    "The prep kitchen for your caterer",
+    "Parking for 66 cars and three accessible spaces",
+    "An ADA accessible bathroom and a ramp to the main floor",
+    "Susan and Richard on site for the day",
+    "[CONFIRM: setup and breakdown, hours of access, rehearsal time]"
+  ],
+  "compare_heading": "How we compare",
+  "compare": "Barn venues within forty minutes of Bridgton list from about $8,000 to $13,000 for the day, and most of that buys a bar. We are an alcohol-free venue, so there is no bar to build, insure or staff. That is where the difference goes. [CONFIRM: Susan is comfortable with this comparison]",
+  "events_heading": "Showers, retreats and events",
+  "events": "Showers, reunions, retreats, teas, workshops and small concerts are priced by the day or the afternoon. Tell us the date and the size and we will send the rate. [CONFIRM: event rates]",
+  "closing": {
+    "heading": "Ask for the pricing brochure",
+    "body": "Email or text Susan and she will send the brochure and the open 2027 dates.",
+    "cta": "Request the brochure",
+    "cta_href": "/inquire/?type=wedding"
+  }
+}

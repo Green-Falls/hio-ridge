@@ -6,14 +6,38 @@
   "form": {
     "name": "inquiry",
     "types": [
-      { "value": "wedding", "label": "Wedding" },
-      { "value": "shower", "label": "Shower" },
-      { "value": "reunion", "label": "Reunion or party" },
-      { "value": "retreat", "label": "Retreat" },
-      { "value": "concert", "label": "Concert or performance" },
-      { "value": "class", "label": "Class or workshop" },
-      { "value": "tour", "label": "Just a tour" },
-      { "value": "other", "label": "Something else" }
+      {
+        "value": "wedding",
+        "label": "Wedding"
+      },
+      {
+        "value": "shower",
+        "label": "Shower"
+      },
+      {
+        "value": "reunion",
+        "label": "Reunion or party"
+      },
+      {
+        "value": "retreat",
+        "label": "Retreat"
+      },
+      {
+        "value": "concert",
+        "label": "Concert or performance"
+      },
+      {
+        "value": "class",
+        "label": "Class or workshop"
+      },
+      {
+        "value": "tour",
+        "label": "Just a tour"
+      },
+      {
+        "value": "other",
+        "label": "Something else"
+      }
     ],
     "submit": "Send",
     "privacy_line": "We use what you send only to reply to you."

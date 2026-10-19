@@ -51,15 +51,42 @@
   ],
   "facts_heading": "Good to know",
   "facts": [
-    { "label": "Capacity", "value": "135 guests" },
-    { "label": "Season", "value": "May through October" },
-    { "label": "Days", "value": "Sunday through Friday" },
-    { "label": "Included", "value": "Tables and chairs. 6-foot and 8-foot tables and 5-foot rounds" },
-    { "label": "Parking", "value": "A lot for 66 cars, plus three accessible spaces in the driveway" },
-    { "label": "Accessibility", "value": "A wooden ramp to the main floor, an ADA accessible bathroom, and a paved path around the barn to the patio" },
-    { "label": "Alcohol", "value": "An alcohol-free, family friendly venue. No alcohol, cannabis or smoking at events" },
-    { "label": "Catering", "value": "Outside caterers, with a prep kitchen on site" },
-    { "label": "Restrooms", "value": "[CONFIRM: indoor restrooms and rentals for large events]" }
+    {
+      "label": "Capacity",
+      "value": "135 guests"
+    },
+    {
+      "label": "Season",
+      "value": "May through October"
+    },
+    {
+      "label": "Days",
+      "value": "Sunday through Friday"
+    },
+    {
+      "label": "Included",
+      "value": "Tables and chairs. 6-foot and 8-foot tables and 5-foot rounds"
+    },
+    {
+      "label": "Parking",
+      "value": "A lot for 66 cars, plus three accessible spaces in the driveway"
+    },
+    {
+      "label": "Accessibility",
+      "value": "A wooden ramp to the main floor, an ADA accessible bathroom, and a paved path around the barn to the patio"
+    },
+    {
+      "label": "Alcohol",
+      "value": "An alcohol-free, family friendly venue. No alcohol, cannabis or smoking at events"
+    },
+    {
+      "label": "Catering",
+      "value": "Outside caterers, with a prep kitchen on site"
+    },
+    {
+      "label": "Restrooms",
+      "value": "[CONFIRM: indoor restrooms and rentals for large events]"
+    }
   ],
   "closing": {
     "heading": "Come see it in person",

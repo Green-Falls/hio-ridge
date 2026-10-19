@@ -4,6 +4,24 @@ One section per audit pass. Each finding is one bullet: what was wrong, how it w
 
 Harness: `node qa/measure.mjs dist/index.html --viewports 320x568,375x667,390x844,430x932,844x390,768x1024,1280x650,1440x900`, `node qa/contrast.mjs`, `python3 qa/copy_check.py`, axe at 375 and 1440, three mobile Lighthouse runs. Every pass records the build stamp it measured.
 
+## Round 2, identity rebuild, October 19, 2026
+
+Measured as before: `run-qa.mjs` on all 10 pages at 375/768/1440, `hero-scrim.mjs`, `contrast.mjs` on the Pricing page (the new moss band with gold kicker), three mobile Lighthouse runs. Build stamp bef3522 plus working changes.
+
+Found and fixed:
+- A gap before every comma and period at display size. Root cause: `font-variant-numeric: tabular-nums` on `body`; Caslon's and Plex's `tnum` feature widens the comma and period to figure width. Tabular figures now apply only to the facts, details, prices and event dates. (The first pass misdiagnosed this as the comma glyph; corrected in the decision record.)
+- New hero (the lit barn interior) measured darker behind the headline: 3.45:1 at 1440×900 on the first scrim. Scrim deepened; now headline 5.31:1 at 1440×900, 5.47:1 at 390×844, 6.37:1 at 1280×650; the italic line 8.9 to 13.9:1; nav 3.92:1 worst case.
+- Pricing page description 192 characters; shortened to fit.
+
+Measured, passing:
+- `run-qa.mjs`: 0 problems on 10 pages: no overflow, no text under 13px, no tap target under 44px, one h1, landmarks, no em dashes, no dead links, no console errors, axe 0 violations at 375 and 1440.
+- `contrast.mjs` on `/pricing/` at 390 and 1440: 0 under target (paper on moss, gold kicker on moss at display size, ink on linen).
+- Lighthouse mobile, home, 3 runs: 99 / 99 / 99, Accessibility 100, Best Practices 100, SEO 100; FCP 1.2s, LCP 2.0s, TBT 0, CLS 0.
+
+Known and accepted:
+- The gold (#A8843F) is used for text only at kicker size on moss (passes) and for the ampersand at display size; never for small text on white, where it would be 3.3:1.
+- Competitor captures in `qa/peers/` are from a proxy'd headless browser; The Knot served a bot check and Highland Lake timed out. The facts for those came from fetched listing pages instead.
+
 ## First build pass, October 19, 2026
 
 Measured at 375×812 (phone emulation, DPR 2), 768×1024 and 1440×900 with `qa/run-qa.mjs` on all 9 pages; the home page also at 320×568, 375×667, 390×844, 430×932, 844×390, 768×1024, 1280×650 and 1440×900 with `qa/measure.mjs`; hero text against the brightest pixel behind it with `qa/hero-scrim.mjs`; three mobile Lighthouse runs with `qa/lighthouse.mjs`. Build stamp 04f75ae.

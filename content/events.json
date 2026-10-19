@@ -7,23 +7,45 @@
   "hero_alt": "The barn with round tables set on the patio, lawn in front",
   "kinds_heading": "What we host",
   "kinds": [
-    { "title": "Baby and wedding showers", "body": "Round tables in the barn, the patio for the afternoon, and the field for photos." },
-    { "title": "Reunions and parties", "body": "Family reunions, birthdays, retirement parties and anniversaries. Up to 135 people, with your caterer in the prep kitchen." },
-    { "title": "Retreats", "body": "Women's retreats, church groups, and company retreats. The barn for the sessions, the patio and the field for the breaks, and the Lakes Region for the evenings." },
-    { "title": "Small concerts", "body": "The acoustics in the barn are good. The High Street Jazz Band played our open house. We would love a bluegrass, country or gospel group next. [CONFIRM: band name]" },
-    { "title": "Teas and workshops", "body": "Afternoon teas, creative workshops and classes. We have 15 seats at the tables for a class." },
-    { "title": "Community events", "body": "Once a year we donate the venue for a charitable event. If you have one in mind, ask." }
+    {
+      "title": "Baby and wedding showers",
+      "body": "Round tables in the barn, the patio for the afternoon, and the field for photos."
+    },
+    {
+      "title": "Reunions and parties",
+      "body": "Family reunions, birthdays, retirement parties and anniversaries. Up to 135 people, with your caterer in the prep kitchen."
+    },
+    {
+      "title": "Retreats",
+      "body": "Women's retreats, church groups, and company retreats. The barn for the sessions, the patio and the field for the breaks, and the Lakes Region for the evenings."
+    },
+    {
+      "title": "Small concerts",
+      "body": "The acoustics in the barn are good. The High Street Jazz Band played our open house. We would love a bluegrass, country or gospel group next. [CONFIRM: band name]"
+    },
+    {
+      "title": "Teas and workshops",
+      "body": "Afternoon teas, creative workshops and classes. We have 15 seats at the tables for a class."
+    },
+    {
+      "title": "Community events",
+      "body": "Once a year we donate the venue for a charitable event. If you have one in mind, ask."
+    }
   ],
   "classes": {
     "heading": "Cardmaking in the barn",
     "body": "Susan teaches papercrafting and cardmaking classes in the barn. You make five cards or items at each class, and all supplies are provided. Watch our Facebook page for dates.",
     "image": "october-guests",
-    "alt": "Guests beside the stone planter at the barn on a fall afternoon",
-    "caption": "Fall Cards and Venue Views, October 2026"
+    "alt": "Guests beside the stone planter at the barn on a fall afternoon"
   },
   "upcoming_heading": "Coming up",
   "upcoming": [
-    { "date": "", "title": "", "details": "", "link": "" }
+    {
+      "date": "",
+      "title": "",
+      "details": "",
+      "link": ""
+    }
   ],
   "upcoming_empty": "No events are scheduled right now. Follow us on Facebook, or ask about hosting your own.",
   "retreats": {

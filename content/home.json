@@ -2,13 +2,31 @@
   "title": "R&SVP – Hio Ridge | Barn wedding and event venue, Bridgton, Maine",
   "description": "A restored 1820 barn on 22 acres in Bridgton, Maine, for weddings, showers, reunions, retreats and small concerts. Up to 135 guests, May through October. Schedule a tour.",
   "hero": {
-    "image": "hero-barn-day",
-    "alt": "The restored barn at Hio Ridge, weathered boards and white-trimmed windows, under a blue sky",
-    "headline": "A 206-year-old barn on 22 acres facing Pleasant Mountain",
-    "line": "Weddings, showers, reunions and retreats in Bridgton, Maine. Now booking 2027.",
+    "image": "barn-interior",
+    "alt": "Inside the barn at Hio Ridge in the evening: the original timber frame, chandeliers, and the loft rail",
+    "kicker": "Bridgton, Maine",
+    "headline": "A 206-year-old barn, rebuilt for your Sunday",
+    "line": "Weddings for up to 135 on 22 acres facing Pleasant Mountain. Alcohol-free, family first, four generations on the farm.",
     "cta": "Schedule a tour",
-    "cta_href": "/inquire/"
+    "cta_href": "/inquire/",
+    "cta2": "See pricing",
+    "cta2_href": "/pricing/",
+    "facts": [
+      { "value": "135", "label": "guests" },
+      { "value": "22", "label": "acres" },
+      { "value": "2027", "label": "now booking" }
+    ]
   },
+  "statement": {
+    "quote": "If these 206-year-old walls could talk, they would have lots of stories to tell. We are ready for the first new ones.",
+    "who": "Susan Bobbitt-Voth"
+  },
+  "proof_heading": "Open, and on the record",
+  "proof": [
+    { "date": "August 16, 2026", "title": "Grand opening and open house", "body": "Tours of the barn and the ell, the High Street Jazz Band in the barn, vendors and local makers.", "href": "" },
+    { "date": "September 8, 2026", "title": "Maine Lakes Chamber ribbon cutting", "body": "Filmed by Lakes Region TV and covered by the Bridgton News.", "href": "https://www.youtube.com/watch?v=bwpAuoFhddQ" },
+    { "date": "July 2026", "title": "Full occupancy approval", "body": "Town of Bridgton. Capacity 135, May through October.", "href": "" }
+  ],
   "intro": {
     "heading": "The barn is ready for its first new stories",
     "body": [
@@ -16,8 +34,7 @@
       "The barn holds 135 guests. The ell has rooms for the bride and groom and their parties to get ready. Outside there is a patio, a ceremony field facing Pleasant Mountain, and 22 acres of woods and lawn."
     ],
     "image": "barn-interior",
-    "alt": "Inside the barn: the original timber frame, chandeliers, and the loft rail, lit in the evening",
-    "caption": "The barn, July 2026"
+    "alt": "Inside the barn: the original timber frame, chandeliers, and the loft rail, lit in the evening"
   },
   "paths": [
     {
@@ -46,15 +63,13 @@
     "heading": "October is something special here",
     "body": "The field looks straight at Pleasant Mountain. In the fall the color comes right up to the barn. We are open all of October for events and tours.",
     "image": "barn-october",
-    "alt": "The barn across the lawn in early October, trees turning along the tree line",
-    "caption": "Hio Ridge, October 2026"
+    "alt": "The barn across the lawn in early October, trees turning along the tree line"
   },
   "evening": {
     "heading": "Evenings on the ridge",
     "body": "Imagine your guests enjoying the food, the music and the sunset. The patio has string lights, and the stone seating circle in the field was built from rocks that spent 200 years under the barn.",
     "image": "barn-night",
-    "alt": "The barn at night, windows lit, French doors open onto the patio",
-    "caption": "The barn at night, July 2026"
+    "alt": "The barn at night, windows lit, French doors open onto the patio"
   },
   "story_teaser": {
     "heading": "Four generations on Hio Ridge Road",

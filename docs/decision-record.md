@@ -22,12 +22,24 @@ A running record. Newest entries at the bottom. One entry per decision or pass, 
 - Brief and guardrails: `docs/00-brief.md`. Photo picks: `docs/photo-shortlist.md`.
 - Source: `content/*.json`, `build.mjs`, `src/`. Output: `dist/`. QA: `qa/`.
 
+## Round 2: competitor audit and identity rebuild, October 19
+
+Mike's read of the first build: "very bland. the brand identity is very weak and not appealing to brides." Also: never use image captions; keep in mind the aesthetic brides want on their wedding. The method changed, not the sheet count:
+- **Audit first.** Six competitor sites within 40 minutes captured and measured (`docs/research/competitors-2026-10.md`, `qa/peers/`). Every one opens on a wedding photograph or a lit, dressed space; runs a serif at 36 to 89px; keeps a white page with one warm accent; and puts Pricing, Open Dates or Inquire in the nav. Ours opened on an empty facade with a text nav and no mark.
+- **Identity from the client's own logo and name.** Walnut sign → `--ink #26190F`; wreath greenery → `--moss #3B5131` for the dark bands and footer; gold bells → `--gold #A8843F` for the ampersand, hairlines and display-size kickers; cream roses → `--linen #F6F1EA` for one alternate band, never the page. The device is Caslon's italic ampersand from "R&SVP", in the mark, large once on the home page, and in the menu. The heart wreath appears once, at 200px, in the footer.
+- **Hero:** the barn lit at night from inside, a title card with the kicker "Bridgton, Maine", the line "A 206-year-old barn, rebuilt for your Sunday", an italic lede, two actions (tour, pricing) and three facts. The facade photo moved to The Barn page.
+- **Home order:** hero → Susan's own line beside the barn at night (linen) → the story paragraph → three photo paths → "what is included" on moss with the pricing comparison → October → proof row (open house, ribbon cutting, occupancy) → Susan and Richard → closing band.
+- **Pricing page added** (every competitor has one): starting price as a `[CONFIRM]`, the included list, the honest comparison to the $8,000 to $13,000 set and why (no bar), event rates `[CONFIRM]`.
+- **What we say that nobody else does:** alcohol-free Sunday weddings; the field facing Pleasant Mountain; four generations.
+- Set aside: script fonts (every competitor flourish is a script; the ampersand does that job here); a video hero (no footage yet); a reviews widget (no reviews yet); stock couples (never).
+- Open: Mike's read of round 2; Susan's photos of a dressed room or a couple, which would replace the interior hero the day they exist.
+
 ## First build, October 19
 
 Built all 9 pages from `content/*.json` with `build.mjs`; QA in `docs/qa-record.md`. Decisions made while building:
 - The client's name keeps its en dash ("R&SVP – Hio Ridge"); the no-dash rule exempts that exact string and nothing else.
 - Fonts: static instances cut from the variable files (Caslon 400, 400 italic, 700; Plex 400, 600), latin subset, 108KB total. Fallbacks measured: Caslon over Liberation Serif at `size-adjust: 116.7%`, Plex over Liberation Sans at 100.1%.
-- Libre Caslon Text's comma reads as a gap before it at headline size. Measured: no kerning fault ("n," is exactly n plus comma); the comma is a large, low teardrop, which is the face. Tried narrowing the punctuation glyphs in the subset (2px at 60px, no visible change) and reverted it; the fonts are cut clean by `scripts/fonts.py`. The hero headline was rewritten without commas ("A 206-year-old barn on 22 acres facing Pleasant Mountain"). One comma in a heading is accepted. If Mike or Susan dislike it, the fallback is a different display face, not glyph surgery.
+- A gap before every comma and period at display size was first blamed on Libre Caslon Text's comma. Wrong: the cause was `font-variant-numeric: tabular-nums` on `body`. Caslon's (and Plex's) tabular-figures feature also sets the comma and period to figure width so "1,000.00" aligns, which spaced every comma on the page. Fixed by applying tabular figures only where numbers stack (facts, details, prices). The glyph surgery tried in between was reverted; fonts are cut clean by `scripts/fonts.py`. Lesson for the guide: a feature meant for numbers can change punctuation; test "n," at display size whenever `tnum` is on.
 - Hero scrims are measured, not eyeballed: `qa/hero-scrim.mjs` reports the worst-case contrast of each text element against the pixels behind it. Floor 3:1 for the headline, 4.5:1 for the line; both pass with margin.
 - Phones get a fixed Call / Inquire bar at the bottom (the Kindred Farms pattern) instead of a sticky header.
 - The menu is the word "Menu" in a bordered 44px control, not a hamburger (the Garrick lesson about couples' parents).

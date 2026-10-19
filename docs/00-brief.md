@@ -42,6 +42,8 @@ Mike's quote: the $3,500 package. About 28 hours: a template-based build, Susan'
 
 ## Guardrails (checked every round)
 
+**Rules added by Mike after the first build (Oct 19):** no image captions, anywhere. The site must look like the wedding a bride is picturing, not like the business that hosts it. The identity comes from the client's own logo (walnut sign, cream roses, wreath greenery, gold bells) and name (Caslon's italic ampersand is the device).
+
 Sector and place cliches, banned unless the record grants an exception: script or handwriting fonts; "rustic chic" eucalyptus and string-light illustrations; a barn icon; a Maine silhouette, lobsters, pine-tree icons, buoys; gold or rose-gold accents; cream or "AI off-white" template backgrounds (paper is pure #FFFFFF, the Generation Maine lesson); a gradient anywhere except a measured scrim over a photo; three-column icon grids; cards with a picture on top; carousels; stat counters; a hamburger-only menu (the word "Menu" in a 44px control: the audience is couples' parents and church groups); more than one solid button in the hero; eyebrows that restate the heading; em dashes; italics; a hand-typed year.
 
 Numbers: control height 48px; tap targets 44px; text floor 13px; body 17px, line-height 1.6, max 65ch; gutter 20px under 640, 48px above; section padding 80px desktop, 56px phones; container 1280px; bar 64px (56 on phones); one ease `cubic-bezier(0.22,1,0.36,1)`; reveals 700ms, once, on arrival; hover only on `(hover:hover) and (pointer:fine)`; reduced motion gets a static page.

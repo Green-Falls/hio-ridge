@@ -13,8 +13,7 @@
         "In 1941 the Burnhams bought this farm on Hio Ridge Road. It was a hobby farm where Susan's father and his brother spent their summers helping Howard. Susan's grandmother lived here for 25 years in her retirement, and then her father did the same."
       ],
       "image": "burnhams",
-      "alt": "A black and white portrait of Rosa and Howard Burnham",
-      "caption": "Rosa and Howard Burnham"
+      "alt": "A black and white portrait of Rosa and Howard Burnham"
     },
     {
       "heading": "2020",
@@ -23,8 +22,7 @@
         "Richard wanted dual-pane windows in the house. Susan said yes, if the old windows could go in the barn. It was not quite that easy. A friend who had run facilities at the college where Richard taught came to look. He said the barn would make a great Airbnb. Susan did not want people staying overnight. An event venue would work."
       ],
       "image": "barn-2020",
-      "alt": "The barn in 2020: dark weathered boards, a sagging roofline, grass in front",
-      "caption": "The barn before, 2020"
+      "alt": "The barn in 2020: dark weathered boards, a sagging roofline, grass in front"
     },
     {
       "heading": "The barn, rebuilt from itself",
@@ -33,8 +31,7 @@
         "The original exterior boards now line the inside. New boards cured in the barn for a year before they went on the outside. The house's 200-year-old windows light the barn. The old floorboards are becoming benches for the ceremony field. Greg Bouley of River's Edge Landscaping built the stone planters and the seating circle from the rocks that had been under the barn since 1820. They say Maine grows rocks."
       ],
       "image": "ell-before",
-      "alt": "The ell and barn mid-renovation, new boards on the ell, the old barn beside it",
-      "caption": "The ell and the barn, mid-renovation"
+      "alt": "The ell and barn mid-renovation, new boards on the ell, the old barn beside it"
     },
     {
       "heading": "Open",
@@ -43,15 +40,23 @@
         "We live in California most of the year and spend the season here. We are at every event. We hope to get involved in the community and the chamber, and to make a difference in our lovely town of Bridgton."
       ],
       "image": "stone-planter",
-      "alt": "A dry-stone planter filled with perennials, the field behind",
-      "caption": "One of the two stone planters, August 2026"
+      "alt": "A dry-stone planter filled with perennials, the field behind"
     }
   ],
   "credits_heading": "The people who built it",
   "credits": [
-    { "name": "Tim Brown, Brown Solutions", "role": "Barn restoration" },
-    { "name": "Greg Bouley, River's Edge Landscaping", "role": "Stonework and planters" },
-    { "name": "Evan Jones", "role": "Survey and site plan" }
+    {
+      "name": "Tim Brown, Brown Solutions",
+      "role": "Barn restoration"
+    },
+    {
+      "name": "Greg Bouley, River's Edge Landscaping",
+      "role": "Stonework and planters"
+    },
+    {
+      "name": "Evan Jones",
+      "role": "Survey and site plan"
+    }
   ],
   "closing": {
     "heading": "Come walk the farm with us",

@@ -122,7 +122,6 @@ collections:
               - { label: "Text", name: body, widget: text }
               - { label: "Photo", name: image, widget: string, hint: "The name of a photo from the photo list. Ask Green Falls to add new photos." }
               - { label: "Photo description", name: alt, widget: string }
-              - { label: "Caption", name: caption, widget: string, required: false }
           - { label: "Upcoming heading", name: upcoming_heading, widget: string }
           - label: "Parent retreats block"
             name: retreats
