@@ -1,6 +1,9 @@
 node_modules/
+dist/
 .DS_Store
 Thumbs.db
 *.log
 .netlify/
 qa/lighthouse-*.report.*
+qa/measure/
+qa/qa-results.json
