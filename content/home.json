@@ -4,7 +4,7 @@
   "hero": {
     "image": "barn-interior",
     "alt": "Inside the barn at Hio Ridge in the evening: the timber frame, chandeliers, and the loft rail",
-    "headline": "Your wedding in a barn raised in 1820",
+    "headline": "Married under beams raised in 1820",
     "line": "Bridgton, Maine. Sundays, May through October.",
     "cta": "Schedule a tour",
     "cta_href": "/inquire/",
@@ -28,14 +28,14 @@
     ]
   },
   "statement": {
-    "quote": "If these walls could talk, they would have stories to tell. We are ready for the first new ones.",
-    "who": "Susan Bobbitt-Voth"
+    "quote": "Hang your dress on the hook in the ell. We will have the barn ready by the time you come down.",
+    "who": "Susan, who lives up the road and gives every tour"
   },
   "intro": {
-    "heading": "The farm has been ours since 1941. The barn is yours for the day.",
+    "heading": "Four generations of one family. The barn is yours for a day.",
     "body": [
-      "Susan's great-grandparents bought this farm on Hio Ridge Road in 1941. Her grandmother retired here, then her father, and now Susan and Richard. In 2020 they took the barn down to its frame and put it back together with its own boards and the windows from the house.",
-      "It holds 135 guests. The ell beside it has a room for the bride and a room for the groom. The field in front looks at Pleasant Mountain."
+      "Susan's great-grandparents bought this farm in 1941. In 2020 she and Richard took the 1820 barn down to its frame and rebuilt it from its own boards.",
+      "It seats 135 under the beams. The ell beside it has a room for the bride and a room for the groom. The field in front faces Pleasant Mountain."
     ],
     "image": "barn-aisle",
     "alt": "Looking down the barn toward the French doors, a chandelier overhead"
@@ -43,29 +43,32 @@
   "paths": [
     {
       "title": "Weddings",
-      "body": "The ceremony in the field, the reception under the beams, and the two of you getting ready in the ell.",
+      "body": "Vows in the field facing the mountain, dinner under the beams, the dress and the suit in the ell.",
       "href": "/weddings/",
       "image": "ceremony-field",
-      "alt": "Benches made from the barn's old floorboards, set in the field among birches"
+      "alt": "Benches made from the barn's old floorboards, set in the field among birches",
+      "link": "Plan your wedding"
     },
     {
       "title": "The Barn",
-      "body": "The main floor and the loft, the bridal and groom rooms, a kitchen for your caterer, the patio and the grounds.",
+      "body": "The main floor and the loft, two getting-ready rooms, a kitchen for your caterer, the patio.",
       "href": "/the-barn/",
       "image": "bridal-room",
-      "alt": "The bridal room: sheer curtains, a vanity, an arched mirror and a round rug"
+      "alt": "The bridal room: sheer curtains, a vanity, an arched mirror and a round rug",
+      "link": "See the barn"
     },
     {
       "title": "Events",
-      "body": "Showers, reunions, retreats, teas and small concerts. Any day but Saturday.",
+      "body": "Showers, reunions, retreats, teas, small concerts. Any day but Saturday.",
       "href": "/events/",
       "image": "barn-patio",
-      "alt": "The barn across the lawn with round tables set on the patio"
+      "alt": "The barn across the lawn with round tables set on the patio",
+      "link": "See events"
     }
   ],
   "setting": {
-    "heading": "October is the month to see it",
-    "body": "The field looks straight at Pleasant Mountain, and in October the color comes right down to the barn. We give tours by appointment all month.",
+    "heading": "Come in October",
+    "body": "The field looks straight at Pleasant Mountain. In October the color comes down to the barn door, and Susan gives tours every day of the month.",
     "image": "barn-october",
     "alt": "The barn across the lawn in early October, trees turning along the tree line"
   },
@@ -105,8 +108,8 @@
     "alt": "Susan and Richard Voth at the barn door"
   },
   "closing": {
-    "heading": "Come stand in it",
-    "body": "Photos only go so far. We will walk you through the barn, the ell and the field, and answer everything.",
+    "heading": "Stand in it before you decide",
+    "body": "A tour takes an hour. You will see the barn, the ell and the field, and get every question answered by the people who own it.",
     "cta": "Schedule a tour",
     "cta_href": "/inquire/"
   }

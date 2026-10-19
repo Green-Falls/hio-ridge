@@ -4,6 +4,16 @@ One section per audit pass. Each finding is one bullet: what was wrong, how it w
 
 Harness: `node qa/measure.mjs dist/index.html --viewports 320x568,375x667,390x844,430x932,844x390,768x1024,1280x650,1440x900`, `node qa/contrast.mjs`, `python3 qa/copy_check.py`, axe at 375 and 1440, three mobile Lighthouse runs. Every pass records the build stamp it measured.
 
+## Round 4, palette, hero, type, copy, October 19, 2026
+
+Measured: `run-qa.mjs` on all 10 pages at 375/768/1440; `contrast.mjs` on the home page at 390 and 1440 (new fir and blush surfaces); three mobile Lighthouse runs.
+
+Found and fixed:
+- The paths' link rows got two arrows (the generic `.more::after` plus the row's own). Scoped off.
+- The closing band was hard-coded in the builder, so the copy rewrite did not reach it. It reads from `home.json` now.
+
+Measured, passing: `run-qa.mjs` 0 problems on 10 pages; contrast 0 under target at both widths (paper on fir 13.5:1, ink on blush 13.1:1, gold on fir 4.8:1); Lighthouse mobile 99 / 100 / 100 / 100, LCP 2.0s, CLS 0. The hero no longer carries text, so the scrim measurement does not apply to the home page.
+
 ## Round 3, nav, hero, copy, eyebrows, October 19, 2026
 
 Measured as before on all 10 pages, plus `hero-scrim.mjs` on the new corner scrim and Lighthouse's layout-shift audit.

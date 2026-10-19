@@ -62,7 +62,7 @@ Copy: the website-build rules (`docs/lessons/01`, section 3). Only facts Susan h
 
 | Token | Value | Job |
 |---|---|---|
-| `--ink` | #1C1813 | Text, the dark field for the closing band. Warm near-black from the barn's interior shadow, not pure black |
+| `--ink` | #1A2420 (round 4) | Text, the dark field for the closing band. Warm near-black from the barn's interior shadow, not pure black |
 | `--paper` | #FFFFFF | Page background |
 | `--muted` | #5E574E | Secondary text, captions |
 | `--rule` | #D9D3CA | Hairlines, derived from the stone wall |
@@ -110,3 +110,5 @@ QA: the website-build harness (`measure.mjs`, `contrast.mjs`, `copy_check.py`) a
 16. Instagram: do they have one? Only Facebook and YouTube are confirmed.
 17. The two Facebook pages: merge or retire one (listings cleanup scope).
 18. Season for 2027: May through October, as told to the town.
+19. Wedding photographs: the first booked couple's photographer, or a styled shoot in the barn (a florist, a dress shop, two hours). Every strong reference site opens on one.
+20. A line-drawn version of the wreath for ornament (rose, daisy, pine cone, bell), if Susan wants it; the painted logo will not trace clean.

@@ -39,3 +39,9 @@ Applied: the test for the round is "does this look like the wedding she is pictu
 
 Applied (round 3): the nav is a paper bar above the photo, not floating over it. The hero is the photograph at full width with one short line and one button in the lower corner under a light local scrim; the kicker, the italic paragraph, the second button and the fact column came off the photo. Facts moved to a hairline strip under the photo. A full-bleed photo with no text was added mid-page. Display sizes came down one step across the site. Every page's copy was rewritten to a bride, in Susan's voice: shorter lines, one specific per sentence, fewer blocks.
 Open: Mike's read of round 3.
+
+## October 19, after round 3
+
+Mike: "nav is better. brand identity is still weak. lots of brown for a wedding. not very good UX/UI design. copy is pretty lame. lots of AI slop design. what skills and references sites can we use to improve?"
+
+What changed (round 4): the method. Eight reference sites captured and measured, a reference lock written (`docs/research/references-2026-10.md`), then the build: brown out (fir green frame, white page, one blush band), text off the hero photo, headline size doubled, hairline link rows, the dress photo, home copy rewritten with the stop-slop pass. Kept: the centered lockup nav, no captions, no eyebrows.

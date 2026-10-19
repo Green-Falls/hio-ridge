@@ -6,18 +6,18 @@
     "bestPractices": 100,
     "seo": 100,
     "fcp": "1.2 s",
-    "lcp": "2.1 s",
+    "lcp": "2.0 s",
     "tbt": "0 ms",
     "cls": "0"
   },
   {
     "run": 2,
-    "performance": 99,
+    "performance": 100,
     "accessibility": 100,
     "bestPractices": 100,
     "seo": 100,
-    "fcp": "1.2 s",
-    "lcp": "2.1 s",
+    "fcp": "0.8 s",
+    "lcp": "1.9 s",
     "tbt": "0 ms",
     "cls": "0"
   },

@@ -22,6 +22,18 @@ A running record. Newest entries at the bottom. One entry per decision or pass, 
 - Brief and guardrails: `docs/00-brief.md`. Photo picks: `docs/photo-shortlist.md`.
 - Source: `content/*.json`, `build.mjs`, `src/`. Output: `dist/`. QA: `qa/`.
 
+## Round 4: references, palette off brown, copy, October 19
+
+Mike: "brand identity is still weak. lots of brown for a wedding. not very good UX/UI design. copy is pretty lame. lots of AI slop design. what skills and references sites can we use to improve?"
+- **Method changed:** rounds 1 to 3 were built from a rulebook; round 4 from a reference lock (`docs/research/references-2026-10.md`): eight venue sites captured and measured, Cedar Lakes Estate as the primary lock, Pippin Hill and Cunningham Farm as secondary.
+- **Palette:** walnut ink, linen page-band and gold text are gone. Fir green #16342A is the frame, bands, buttons, bar and footer; text is a green-black; the one warm band is blush from the logo's roses; gold stays only in the ampersand and hairlines on fir.
+- **Hero:** the photo sits in a fir frame under the fir bar with no text and no scrim. The headline (88px max), the line and one button sit below it on white, centered. `hero-scrim.mjs` is retired for the home page; nothing is over the photo.
+- **Paths:** three photo columns with uppercase hairline link rows and arrows (the Cedar Lakes pattern).
+- **Photos:** the dress on the hook (arched, on blush) and the head table at the open doors are added; the empty field leaves the fir band.
+- **Copy:** home rewritten with stop-slop: "Married under beams raised in 1820"; "Hang your dress on the hook in the ell. We will have the barn ready by the time you come down."; "Stand in it before you decide."
+- Set aside: an italic word swap in the headline (Cedar Lakes does it; it is the pattern Mike calls AI slop); vectorizing the wreath (painted, will not trace); Mobbin and Refero (need a plan or sign-in).
+- Open: wedding photographs (`[CONFIRM]` 19) are the single biggest gap between this site and the references.
+
 ## Round 3: nav, hero and copy, October 19
 
 Mike: "the text is overpowering the photos and we need much better copy"; "play with a navigation where the logo is centered"; "do eyebrow text audit too. i hate how much AI overuses it."

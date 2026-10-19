@@ -184,18 +184,19 @@ ${bar("/")}
 <main id="main">
 <section class="hero">
 ${picture(h.image, { eager: true, alt: h.alt, sizes: "100vw", cls: "hero-pic" })}
-<div class="hero-text"><div class="wrap"><h1>${typo(h.headline)}</h1><div class="hero-cta"><a class="btn btn-paper" href="${esc(h.cta_href)}">${typo(h.cta)}</a><span class="it">${typo(h.line)}</span></div></div></div>
+</section>
+<div class="hero-text"><div class="wrap"><h1>${typo(h.headline)}</h1><div class="hero-cta"><a class="btn" href="${esc(h.cta_href)}">${typo(h.cta)}</a><span class="it">${typo(h.line)}</span></div></div></div>
 </section>
 <div class="wrap"><ul class="facts">${h.facts.map((f) => `<li><strong>${esc(f.value)}</strong> ${esc(f.label)}</li>`).join("")}${SITE.announcement?.enabled ? `<li><a href="${esc(SITE.announcement.link || "/inquire/")}"><strong>${typo(SITE.announcement.text)}</strong></a></li>` : ""}</ul></div>
-${section("sec-linen", `<div class="statement"><div><span class="amp-big" aria-hidden="true">&amp;</span><h2 class="reveal">${typo(p.statement.quote)}</h2><p class="small">${typo(p.statement.who)}</p></div><figure>${picture("barn-night", { alt: p.evening.alt, sizes: "(min-width: 48em) 45vw, 100vw" })}</figure></div>`)}
+${section("sec-linen", `<div class="statement"><div><span class="amp-big" aria-hidden="true">&amp;</span><h2 class="reveal">${typo(p.statement.quote)}</h2><p class="small">${typo(p.statement.who)}</p></div><figure class="arch">${picture("dress", { alt: "A wedding dress on the hook in the bridal room", sizes: "(min-width: 48em) 40vw, 100vw" })}</figure></div>`)}
 ${section("intro", splitRow(p.intro, 0))}
-${section("paths", `<ul class="paths-list">${p.paths.map((x) => `<li><a href="${esc(x.href)}">${picture(x.image, { alt: x.alt, sizes: "(min-width: 48em) 33vw, 100vw" })}<h2>${typo(x.title)}</h2><p>${typo(x.body)}</p><span class="more">See ${typo(x.title.toLowerCase())}</span></a></li>`).join("")}</ul>`)}
-${section("sec-moss", `<div class="split split-wide"><div class="split-text"><h2 class="reveal">The barn, the ell, the field and the patio. Tables and chairs. Susan and Richard.</h2><p>${typo(PAGES.pricing.compare)}</p><p><a class="btn btn-paper" href="/pricing/">See pricing and what is included</a></p></div><figure>${picture("ceremony-field-2", { alt: "Benches in the ceremony field, birches at the edge, the barn in the distance", sizes: "(min-width: 48em) 55vw, 100vw" })}</figure></div>`)}
+${section("paths", `<ul class="paths-list">${p.paths.map((x) => `<li><a href="${esc(x.href)}">${picture(x.image, { alt: x.alt, sizes: "(min-width: 48em) 33vw, 100vw" })}<h2>${typo(x.title)}</h2><p>${typo(x.body)}</p><span class="more"><span>${typo(x.link || "See " + x.title.toLowerCase())}</span><span aria-hidden="true">&rarr;</span></span></a></li>`).join("")}</ul>`)}
+${section("sec-moss", `<div class="split split-wide"><div class="split-text"><h2 class="reveal">The barn, the ell, the field and the patio. Tables and chairs. Susan and Richard.</h2><p>${typo(PAGES.pricing.compare)}</p><p><a class="btn btn-paper" href="/pricing/">See pricing and what is included</a></p></div><figure>${picture("head-table", { alt: "The head table set at the open French doors, the patio and field beyond", sizes: "(min-width: 48em) 55vw, 100vw" })}</figure></div>`)}
 <figure class="photo-band">${picture("barn-october", { alt: p.setting.alt, sizes: "100vw" })}</figure>
 ${section("setting", `<div class="narrow"><h2 class="reveal">${typo(p.setting.heading)}</h2><p>${typo(p.setting.body)}</p></div>`)}
 ${section("proof", `<h2 class="reveal">${typo(p.proof_heading)}</h2><ul class="proof">${p.proof.map((x) => `<li><span class="small">${typo(x.date)}</span><h3>${x.href ? `<a href="${esc(x.href)}" rel="noopener">${typo(x.title)}</a>` : typo(x.title)}</h3><p>${typo(x.body)}</p></li>`).join("")}</ul>`)}
 ${section("teaser", splitRow(p.story_teaser, 1, { sizes: "(min-width: 48em) 40vw, 100vw" }))}
-${closing({ heading: "See the barn in person", body: "We give private tours by appointment, and we are here through October.", cta: "Schedule a tour", cta_href: "/inquire/" })}
+${closing(p.closing)}
 </main>
 ${footer()}`;
   return head({ title: p.title, description: p.description, pathname: "/", ogImage: "barn-interior", jsonld: graph([]) }) + body;
