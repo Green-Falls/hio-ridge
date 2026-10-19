@@ -1,0 +1,62 @@
+{
+  "title": "Our Story | R&SVP – Hio Ridge, Bridgton, Maine",
+  "description": "Four generations on Hio Ridge Road. How Susan and Richard Voth turned a 200-year-old family barn in Bridgton, Maine, into a venue, using its own boards and windows.",
+  "heading": "Our story",
+  "lede": "R&SVP stands for Richard and Susan Voth Properties. Hio Ridge is the road. The barn is the fourth generation of one family's farm.",
+  "hero_image": "susan-richard",
+  "hero_alt": "Susan and Richard Voth, smiling, at the barn door",
+  "sections": [
+    {
+      "heading": "The Burnhams",
+      "body": [
+        "In 1914, Susan's great-grandparents, Rosa and Howard Burnham, bought the Bridgton Hotel after it burned and rebuilt it into the Bridgton House. Susan's grandmother, Phyllis Shackley, and her sister Eleanor were raised there.",
+        "In 1941 the Burnhams bought this farm on Hio Ridge Road. It was a hobby farm where Susan's father and his brother spent their summers helping Howard. Susan's grandmother lived here for 25 years in her retirement, and then her father did the same."
+      ],
+      "image": "burnhams",
+      "alt": "A black and white portrait of Rosa and Howard Burnham",
+      "caption": "Rosa and Howard Burnham"
+    },
+    {
+      "heading": "2020",
+      "body": [
+        "Susan retired in August 2020. Her retirement party was on Zoom. That October she and Richard came to look at what the house needed, and they started with the windows.",
+        "Richard wanted dual-pane windows in the house. Susan said yes, if the old windows could go in the barn. It was not quite that easy. A friend who had run facilities at the college where Richard taught came to look. He said the barn would make a great Airbnb. Susan did not want people staying overnight. An event venue would work."
+      ],
+      "image": "barn-2020",
+      "alt": "The barn in 2020: dark weathered boards, a sagging roofline, grass in front",
+      "caption": "The barn before, 2020"
+    },
+    {
+      "heading": "The barn, rebuilt from itself",
+      "body": [
+        "The barn had been the garage for years, so first came a new garage. Then Tim Brown and his team at Brown Solutions took the barn apart and put it back together. The floor came down 12 inches for head room over the old stalls: rocks out, sand in, a foam subfloor, then cement.",
+        "The original exterior boards now line the inside. New boards cured in the barn for a year before they went on the outside. The house's 200-year-old windows light the barn. The old floorboards are becoming benches for the ceremony field. Greg Bouley of River's Edge Landscaping built the stone planters and the seating circle from the rocks that had been under the barn since 1820. They say Maine grows rocks."
+      ],
+      "image": "ell-before",
+      "alt": "The ell and barn mid-renovation, new boards on the ell, the old barn beside it",
+      "caption": "The ell and the barn, mid-renovation"
+    },
+    {
+      "heading": "Open",
+      "body": [
+        "We received our full occupancy approval in July 2026 and held our open house on August 16, with the High Street Jazz Band in the barn. The Maine Lakes Chamber cut the ribbon on September 8.",
+        "We live in California most of the year and spend the season here. We are at every event. We hope to get involved in the community and the chamber, and to make a difference in our lovely town of Bridgton."
+      ],
+      "image": "stone-planter",
+      "alt": "A dry-stone planter filled with perennials, the field behind",
+      "caption": "One of the two stone planters, August 2026"
+    }
+  ],
+  "credits_heading": "The people who built it",
+  "credits": [
+    { "name": "Tim Brown, Brown Solutions", "role": "Barn restoration" },
+    { "name": "Greg Bouley, River's Edge Landscaping", "role": "Stonework and planters" },
+    { "name": "Evan Jones", "role": "Survey and site plan" }
+  ],
+  "closing": {
+    "heading": "Come walk the farm with us",
+    "body": "We give the tours ourselves. Bring your questions.",
+    "cta": "Schedule a tour",
+    "cta_href": "/inquire/"
+  }
+}

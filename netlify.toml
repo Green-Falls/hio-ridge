@@ -1,0 +1,30 @@
+# Netlify configuration for R&SVP – Hio Ridge.
+# Base directory in the Netlify UI: hio-ridge (this folder). Node 22.
+# The validator runs first so a bad save in the editor fails the build and the last good site stays live.
+[build]
+  base = "hio-ridge"
+  command = "node scripts/check-content.js && node build.mjs"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+# Keep the editor and the thank-you page out of search results.
+[[headers]]
+  for = "/admin/*"
+  [headers.values]
+    X-Robots-Tag = "noindex"
+[[headers]]
+  for = "/thank-you/"
+  [headers.values]
+    X-Robots-Tag = "noindex"
+
+# Fonts and images never change in place (a new photo gets a new name), so cache them for a year.
+[[headers]]
+  for = "/fonts/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+[[headers]]
+  for = "/images/*"
+  [headers.values]
+    Cache-Control = "public, max-age=2592000"

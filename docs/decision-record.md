@@ -22,6 +22,21 @@ A running record. Newest entries at the bottom. One entry per decision or pass, 
 - Brief and guardrails: `docs/00-brief.md`. Photo picks: `docs/photo-shortlist.md`.
 - Source: `content/*.json`, `build.mjs`, `src/`. Output: `dist/`. QA: `qa/`.
 
+## First build, October 19
+
+Built all 9 pages from `content/*.json` with `build.mjs`; QA in `docs/qa-record.md`. Decisions made while building:
+- The client's name keeps its en dash ("R&SVP – Hio Ridge"); the no-dash rule exempts that exact string and nothing else.
+- Fonts: static instances cut from the variable files (Caslon 400, 400 italic, 700; Plex 400, 600), latin subset, 108KB total. Fallbacks measured: Caslon over Liberation Serif at `size-adjust: 116.7%`, Plex over Liberation Sans at 100.1%.
+- Libre Caslon Text's comma reads as a gap before it at headline size. Measured: no kerning fault ("n," is exactly n plus comma); the comma is a large, low teardrop, which is the face. Tried narrowing the punctuation glyphs in the subset (2px at 60px, no visible change) and reverted it; the fonts are cut clean by `scripts/fonts.py`. The hero headline was rewritten without commas ("A 206-year-old barn on 22 acres facing Pleasant Mountain"). One comma in a heading is accepted. If Mike or Susan dislike it, the fallback is a different display face, not glyph surgery.
+- Hero scrims are measured, not eyeballed: `qa/hero-scrim.mjs` reports the worst-case contrast of each text element against the pixels behind it. Floor 3:1 for the headline, 4.5:1 for the line; both pass with margin.
+- Phones get a fixed Call / Inquire bar at the bottom (the Kindred Farms pattern) instead of a sticky header.
+- The menu is the word "Menu" in a bordered 44px control, not a hamburger (the Garrick lesson about couples' parents).
+- The form is Netlify Forms with a honeypot and a `/thank-you/` page; only name and email are required.
+- Inner pages open with the heading and lede above a 16:7 photo, not text over a photo; only the home hero puts text over a photograph, under a measured scrim.
+- Build modes: production; `PREVIEW_HOST` (noindex, robots disallow, CNAME); `RELATIVE=1` (noindex, relative links) for a claude.ai artifact preview.
+
+Set aside: a gallery page (the photos are phone shots; the pages carry them in context instead); testimonials (none exist); Instagram (none confirmed).
+
 ## Kickoff, October 19
 
 Read every past site project (Garrick Hoffman in this repo and in `garrickhoffman-site`, Generation Maine, Kindred Farms, Schilly's, Lake Region Energy, Green Falls) and the website-build skill, and wrote the reusable rules into `docs/lessons/`. Wrote the brief. Set aside: a second concept, a hero video, a gallery viewer, testimonials (behind a flag), an availability calendar. Open: everything in the `[CONFIRM]` list; Mike's review of the brief.

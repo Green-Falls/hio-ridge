@@ -1,0 +1,19 @@
+{
+  "name": "hio-ridge-website",
+  "private": true,
+  "description": "Website for R&SVP – Hio Ridge, a barn event venue in Bridgton, Maine. Static site built by build.mjs from content/*.json. Dev dependencies are only for QA.",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/check-content.js && node build.mjs",
+    "start": "npx --yes serve -l 8080 dist",
+    "check": "node scripts/check-content.js",
+    "qa": "node qa/run-qa.mjs",
+    "measure": "PLAYWRIGHT_DIR=/opt/node-tools node qa/measure.mjs http://127.0.0.1:8080/ --out qa/measure --viewports 320x568,375x667,390x844,430x932,844x390,768x1024,1280x650,1440x900",
+    "lighthouse": "node qa/lighthouse.mjs http://127.0.0.1:8080/"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.10.0",
+    "lighthouse": "^12.0.0",
+    "playwright": "1.56.1"
+  }
+}

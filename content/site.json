@@ -1,0 +1,42 @@
+{
+  "name": "R&SVP – Hio Ridge",
+  "short_name": "Hio Ridge",
+  "tagline": "A restored 1820 barn venue on 22 acres in Bridgton, Maine",
+  "url": "https://437hioridge.events",
+  "phone": "207.400.6353",
+  "phone_tel": "+12074006353",
+  "phone_note": "Call or text Susan",
+  "phone_2": "",
+  "email": "Susan@437hioridge.events",
+  "address": {
+    "street": "437 Hio Ridge Road",
+    "city": "Bridgton",
+    "state": "ME",
+    "zip": "04009",
+    "maps": "https://www.google.com/maps/search/?api=1&query=437+Hio+Ridge+Rd+Bridgton+ME+04009",
+    "lat": "",
+    "lng": ""
+  },
+  "hosts": "Susan Bobbitt-Voth and Richard Voth",
+  "capacity": 135,
+  "acres": 22,
+  "season": "May through October",
+  "days": "Sunday through Friday",
+  "founded_barn": "1820",
+  "opened": "2026",
+  "social": {
+    "facebook": "https://www.facebook.com/profile.php?id=61589276610021",
+    "youtube": "https://www.youtube.com/@susanbobbitt-voth7401",
+    "instagram": ""
+  },
+  "announcement": {
+    "enabled": true,
+    "text": "Now booking 2027. Tours in October.",
+    "link": "/inquire/"
+  },
+  "inquiry_email_note": "Susan replies by email or text, usually within a few days.",
+  "footer_line": "A family venue on the Voth farm, Hio Ridge Road, Bridgton, Maine.",
+  "legal_name": "Richard & Susan Voth Properties",
+  "booking_window": "2027",
+  "privacy_page": "/privacy/"
+}

@@ -1,0 +1,206 @@
+# =============================================================================
+# Website editor configuration (Sveltia CMS / Decap CMS compatible)
+#
+# This file describes the forms Susan sees at /admin/. Each "collection" edits one file in the
+# content/ folder. Saving commits to GitHub; Netlify rebuilds the site in about a minute. If a save
+# breaks a rule in scripts/check-content.js, the build fails and the last good site stays live.
+# See EDITING-GUIDE.md for the one-time setup and the everyday tasks.
+# =============================================================================
+
+backend:
+  name: github
+  repo: Green-Falls/Green-Falls-Website   # [CONFIRM: move to its own repository before launch]
+  branch: hio-ridge
+  base_url: https://api.netlify.com
+  auth_endpoint: auth
+
+local_backend: true
+
+media_folder: hio-ridge/src/images/uploads
+public_folder: /images/uploads
+
+site_url: https://437hioridge.events
+display_url: https://437hioridge.events
+logo_url: /images/logo-480.jpg
+
+collections:
+  - name: site
+    label: "Contact and settings"
+    description: "Phone, email, address, the announcement line, and social links. These appear on every page."
+    files:
+      - name: site
+        label: "Contact and settings"
+        file: hio-ridge/content/site.json
+        fields:
+          - { label: "Phone, as shown", name: phone, widget: string, hint: "For example 207.400.6353" }
+          - { label: "Phone, for dialing", name: phone_tel, widget: string, hint: "Digits only with +1 in front: +12074006353" }
+          - { label: "Phone note", name: phone_note, widget: string, default: "Call or text Susan" }
+          - { label: "Email", name: email, widget: string }
+          - label: "Announcement line"
+            name: announcement
+            widget: object
+            hint: "One short line at the very top of every page. Keep it under 70 characters."
+            fields:
+              - { label: "Show it", name: enabled, widget: boolean, default: true }
+              - { label: "Text", name: text, widget: string, pattern: ['^.{0,70}$', "Keep it at 70 characters or fewer"] }
+              - { label: "Link", name: link, widget: string, default: "/inquire/" }
+          - { label: "Season", name: season, widget: string, default: "May through October" }
+          - { label: "Days", name: days, widget: string, default: "Sunday through Friday" }
+          - { label: "Capacity", name: capacity, widget: number, value_type: int, default: 135 }
+          - label: "Social links"
+            name: social
+            widget: object
+            fields:
+              - { label: "Facebook page", name: facebook, widget: string, required: false }
+              - { label: "YouTube channel", name: youtube, widget: string, required: false }
+              - { label: "Instagram", name: instagram, widget: string, required: false, hint: "Leave empty if you do not have one; the link is hidden." }
+          - { label: "Footer line", name: footer_line, widget: string }
+          # The fields below rarely change. They are here so nothing is hidden from you.
+          - { label: "Site name", name: name, widget: string }
+          - { label: "Short name", name: short_name, widget: string }
+          - { label: "Tagline", name: tagline, widget: string }
+          - { label: "Website address", name: url, widget: string }
+          - { label: "Phone 2", name: phone_2, widget: string, required: false }
+          - label: "Address"
+            name: address
+            widget: object
+            collapsed: true
+            fields:
+              - { label: "Street", name: street, widget: string }
+              - { label: "City", name: city, widget: string }
+              - { label: "State", name: state, widget: string }
+              - { label: "ZIP", name: zip, widget: string }
+              - { label: "Google Maps link", name: maps, widget: string }
+              - { label: "Latitude", name: lat, widget: string, required: false }
+              - { label: "Longitude", name: lng, widget: string, required: false }
+          - { label: "Hosts", name: hosts, widget: string }
+          - { label: "Barn built", name: founded_barn, widget: string }
+          - { label: "Opened", name: opened, widget: string }
+          - { label: "Reply note", name: inquiry_email_note, widget: string }
+          - { label: "Legal name", name: legal_name, widget: string }
+          - { label: "Booking year", name: booking_window, widget: string }
+          - { label: "Privacy page", name: privacy_page, widget: string, default: "/privacy/" }
+
+  - name: events
+    label: "Events page and upcoming events"
+    description: "The list of upcoming events, and the text of the Events page."
+    files:
+      - name: events
+        label: "Events"
+        file: hio-ridge/content/events.json
+        fields:
+          - label: "Upcoming events"
+            name: upcoming
+            widget: list
+            summary: "{{fields.date}} {{fields.title}}"
+            label_singular: "event"
+            hint: "Delete an event after it happens. When the list is empty the page says to follow you on Facebook."
+            fields:
+              - { label: "Date and time", name: date, widget: string, hint: "Written out, for example: Sunday, October 18, 1 to 4 pm" }
+              - { label: "Name", name: title, widget: string }
+              - { label: "Details", name: details, widget: text, hint: "Cost, what to bring, how to sign up." }
+              - { label: "Link", name: link, widget: string, required: false, hint: "A Facebook event or Eventbrite link, if there is one." }
+          - { label: "Message when there are no events", name: upcoming_empty, widget: string }
+          - { label: "Page title (search results)", name: title, widget: string }
+          - { label: "Page description (search results)", name: description, widget: text }
+          - { label: "Heading", name: heading, widget: string }
+          - { label: "Opening paragraph", name: lede, widget: text }
+          - { label: "What we host, heading", name: kinds_heading, widget: string }
+          - label: "What we host"
+            name: kinds
+            widget: list
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Kind of event", name: title, widget: string }
+              - { label: "A sentence or two", name: body, widget: text }
+          - label: "Classes block"
+            name: classes
+            widget: object
+            collapsed: true
+            fields:
+              - { label: "Heading", name: heading, widget: string }
+              - { label: "Text", name: body, widget: text }
+              - { label: "Photo", name: image, widget: string, hint: "The name of a photo from the photo list. Ask Green Falls to add new photos." }
+              - { label: "Photo description", name: alt, widget: string }
+              - { label: "Caption", name: caption, widget: string, required: false }
+          - { label: "Upcoming heading", name: upcoming_heading, widget: string }
+          - label: "Parent retreats block"
+            name: retreats
+            widget: object
+            collapsed: true
+            fields:
+              - { label: "Heading", name: heading, widget: string }
+              - { label: "Text", name: body, widget: text }
+              - { label: "Button", name: cta, widget: string }
+              - { label: "Button link", name: cta_href, widget: string }
+          - { label: "Hero photo", name: hero_image, widget: string }
+          - { label: "Hero photo description", name: hero_alt, widget: string }
+          - label: "Closing block"
+            name: closing
+            widget: object
+            collapsed: true
+            fields:
+              - { label: "Heading", name: heading, widget: string }
+              - { label: "Text", name: body, widget: text }
+              - { label: "Button", name: cta, widget: string }
+              - { label: "Button link", name: cta_href, widget: string }
+
+  - name: weddings
+    label: "Weddings page"
+    description: "The Weddings page, including the questions couples ask."
+    files:
+      - name: weddings
+        label: "Weddings"
+        file: hio-ridge/content/weddings.json
+        fields:
+          - label: "Questions couples ask"
+            name: faq
+            widget: list
+            summary: "{{fields.q}}"
+            label_singular: "question"
+            fields:
+              - { label: "Question", name: q, widget: string }
+              - { label: "Answer", name: a, widget: text }
+          - label: "The details"
+            name: details
+            widget: list
+            summary: "{{fields.label}}: {{fields.value}}"
+            fields:
+              - { label: "Label", name: label, widget: string }
+              - { label: "Value", name: value, widget: string }
+          - { label: "Page title (search results)", name: title, widget: string }
+          - { label: "Page description (search results)", name: description, widget: text }
+          - { label: "Heading", name: heading, widget: string }
+          - { label: "Opening paragraph", name: lede, widget: text }
+          - { label: "Hero photo", name: hero_image, widget: string }
+          - { label: "Hero photo description", name: hero_alt, widget: string }
+          - label: "How a day works here"
+            name: day
+            widget: object
+            collapsed: true
+            fields:
+              - { label: "Heading", name: heading, widget: string }
+              - label: "Steps"
+                name: steps
+                widget: list
+                fields:
+                  - { label: "Title", name: title, widget: string }
+                  - { label: "Text", name: body, widget: text }
+          - { label: "Details heading", name: details_heading, widget: string }
+          - label: "Why Sundays"
+            name: sunday
+            widget: object
+            collapsed: true
+            fields:
+              - { label: "Heading", name: heading, widget: string }
+              - { label: "Text", name: body, widget: text }
+          - { label: "Questions heading", name: faq_heading, widget: string }
+          - label: "Closing block"
+            name: closing
+            widget: object
+            collapsed: true
+            fields:
+              - { label: "Heading", name: heading, widget: string }
+              - { label: "Text", name: body, widget: text }
+              - { label: "Button", name: cta, widget: string }
+              - { label: "Button link", name: cta_href, widget: string }

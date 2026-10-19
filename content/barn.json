@@ -1,0 +1,70 @@
+{
+  "title": "The Barn | R&SVP – Hio Ridge, Bridgton, Maine",
+  "description": "Inside the restored 1820 barn at Hio Ridge: main floor and loft for 135 guests, bridal and groom rooms, a prep kitchen, a patio and a ceremony field.",
+  "heading": "The Barn",
+  "lede": "A 206-year-old barn, lowered 12 inches to meet code, lined with its own original boards, and lit by the 200-year-old windows from the house. Tables and chairs are included with rental.",
+  "hero_image": "barn-aisle",
+  "hero_alt": "Looking down the barn toward the French doors, a chandelier overhead and the loft rail on both sides",
+  "spaces": [
+    {
+      "title": "The main floor",
+      "body": "Ceremony seating for your guests, or dining at 6-foot and 8-foot tables or 5-foot rounds. We have tried the layouts: rows for a ceremony, long tables down the length of the barn, or rounds with room to move. The main floor opens through French doors onto the patio.",
+      "image": "barn-interior",
+      "alt": "The main floor of the barn, timber posts and beams, chandeliers, loft rail above"
+    },
+    {
+      "title": "The loft",
+      "body": "A second level with its own dining space, looking down into the barn. Upstairs dining seats 20 on one side and 18 on the other.",
+      "image": "barn-loft",
+      "alt": "The loft of the barn, roof structure and reclaimed windows, a doorway at the end"
+    },
+    {
+      "title": "The bridal room",
+      "body": "In the ell, off the hallway with its original celestial window. Sheer curtains, a vanity, an arched mirror, a chandelier, and a hook made for your wedding dress.",
+      "image": "bridal-room",
+      "alt": "The bridal room with sheer curtains, a vanity and an arched mirror"
+    },
+    {
+      "title": "The groom's room",
+      "body": "A second room in the ell for the groom and groomsmen, with a mirror and a bench made from the barn's old beams.",
+      "image": "groom-room",
+      "alt": "The groom's room, white walls, exposed beams, a wood bench and a window"
+    },
+    {
+      "title": "The prep kitchen",
+      "body": "A kitchen for your caterer, with barn doors on the open sides that close for privacy while they finish the meal. Outside caterers are welcome. [CONFIRM: any caterer requirements]",
+      "image": "prep-kitchen",
+      "alt": "The prep kitchen: white cabinets, stainless appliances, barn doors on the open side"
+    },
+    {
+      "title": "The patio and the grounds",
+      "body": "A paved patio off the barn with room for nine tables and 72 seats, string lights for the evening, and a paved path around the barn. Two 12-foot stone planters and a seating circle were built from rocks that sat under the barn since 1820. Beyond them, the ceremony field looks at Pleasant Mountain.",
+      "image": "patio-rock-garden",
+      "alt": "The patio, a stone planter and the boulder seating circle, birches behind"
+    },
+    {
+      "title": "The ceremony field",
+      "body": "Benches made from the barn's original floorboards, set in the field. An arbor made from the barn's posts and beams is planned. [CONFIRM: arbor built]",
+      "image": "ceremony-field-2",
+      "alt": "Benches in the field, birches at the edge, the barn in the distance"
+    }
+  ],
+  "facts_heading": "Good to know",
+  "facts": [
+    { "label": "Capacity", "value": "135 guests" },
+    { "label": "Season", "value": "May through October" },
+    { "label": "Days", "value": "Sunday through Friday" },
+    { "label": "Included", "value": "Tables and chairs. 6-foot and 8-foot tables and 5-foot rounds" },
+    { "label": "Parking", "value": "A lot for 66 cars, plus three accessible spaces in the driveway" },
+    { "label": "Accessibility", "value": "A wooden ramp to the main floor, an ADA accessible bathroom, and a paved path around the barn to the patio" },
+    { "label": "Alcohol", "value": "An alcohol-free, family friendly venue. No alcohol, cannabis or smoking at events" },
+    { "label": "Catering", "value": "Outside caterers, with a prep kitchen on site" },
+    { "label": "Restrooms", "value": "[CONFIRM: indoor restrooms and rentals for large events]" }
+  ],
+  "closing": {
+    "heading": "Come see it in person",
+    "body": "There is something about these 1820 beams you have to see for yourself. We give private tours by appointment.",
+    "cta": "Schedule a tour",
+    "cta_href": "/inquire/"
+  }
+}

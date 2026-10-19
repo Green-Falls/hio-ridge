@@ -1,0 +1,67 @@
+{
+  "title": "R&SVP – Hio Ridge | Barn wedding and event venue, Bridgton, Maine",
+  "description": "A restored 1820 barn on 22 acres in Bridgton, Maine, for weddings, showers, reunions, retreats and small concerts. Up to 135 guests, May through October. Schedule a tour.",
+  "hero": {
+    "image": "hero-barn-day",
+    "alt": "The restored barn at Hio Ridge, weathered boards and white-trimmed windows, under a blue sky",
+    "headline": "A 206-year-old barn on 22 acres facing Pleasant Mountain",
+    "line": "Weddings, showers, reunions and retreats in Bridgton, Maine. Now booking 2027.",
+    "cta": "Schedule a tour",
+    "cta_href": "/inquire/"
+  },
+  "intro": {
+    "heading": "The barn is ready for its first new stories",
+    "body": [
+      "Our family has owned this farm for four generations. In 2020 we started turning the house, the barn and the ell into a place for events. We lowered the barn floor, poured cement, and lined the inside with its own original boards. The 200-year-old windows from the house now light the barn.",
+      "The barn holds 135 guests. The ell has rooms for the bride and groom and their parties to get ready. Outside there is a patio, a ceremony field facing Pleasant Mountain, and 22 acres of woods and lawn."
+    ],
+    "image": "barn-interior",
+    "alt": "Inside the barn: the original timber frame, chandeliers, and the loft rail, lit in the evening",
+    "caption": "The barn, July 2026"
+  },
+  "paths": [
+    {
+      "title": "Weddings",
+      "body": "Sunday weddings for up to 135, with the ceremony in the field and the reception in the barn. Alcohol-free, family friendly.",
+      "href": "/weddings/",
+      "image": "ceremony-field",
+      "alt": "Benches made from the barn's old floorboards, set in the field among birches"
+    },
+    {
+      "title": "The Barn",
+      "body": "The barn, the loft, the bridal and groom rooms, a prep kitchen for your caterer, the patio and the grounds.",
+      "href": "/the-barn/",
+      "image": "bridal-room",
+      "alt": "The bridal room: sheer curtains, a vanity, an arched mirror and a round rug on a wood floor"
+    },
+    {
+      "title": "Events and gatherings",
+      "body": "Showers, reunions, retreats, teas, small concerts, workshops and classes. Any kind of an event.",
+      "href": "/events/",
+      "image": "barn-patio",
+      "alt": "The barn across the lawn with round tables set on the patio"
+    }
+  ],
+  "setting": {
+    "heading": "October is something special here",
+    "body": "The field looks straight at Pleasant Mountain. In the fall the color comes right up to the barn. We are open all of October for events and tours.",
+    "image": "barn-october",
+    "alt": "The barn across the lawn in early October, trees turning along the tree line",
+    "caption": "Hio Ridge, October 2026"
+  },
+  "evening": {
+    "heading": "Evenings on the ridge",
+    "body": "Imagine your guests enjoying the food, the music and the sunset. The patio has string lights, and the stone seating circle in the field was built from rocks that spent 200 years under the barn.",
+    "image": "barn-night",
+    "alt": "The barn at night, windows lit, French doors open onto the patio",
+    "caption": "The barn at night, July 2026"
+  },
+  "story_teaser": {
+    "heading": "Four generations on Hio Ridge Road",
+    "body": "Susan's great-grandparents, Rosa and Howard Burnham, bought this farm in 1941. Her grandmother and her father each spent their retirement here. Now it is Susan and Richard's turn.",
+    "href": "/our-story/",
+    "link": "Read our story",
+    "image": "susan-richard",
+    "alt": "Susan and Richard Voth at the barn door"
+  }
+}
