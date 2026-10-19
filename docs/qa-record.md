@@ -4,6 +4,21 @@ One section per audit pass. Each finding is one bullet: what was wrong, how it w
 
 Harness: `node qa/measure.mjs dist/index.html --viewports 320x568,375x667,390x844,430x932,844x390,768x1024,1280x650,1440x900`, `node qa/contrast.mjs`, `python3 qa/copy_check.py`, axe at 375 and 1440, three mobile Lighthouse runs. Every pass records the build stamp it measured.
 
+## Round 3, nav, hero, copy, eyebrows, October 19, 2026
+
+Measured as before on all 10 pages, plus `hero-scrim.mjs` on the new corner scrim and Lighthouse's layout-shift audit.
+
+Found and fixed:
+- The lockup's "Hio Ridge" line was 11px. Set to 13px, tracked 0.2em.
+- The corner scrim, lightened so the photo shows, let the headline fall to 2.3:1 on the 1280×650 frame and 2.8:1 on phones. Deepened the lower band only; now 7.3:1 at 1440×900, 5.8:1 at 390×844, 4.0:1 at 1280×650.
+- "Now booking 2027" link in the facts strip was 18px tall. 44px hit area.
+- On phones the Menu button wrapped to a second row because the empty right-hand nav kept its grid cell. The right nav is hidden below 64em.
+- The "Open since August" row rendered in three squeezed columns: the section's class name `proof` collided with the list's `.proof` rules. Sections are now prefixed `sec-` by the builder, which also removed a latent collision on `facts`.
+- Lighthouse reported one layout shift (CLS 0.058): the linen statement block, caused by the web font landing. The 88px ampersand used the size-adjusted fallback face, so its line box changed height on swap. It now falls back to Georgia at the same size, with a fixed 0.8em box.
+- Eyebrow audit: three removed (home band, pricing label, footer column labels); the kicker class deleted.
+
+Measured, passing: `run-qa.mjs` 0 problems on 10 pages; Lighthouse mobile 99 / 100 / 100 / 100 (see the run table in `qa/lighthouse-summary.json` for CLS after the fix).
+
 ## Round 2, identity rebuild, October 19, 2026
 
 Measured as before: `run-qa.mjs` on all 10 pages at 375/768/1440, `hero-scrim.mjs`, `contrast.mjs` on the Pricing page (the new moss band with gold kicker), three mobile Lighthouse runs. Build stamp bef3522 plus working changes.

@@ -139,7 +139,8 @@ figure { margin: 0; }
 .hero h1 { max-width: 18ch; font-size: clamp(1.75rem, 1.1rem + 2.1vw, 2.875rem); margin: 0; line-height: 1.12; }
 .hero-cta { display: flex; align-items: center; gap: 20px; }
 .hero-cta .it { font-size: 1.0625rem; opacity: 0.92; }
-.facts { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 32px; padding: 18px 0; border-bottom: 1px solid var(--rule); font-size: 0.9375rem; color: var(--muted); }
+/* A grid, not flex-wrap: the row count must not depend on text width, or the page shifts when fonts land. */
+.facts { display: grid; grid-template-columns: repeat(5, auto); justify-content: space-between; gap: 8px 32px; padding: 18px 0; border-bottom: 1px solid var(--rule); font-size: 0.9375rem; color: var(--muted); }
 .facts li { list-style: none; }
 .facts a { display: inline-flex; align-items: center; min-height: var(--tap); margin: -12px 0; }
 .facts strong { color: var(--ink); font-weight: 600; }
@@ -281,7 +282,8 @@ input[aria-invalid="true"], select[aria-invalid="true"] { border-color: #8A2E1F;
   .hero { aspect-ratio: 4 / 5; min-height: 0; max-height: none; }
   .hero-text { padding: 110px 0 24px; background: linear-gradient(to top, rgba(var(--scrim), 0.96) 0%, rgba(var(--scrim), 0.9) 45%, rgba(var(--scrim), 0.45) 78%, rgba(var(--scrim), 0) 100%); }
   .hero h1 { font-size: 1.75rem; }
-  .facts { gap: 6px 20px; font-size: 0.875rem; }
+  .facts { grid-template-columns: 1fr 1fr; gap: 10px 20px; font-size: 0.875rem; }
+  .facts li:last-child { grid-column: 1 / -1; }
   .photo-band .pic { aspect-ratio: 4 / 3; }
   .phero { padding-top: 44px; }
   .phero-pic { aspect-ratio: 4 / 3; }
