@@ -2,7 +2,7 @@
   "title": "Our Story | R&SVP – Hio Ridge, Bridgton, Maine",
   "description": "Four generations on Hio Ridge Road. How Susan and Richard Voth turned a 200-year-old family barn in Bridgton, Maine, into a venue, using its own boards and windows.",
   "heading": "Our story",
-  "lede": "R&SVP stands for Richard and Susan Voth Properties. Hio Ridge is the road. The barn is the fourth generation of one family's farm.",
+  "lede": "R&SVP is Richard and Susan Voth Properties. Hio Ridge is the road. The barn is the fourth generation of one family's farm.",
   "hero_image": "susan-richard",
   "hero_alt": "Susan and Richard Voth, smiling, at the barn door",
   "sections": [
@@ -59,7 +59,7 @@
     }
   ],
   "closing": {
-    "heading": "Come walk the farm with us",
+    "heading": "Walk the farm with us",
     "body": "We give the tours ourselves. Bring your questions.",
     "cta": "Schedule a tour",
     "cta_href": "/inquire/"

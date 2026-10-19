@@ -2,7 +2,7 @@
   "title": "Pricing and What Is Included | R&SVP – Hio Ridge, Bridgton, Maine",
   "description": "What a wedding at Hio Ridge includes: the barn and loft for 135, bridal and groom rooms, prep kitchen, patio and ceremony field. Ask for the pricing brochure.",
   "heading": "Pricing",
-  "lede": "One barn, one couple, one Sunday. Everything below is included. For the current rates, ask for the pricing brochure and we will send it the same day.",
+  "lede": "One couple, one Sunday, the whole farm. Everything below comes with the day. For current rates, ask for the brochure and Susan will send it the same day.",
   "price_label": "Weddings start at",
   "price": "[CONFIRM: starting price]",
   "price_note": "Sunday weddings, May through October. Weekday events are priced separately. [CONFIRM: weekday and event rates]",
@@ -20,12 +20,12 @@
     "[CONFIRM: setup and breakdown, hours of access, rehearsal time]"
   ],
   "compare_heading": "How we compare",
-  "compare": "Barn venues within forty minutes of Bridgton list from about $8,000 to $13,000 for the day, and most of that buys a bar. We are an alcohol-free venue, so there is no bar to build, insure or staff. That is where the difference goes. [CONFIRM: Susan is comfortable with this comparison]",
+  "compare": "Barn venues within forty minutes of Bridgton list from about $8,000 to $13,000 for the day, and much of that pays for a bar. We are an alcohol-free venue. There is no bar to build, insure or staff, and the difference stays with you. [CONFIRM: Susan is comfortable with this comparison]",
   "events_heading": "Showers, retreats and events",
-  "events": "Showers, reunions, retreats, teas, workshops and small concerts are priced by the day or the afternoon. Tell us the date and the size and we will send the rate. [CONFIRM: event rates]",
+  "events": "Showers, reunions, retreats, teas, workshops and small concerts are priced by the afternoon or the day. Tell us the date and the size and we will send the rate. [CONFIRM: event rates]",
   "closing": {
-    "heading": "Ask for the pricing brochure",
-    "body": "Email or text Susan and she will send the brochure and the open 2027 dates.",
+    "heading": "Ask for the brochure",
+    "body": "Email or text Susan. She sends the brochure and the open 2027 dates the same day.",
     "cta": "Request the brochure",
     "cta_href": "/inquire/?type=wedding"
   }

@@ -22,6 +22,17 @@ A running record. Newest entries at the bottom. One entry per decision or pass, 
 - Brief and guardrails: `docs/00-brief.md`. Photo picks: `docs/photo-shortlist.md`.
 - Source: `content/*.json`, `build.mjs`, `src/`. Output: `dist/`. QA: `qa/`.
 
+## Round 3: nav, hero and copy, October 19
+
+Mike: "the text is overpowering the photos and we need much better copy"; "play with a navigation where the logo is centered"; "do eyebrow text audit too. i hate how much AI overuses it."
+- **Nav:** a centered stacked lockup (R&SVP with the gold italic ampersand over HIO RIDGE), three links left (The Barn, Weddings, Pricing), three right (Events, Our Story, Inquire in moss with a gold underline). The bar is paper, above the photo, never over it. The green announcement strip is gone; "Now booking 2027" lives in the facts strip under the hero. On phones: lockup centered, Menu at right.
+- **Hero:** the photograph at 16:8.5 (4:5 on phones), one line in the lower-left ("Your wedding in a barn raised in 1820", 46px max), one paper button, the italic place-and-season line beside it, a scrim that covers only the lower band. Kicker, paragraph, second button and fact column removed from the photo. Facts moved to a hairline strip below. A full-bleed October photo with no text sits mid-page.
+- **Scale:** h1 max 60px (was 80), h2 max 42px (was 52), lede max 23px. The statement ampersand 88px max (was 144).
+- **Eyebrows:** audited and removed: the "What is included" kicker, the "Weddings start at" kicker (now a plain muted line), the tracked-caps footer column labels (now small Caslon headings). The `.kicker` class is deleted so one cannot come back by accident.
+- **Copy:** every page rewritten to a bride, in Susan's voice: "The farm has been ours since 1941. The barn is yours for the day."; "Any day but Saturday."; "Come stand in it. Photos only go so far."; "Pick a Sunday in 2027." Facts unchanged; the `[CONFIRM]` set unchanged.
+- **Bug fixed at the root:** section class names collided with component classes (`.proof`, `.facts`); sections are now prefixed `sec-` by the builder.
+- Set aside: a hairline gold rule under the bar (tried in thought, not built: the lockup's gold ampersand is the one gold element in the bar).
+
 ## Round 2: competitor audit and identity rebuild, October 19
 
 Mike's read of the first build: "very bland. the brand identity is very weak and not appealing to brides." Also: never use image captions; keep in mind the aesthetic brides want on their wedding. The method changed, not the sheet count:

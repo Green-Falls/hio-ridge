@@ -35,8 +35,8 @@ const NAV = [
   ["/pricing/", "Pricing"],
   ["/events/", "Events"],
   ["/our-story/", "Our Story"],
-  ["/inquire/", "Inquire"],
 ];
+const INQUIRE = ["/inquire/", "Inquire"];
 
 const esc = (s) => String(s ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 // Typographic care: curly quotes and apostrophes in running text. Content is written with straight marks.
@@ -93,28 +93,29 @@ ${PREVIEW || noindex ? '<meta name="robots" content="noindex, nofollow">' : ""}
 }
 
 function bar(pathname) {
-  const links = NAV.map(([href, label]) => `<li><a href="${href}"${pathname === href ? ' aria-current="page"' : ""}>${label}</a></li>`).join("");
-  const ann = SITE.announcement?.enabled ? `<p class="strip"><a href="${esc(SITE.announcement.link || "/inquire/")}">${typo(SITE.announcement.text)}</a></p>` : `<p class="strip strip-empty" aria-hidden="true"></p>`;
+  const link = ([href, label], cls = "") => `<li><a href="${href}"${pathname === href ? ' aria-current="page"' : ""}${cls ? ` class="${cls}"` : ""}>${label}</a></li>`;
+  const left = NAV.slice(0, 3).map((l) => link(l)).join("");
+  const right = NAV.slice(3).map((l) => link(l)).join("") + link(INQUIRE, "nav-inq");
+  const menuLinks = [...NAV, INQUIRE].map((l) => link(l)).join("");
   return `<a class="skip" href="#main">Skip to content</a>
 <header class="head">
-${ann}
 <div class="bar" data-bar>
+<nav class="nav nav-l" aria-label="Site"><ul>${left}</ul></nav>
 <a class="mark" href="/"><span class="mark-a">R<span class="amp">&amp;</span>SVP</span> <span class="mark-b">Hio Ridge</span></a>
-<nav class="nav" aria-label="Site"><ul>${links}</ul></nav>
-<a class="btn btn-bar" href="/inquire/">Schedule a tour</a>
+<nav class="nav nav-r" aria-label="Site, continued"><ul>${right}</ul></nav>
 <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu" data-menu-open>Menu</button>
 </div>
 </header>
 <div class="menu" id="menu" role="dialog" aria-modal="true" aria-label="Menu" hidden>
 <div class="menu-top"><span class="mark-a">R<span class="amp">&amp;</span>SVP</span><button class="menu-close" type="button" data-menu-close>Close</button></div>
-<ul class="menu-list"><li><a href="/"${pathname === "/" ? ' aria-current="page"' : ""}>Home</a></li>${links}</ul>
-<a class="btn" href="/inquire/">Schedule a tour</a>
+<ul class="menu-list"><li><a href="/"${pathname === "/" ? ' aria-current="page"' : ""}>Home</a></li>${menuLinks}</ul>
+<a class="btn btn-paper" href="/inquire/">Schedule a tour</a>
 <p class="menu-contact"><a href="tel:${SITE.phone_tel}">${esc(SITE.phone)}</a><br><a href="mailto:${SITE.email}">${esc(SITE.email)}</a></p>
 </div>`;
 }
 
 function footer() {
-  const links = NAV.map(([href, label]) => `<li><a href="${href}">${label}</a></li>`).join("");
+  const links = [...NAV, INQUIRE].map(([href, label]) => `<li><a href="${href}">${label}</a></li>`).join("");
   const social = [["Facebook", SITE.social.facebook], ["YouTube", SITE.social.youtube], ["Instagram", SITE.social.instagram]].filter(([, u]) => u).map(([n, u]) => `<li><a href="${esc(u)}" rel="noopener">${n}</a></li>`).join("");
   return `<footer class="foot">
 <div class="wrap foot-grid">
@@ -168,9 +169,9 @@ const business = () => ({
 });
 const graph = (items) => ({ "@context": "https://schema.org", "@graph": [business(), { "@type": "WebSite", "@id": BASE + "/#website", url: BASE + "/", name: SITE.name, publisher: { "@id": BASE + "/#venue" } }, ...items] });
 
-const section = (cls, inner, id = "") => `<section class="sec ${cls}"${id ? ` id="${id}"` : ""}><div class="wrap">${inner}</div></section>`;
+const section = (cls, inner, id = "") => `<section class="sec ${cls.startsWith("sec-") ? cls : "sec-" + cls}"${id ? ` id="${id}"` : ""}><div class="wrap">${inner}</div></section>`;
 const closing = (c) => `<section class="band"><div class="wrap band-grid"><div><h2>${typo(c.heading)}</h2><p>${typo(c.body)}</p></div><p class="band-cta"><a class="btn btn-paper" href="${esc(c.cta_href)}">${typo(c.cta)}</a><a class="band-phone" href="tel:${SITE.phone_tel}">or call ${esc(SITE.phone)}</a></p></div></section>`;
-const pageHero = (p) => `<section class="phero"><div class="wrap">${p.kicker ? `<span class="kicker">${typo(p.kicker)}</span>` : ""}<h1>${typo(p.heading)}</h1><p class="lede">${typo(p.lede)}</p></div>${picture(p.hero_image, { eager: true, alt: p.hero_alt, sizes: "100vw", cls: "phero-pic" })}</section>`;
+const pageHero = (p) => `<section class="phero"><div class="wrap"><h1>${typo(p.heading)}</h1><p class="lede">${typo(p.lede)}</p></div>${picture(p.hero_image, { eager: true, alt: p.hero_alt, sizes: "100vw", cls: "phero-pic" })}</section>`;
 const facts = (heading, list) => section("facts", `<h2 class="reveal">${typo(heading)}</h2><dl class="dl">${list.map((f) => `<div><dt>${typo(f.label)}</dt><dd>${typo(f.value)}</dd></div>`).join("")}</dl>`);
 const splitRow = (s, i, { sizes = "(min-width: 48em) 50vw, 100vw" } = {}) => `<div class="split${i % 2 ? " split-flip" : ""}"><div class="split-text"><h2 class="reveal">${typo(s.heading || s.title)}</h2>${Array.isArray(s.body) ? paras(s.body) : `<p>${typo(s.body)}</p>`}${s.href ? `<p><a class="more" href="${esc(s.href)}">${typo(s.link || "Learn more")}</a></p>` : ""}</div><figure>${picture(s.image, { alt: s.alt, sizes })}</figure></div>`;
 
@@ -183,13 +184,15 @@ ${bar("/")}
 <main id="main">
 <section class="hero">
 ${picture(h.image, { eager: true, alt: h.alt, sizes: "100vw", cls: "hero-pic" })}
-<div class="hero-text"><div class="wrap hero-grid"><div>${h.kicker ? `<span class="kicker">${typo(h.kicker)}</span>` : ""}<h1>${typo(h.headline)}</h1><p class="lede">${typo(h.line)}</p><div class="hero-cta"><a class="btn btn-paper" href="${esc(h.cta_href)}">${typo(h.cta)}</a>${h.cta2 ? `<a class="btn btn-ghost" href="${esc(h.cta2_href)}">${typo(h.cta2)}</a>` : ""}</div></div>${h.facts?.length ? `<ul class="hero-facts">${h.facts.map((f) => `<li><strong>${esc(f.value)}</strong>${esc(f.label)}</li>`).join("")}</ul>` : ""}</div></div>
+<div class="hero-text"><div class="wrap"><h1>${typo(h.headline)}</h1><div class="hero-cta"><a class="btn btn-paper" href="${esc(h.cta_href)}">${typo(h.cta)}</a><span class="it">${typo(h.line)}</span></div></div></div>
 </section>
+<div class="wrap"><ul class="facts">${h.facts.map((f) => `<li><strong>${esc(f.value)}</strong> ${esc(f.label)}</li>`).join("")}${SITE.announcement?.enabled ? `<li><a href="${esc(SITE.announcement.link || "/inquire/")}"><strong>${typo(SITE.announcement.text)}</strong></a></li>` : ""}</ul></div>
 ${section("sec-linen", `<div class="statement"><div><span class="amp-big" aria-hidden="true">&amp;</span><h2 class="reveal">${typo(p.statement.quote)}</h2><p class="small">${typo(p.statement.who)}</p></div><figure>${picture("barn-night", { alt: p.evening.alt, sizes: "(min-width: 48em) 45vw, 100vw" })}</figure></div>`)}
 ${section("intro", splitRow(p.intro, 0))}
 ${section("paths", `<ul class="paths-list">${p.paths.map((x) => `<li><a href="${esc(x.href)}">${picture(x.image, { alt: x.alt, sizes: "(min-width: 48em) 33vw, 100vw" })}<h2>${typo(x.title)}</h2><p>${typo(x.body)}</p><span class="more">See ${typo(x.title.toLowerCase())}</span></a></li>`).join("")}</ul>`)}
-${section("sec-moss", `<div class="split split-wide"><div class="split-text"><span class="kicker">What is included</span><h2 class="reveal">The barn, the ell, the field and the patio. Tables and chairs. Susan and Richard.</h2><p>${typo(PAGES.pricing.compare)}</p><p><a class="btn btn-paper" href="/pricing/">See pricing and what is included</a></p></div><figure>${picture("ceremony-field-2", { alt: "Benches in the ceremony field, birches at the edge, the barn in the distance", sizes: "(min-width: 48em) 55vw, 100vw" })}</figure></div>`)}
-${section("setting", splitRow(p.setting, 1))}
+${section("sec-moss", `<div class="split split-wide"><div class="split-text"><h2 class="reveal">The barn, the ell, the field and the patio. Tables and chairs. Susan and Richard.</h2><p>${typo(PAGES.pricing.compare)}</p><p><a class="btn btn-paper" href="/pricing/">See pricing and what is included</a></p></div><figure>${picture("ceremony-field-2", { alt: "Benches in the ceremony field, birches at the edge, the barn in the distance", sizes: "(min-width: 48em) 55vw, 100vw" })}</figure></div>`)}
+<figure class="photo-band">${picture("barn-october", { alt: p.setting.alt, sizes: "100vw" })}</figure>
+${section("setting", `<div class="narrow"><h2 class="reveal">${typo(p.setting.heading)}</h2><p>${typo(p.setting.body)}</p></div>`)}
 ${section("proof", `<h2 class="reveal">${typo(p.proof_heading)}</h2><ul class="proof">${p.proof.map((x) => `<li><span class="small">${typo(x.date)}</span><h3>${x.href ? `<a href="${esc(x.href)}" rel="noopener">${typo(x.title)}</a>` : typo(x.title)}</h3><p>${typo(x.body)}</p></li>`).join("")}</ul>`)}
 ${section("teaser", splitRow(p.story_teaser, 1, { sizes: "(min-width: 48em) 40vw, 100vw" }))}
 ${closing({ heading: "See the barn in person", body: "We give private tours by appointment, and we are here through October.", cta: "Schedule a tour", cta_href: "/inquire/" })}
@@ -204,7 +207,7 @@ function pricingPage() {
 ${bar("/pricing/")}
 <main id="main">
 <section class="phero phero-plain"><div class="wrap"><h1>${typo(p.heading)}</h1><p class="lede">${typo(p.lede)}</p></div></section>
-${section("sec-moss", `<div class="split"><div class="split-text"><span class="kicker">${typo(p.price_label)}</span><p class="price">${typo(p.price)}</p><p>${typo(p.price_note)}</p></div><div><h2 class="reveal">${typo(p.included_heading)}</h2><ul class="included">${p.included.map((i) => `<li>${typo(i)}</li>`).join("")}</ul></div></div>`)}
+${section("sec-moss", `<div class="split"><div class="split-text"><span class="label">${typo(p.price_label)}</span><p class="price">${typo(p.price)}</p><p>${typo(p.price_note)}</p></div><div><h2 class="reveal">${typo(p.included_heading)}</h2><ul class="included">${p.included.map((i) => `<li>${typo(i)}</li>`).join("")}</ul></div></div>`)}
 ${section("compare", `<div class="narrow"><h2 class="reveal">${typo(p.compare_heading)}</h2><p>${typo(p.compare)}</p></div>`)}
 ${section("events", `<div class="narrow"><h2 class="reveal">${typo(p.events_heading)}</h2><p>${typo(p.events)}</p></div>`)}
 ${closing(p.closing)}

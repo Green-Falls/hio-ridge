@@ -1,82 +1,113 @@
 {
-  "title": "R&SVP – Hio Ridge | Barn wedding and event venue, Bridgton, Maine",
-  "description": "A restored 1820 barn on 22 acres in Bridgton, Maine, for weddings, showers, reunions, retreats and small concerts. Up to 135 guests, May through October. Schedule a tour.",
+  "title": "R&SVP – Hio Ridge | Barn wedding venue, Bridgton, Maine",
+  "description": "A barn raised in 1820 on a family farm in Bridgton, Maine. Sunday weddings for up to 135, the ceremony facing Pleasant Mountain. Alcohol-free. Now booking 2027.",
   "hero": {
     "image": "barn-interior",
-    "alt": "Inside the barn at Hio Ridge in the evening: the original timber frame, chandeliers, and the loft rail",
-    "kicker": "Bridgton, Maine",
-    "headline": "A 206-year-old barn, rebuilt for your Sunday",
-    "line": "Weddings for up to 135 on 22 acres facing Pleasant Mountain. Alcohol-free, family first, four generations on the farm.",
+    "alt": "Inside the barn at Hio Ridge in the evening: the timber frame, chandeliers, and the loft rail",
+    "headline": "Your wedding in a barn raised in 1820",
+    "line": "Bridgton, Maine. Sundays, May through October.",
     "cta": "Schedule a tour",
     "cta_href": "/inquire/",
-    "cta2": "See pricing",
-    "cta2_href": "/pricing/",
     "facts": [
-      { "value": "135", "label": "guests" },
-      { "value": "22", "label": "acres" },
-      { "value": "2027", "label": "now booking" }
+      {
+        "value": "135",
+        "label": "guests"
+      },
+      {
+        "value": "22",
+        "label": "acres"
+      },
+      {
+        "value": "Pleasant Mountain",
+        "label": "from the field"
+      },
+      {
+        "value": "Alcohol-free",
+        "label": "family first"
+      }
     ]
   },
   "statement": {
-    "quote": "If these 206-year-old walls could talk, they would have lots of stories to tell. We are ready for the first new ones.",
+    "quote": "If these walls could talk, they would have stories to tell. We are ready for the first new ones.",
     "who": "Susan Bobbitt-Voth"
   },
-  "proof_heading": "Open, and on the record",
-  "proof": [
-    { "date": "August 16, 2026", "title": "Grand opening and open house", "body": "Tours of the barn and the ell, the High Street Jazz Band in the barn, vendors and local makers.", "href": "" },
-    { "date": "September 8, 2026", "title": "Maine Lakes Chamber ribbon cutting", "body": "Filmed by Lakes Region TV and covered by the Bridgton News.", "href": "https://www.youtube.com/watch?v=bwpAuoFhddQ" },
-    { "date": "July 2026", "title": "Full occupancy approval", "body": "Town of Bridgton. Capacity 135, May through October.", "href": "" }
-  ],
   "intro": {
-    "heading": "The barn is ready for its first new stories",
+    "heading": "The farm has been ours since 1941. The barn is yours for the day.",
     "body": [
-      "Our family has owned this farm for four generations. In 2020 we started turning the house, the barn and the ell into a place for events. We lowered the barn floor, poured cement, and lined the inside with its own original boards. The 200-year-old windows from the house now light the barn.",
-      "The barn holds 135 guests. The ell has rooms for the bride and groom and their parties to get ready. Outside there is a patio, a ceremony field facing Pleasant Mountain, and 22 acres of woods and lawn."
+      "Susan's great-grandparents bought this farm on Hio Ridge Road in 1941. Her grandmother retired here, then her father, and now Susan and Richard. In 2020 they took the barn down to its frame and put it back together with its own boards and the windows from the house.",
+      "It holds 135 guests. The ell beside it has a room for the bride and a room for the groom. The field in front looks at Pleasant Mountain."
     ],
-    "image": "barn-interior",
-    "alt": "Inside the barn: the original timber frame, chandeliers, and the loft rail, lit in the evening"
+    "image": "barn-aisle",
+    "alt": "Looking down the barn toward the French doors, a chandelier overhead"
   },
   "paths": [
     {
       "title": "Weddings",
-      "body": "Sunday weddings for up to 135, with the ceremony in the field and the reception in the barn. Alcohol-free, family friendly.",
+      "body": "The ceremony in the field, the reception under the beams, and the two of you getting ready in the ell.",
       "href": "/weddings/",
       "image": "ceremony-field",
       "alt": "Benches made from the barn's old floorboards, set in the field among birches"
     },
     {
       "title": "The Barn",
-      "body": "The barn, the loft, the bridal and groom rooms, a prep kitchen for your caterer, the patio and the grounds.",
+      "body": "The main floor and the loft, the bridal and groom rooms, a kitchen for your caterer, the patio and the grounds.",
       "href": "/the-barn/",
       "image": "bridal-room",
-      "alt": "The bridal room: sheer curtains, a vanity, an arched mirror and a round rug on a wood floor"
+      "alt": "The bridal room: sheer curtains, a vanity, an arched mirror and a round rug"
     },
     {
-      "title": "Events and gatherings",
-      "body": "Showers, reunions, retreats, teas, small concerts, workshops and classes. Any kind of an event.",
+      "title": "Events",
+      "body": "Showers, reunions, retreats, teas and small concerts. Any day but Saturday.",
       "href": "/events/",
       "image": "barn-patio",
       "alt": "The barn across the lawn with round tables set on the patio"
     }
   ],
   "setting": {
-    "heading": "October is something special here",
-    "body": "The field looks straight at Pleasant Mountain. In the fall the color comes right up to the barn. We are open all of October for events and tours.",
+    "heading": "October is the month to see it",
+    "body": "The field looks straight at Pleasant Mountain, and in October the color comes right down to the barn. We give tours by appointment all month.",
     "image": "barn-october",
     "alt": "The barn across the lawn in early October, trees turning along the tree line"
   },
   "evening": {
     "heading": "Evenings on the ridge",
-    "body": "Imagine your guests enjoying the food, the music and the sunset. The patio has string lights, and the stone seating circle in the field was built from rocks that spent 200 years under the barn.",
+    "body": "String lights on the patio, the stone circle in the field, and the sun going down behind the barn.",
     "image": "barn-night",
     "alt": "The barn at night, windows lit, French doors open onto the patio"
   },
+  "proof_heading": "Open since August",
+  "proof": [
+    {
+      "date": "August 16, 2026",
+      "title": "Open house",
+      "body": "Tours of the barn and the ell, with the High Street Jazz Band playing inside.",
+      "href": ""
+    },
+    {
+      "date": "September 8, 2026",
+      "title": "Ribbon cutting",
+      "body": "The Maine Lakes Chamber of Commerce, filmed by Lakes Region TV.",
+      "href": "https://www.youtube.com/watch?v=bwpAuoFhddQ"
+    },
+    {
+      "date": "July 2026",
+      "title": "Occupancy approved",
+      "body": "Town of Bridgton. 135 guests, May through October.",
+      "href": ""
+    }
+  ],
   "story_teaser": {
-    "heading": "Four generations on Hio Ridge Road",
-    "body": "Susan's great-grandparents, Rosa and Howard Burnham, bought this farm in 1941. Her grandmother and her father each spent their retirement here. Now it is Susan and Richard's turn.",
+    "heading": "Susan and Richard",
+    "body": "They spend the season here and the winter in California. They give every tour themselves, and they are at every event.",
     "href": "/our-story/",
-    "link": "Read our story",
+    "link": "Our story",
     "image": "susan-richard",
     "alt": "Susan and Richard Voth at the barn door"
+  },
+  "closing": {
+    "heading": "Come stand in it",
+    "body": "Photos only go so far. We will walk you through the barn, the ell and the field, and answer everything.",
+    "cta": "Schedule a tour",
+    "cta_href": "/inquire/"
   }
 }

@@ -32,3 +32,10 @@ Open: the redesign round.
 > also keep in mind the aesthetic brides want on their wedding
 
 Applied: the test for the round is "does this look like the wedding she is picturing, not the business that hosts it". It changed the hero (the lit barn interior, not the facade), the palette (walnut, moss, gold, linen from the logo's roses, greenery and bells), the italic Caslon ledes, the photo-first paths, and the order of the home page (the barn at night and Susan's own line before any facts). What it did not change: no script fonts, no stock, no eucalyptus-and-string-light illustration; the aesthetic comes from the real place lit well.
+
+## Mike Jones, session chat, October 19, after round 2
+
+> getting better. we need a better nav/homepage hero design. the text is overpowering the photos and we need much better copy
+
+Applied (round 3): the nav is a paper bar above the photo, not floating over it. The hero is the photograph at full width with one short line and one button in the lower corner under a light local scrim; the kicker, the italic paragraph, the second button and the fact column came off the photo. Facts moved to a hairline strip under the photo. A full-bleed photo with no text was added mid-page. Display sizes came down one step across the site. Every page's copy was rewritten to a bride, in Susan's voice: shorter lines, one specific per sentence, fewer blocks.
+Open: Mike's read of round 3.

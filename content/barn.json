@@ -2,7 +2,7 @@
   "title": "The Barn | R&SVP – Hio Ridge, Bridgton, Maine",
   "description": "Inside the restored 1820 barn at Hio Ridge: main floor and loft for 135 guests, bridal and groom rooms, a prep kitchen, a patio and a ceremony field.",
   "heading": "The Barn",
-  "lede": "A 206-year-old barn, lowered 12 inches to meet code, lined with its own original boards, and lit by the 200-year-old windows from the house. Tables and chairs are included with rental.",
+  "lede": "Taken down to its frame in 2020 and put back together with its own boards and the windows from the house. Lowered twelve inches for headroom. Tables and chairs come with it.",
   "hero_image": "barn-aisle",
   "hero_alt": "Looking down the barn toward the French doors, a chandelier overhead and the loft rail on both sides",
   "spaces": [
@@ -89,8 +89,8 @@
     }
   ],
   "closing": {
-    "heading": "Come see it in person",
-    "body": "There is something about these 1820 beams you have to see for yourself. We give private tours by appointment.",
+    "heading": "See it in person",
+    "body": "The beams are better in the room than in a photo. Tours by appointment, any day but Saturday.",
     "cta": "Schedule a tour",
     "cta_href": "/inquire/"
   }

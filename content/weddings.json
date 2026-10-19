@@ -2,27 +2,27 @@
   "title": "Maine Barn Weddings | R&SVP – Hio Ridge, Bridgton",
   "description": "Sunday weddings for up to 135 guests in a restored 1820 barn in Bridgton, Maine. Ceremony in the field, reception in the barn. Alcohol-free. May through October.",
   "heading": "Weddings",
-  "lede": "A wedding here is a Sunday on a farm that has been in one family for four generations. The ceremony is in the field facing Pleasant Mountain, the reception is in the barn, and the two of you get ready in the ell. We host up to 135 guests, May through October.",
+  "lede": "A Sunday wedding on a farm that has been in one family since 1941. The ceremony in the field facing Pleasant Mountain, the reception under 206-year-old beams, and the two of you getting ready in the rooms next door.",
   "hero_image": "ceremony-field",
   "hero_alt": "Ceremony benches in the field at Hio Ridge, birches and the tree line behind",
   "day": {
-    "heading": "How a day works here",
+    "heading": "How the day goes",
     "steps": [
       {
         "title": "Get ready in the ell",
-        "body": "The bridal room and the groom's room are steps from the barn, each with a mirror and a place to sit."
+        "body": "A room for the bride and a room for the groom, steps from the barn. A mirror, a chair, a hook for the dress."
       },
       {
         "title": "Ceremony in the field",
-        "body": "Benches made from the barn's old floorboards, facing Pleasant Mountain. On a wet day, the ceremony moves into the barn."
+        "body": "Benches made from the barn's old floorboards, facing Pleasant Mountain. If it rains, you marry in the barn."
       },
       {
-        "title": "Reception in the barn",
-        "body": "Dinner on the main floor and in the loft, dancing under the original beams, your caterer in the prep kitchen."
+        "title": "Dinner under the beams",
+        "body": "Your caterer in the prep kitchen, your guests on the main floor and in the loft, the French doors open to the patio."
       },
       {
         "title": "Sunset on the patio",
-        "body": "String lights, the stone seating circle, and the view down the field as the light goes."
+        "body": "String lights come on, the stone circle fills up, and the field goes gold."
       }
     ]
   },
@@ -71,7 +71,7 @@
   ],
   "sunday": {
     "heading": "Why Sundays",
-    "body": "We keep Saturday as our day of rest, so our weddings are on Sundays. A Sunday wedding also means a quieter weekend for your guests, and most vendors have the date open. [CONFIRM: wording Susan is comfortable with]"
+    "body": "We keep Saturday as our day of rest, so our weddings are on Sundays. For you it means a quieter weekend for your guests, a Monday to recover, and vendors who have the date open. [CONFIRM: wording Susan is comfortable with]"
   },
   "faq_heading": "Questions couples ask",
   "faq": [
@@ -113,8 +113,8 @@
     }
   ],
   "closing": {
-    "heading": "Plan your 2027 wedding here",
-    "body": "Tell us your date and about how many guests, and we will set up a private tour of the barn, the ell and the grounds.",
+    "heading": "Pick a Sunday in 2027",
+    "body": "Tell us the date you have in mind and about how many guests. We will set up a private tour and send the open dates.",
     "cta": "Ask about a date",
     "cta_href": "/inquire/?type=wedding"
   }

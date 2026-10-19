@@ -2,7 +2,7 @@
   "title": "Schedule a Tour or Inquire | R&SVP – Hio Ridge, Bridgton, Maine",
   "description": "Schedule a tour of the barn at 437 Hio Ridge Road, Bridgton, Maine, or ask about a wedding or event date. Call or text 207.400.6353, or email Susan.",
   "heading": "Schedule a tour",
-  "lede": "Tell us a little about your day and we will set up a private tour of the barn, the ell and the grounds. You can also call or text Susan.",
+  "lede": "Tell us a little about your day and we will set up a private tour of the barn, the ell and the field. Or call or text Susan. She answers.",
   "form": {
     "name": "inquiry",
     "types": [
@@ -44,7 +44,7 @@
   },
   "aside": {
     "heading": "Or reach Susan directly",
-    "reply_line": "Susan replies by email or text, usually within a few days.",
+    "reply_line": "She replies by email or text, usually within a few days.",
     "directions_heading": "Finding us",
     "directions": "437 Hio Ridge Road is a few minutes from downtown Bridgton. Turn in at the driveway; event parking is on the grass lot behind the tree line, and accessible parking is in the driveway. [CONFIRM: directions from Route 302]"
   },
