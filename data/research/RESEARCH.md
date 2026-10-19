@@ -10,7 +10,7 @@ Images are in `images/`, with `images/MANIFEST.csv` giving each file's source UR
 | --- | --- |
 | Facebook page "R&SVP - Hio Ridge" and the three group posts | **Not collected.** Facebook serves an error page to logged-out visitors from this environment, and I didn't use workarounds. See "Gaps" at the end. |
 | YouTube channel @susanbobbitt-voth7401 | Collected: all 8 videos, with full descriptions, publish dates, and thumbnails plus 3 auto-frames each. |
-| Ribbon-cutting video (bwpAuoFhddQ) | Partly collected. YouTube's bot check blocked the page, captions and description. I have the title, the channel (Lake Region TV), the thumbnail and 3 frames. |
+| Ribbon-cutting video (bwpAuoFhddQ) | Collected. You pasted the auto-captions (saved in `raw/ribbon-cutting-transcript.txt`). I also have the title, the channel (Lake Region TV), the thumbnail and 3 frames. |
 | Web search: Knot, WeddingWire, Zola, Eventective, Here Comes the Guide | **No listings found** for R&SVP or Hio Ridge. |
 | Town of Bridgton records | Found: 4 Planning Board minutes and an August 2025 permit report. These are the richest source. |
 | News | One Bridgton News ribbon-cutting item appeared in a search snippet; I couldn't open the article. Two Citizen Portal items are possibly related (**unconfirmed**). |
@@ -83,7 +83,10 @@ The calls to action they repeat:
 
 - **Heritage barn restored by family.** This is the theme of every video: a 200+-year-old house, barn and ell, held in the family for four generations, rebuilt by "repurposing everything possible". The barn dates to about 1820, going by the on-screen caption "These rocks were under the barn since 1820!" ([y5gz1didy2Q](https://www.youtube.com/watch?v=y5gz1didy2Q), [RJ_yIakwVtU](https://www.youtube.com/watch?v=RJ_yIakwVtU))
 - **Warm, personal voice**, for example: "When your husband says you need to put dual pane windows in your 200+ year old New Englander...you put them in the barn and create a lovely barn venue!!!" ([OGwdGLNBN-k](https://www.youtube.com/watch?v=OGwdGLNBN-k))
-- **Community purpose.** Susan told the town she is "attempting to bring the community together and supply a space for small events". ([11/5/2024 minutes](https://bridgtonmaine.org/wp-content/uploads/2024/12/11.5.24-Minutes.pdf))
+- **Community purpose.** Susan told the town she is "attempting to bring the community together and supply a space for small events". ([11/5/2024 minutes](https://bridgtonmaine.org/wp-content/uploads/2024/12/11.5.24-Minutes.pdf)) At the ribbon cutting she pledged one donated charitable event a year. ([bwpAuoFhddQ](https://www.youtube.com/watch?v=bwpAuoFhddQ) at 4:58)
+- **A personal mission.** Susan is a retired special-education professional whose daughter has autism. She plans annual retreats for parents of children with disabilities. ([bwpAuoFhddQ](https://www.youtube.com/watch?v=bwpAuoFhddQ) at 5:14) This is the most distinctive story the venue has, and nothing else they publish mentions it yet.
+- **Family legacy story, in Susan's words:** her great-grandfather rebuilt the Bridgton House after the 1914 fire; then grandmother and father each spent 25 retirement years on the property; now Susan in her own retirement. ("I hope I get 25 years in retirement.") ([bwpAuoFhddQ](https://www.youtube.com/watch?v=bwpAuoFhddQ) at 1:28)
+- **Church ties.** The idea for the venue came from a friend they reconnected with at church. ([bwpAuoFhddQ](https://www.youtube.com/watch?v=bwpAuoFhddQ) at 2:58)
 - **Faith-based, alcohol-free, Sunday weddings.** The public record confirms the substance behind your hashtags:
   - Sunday weddings for the owners' religious practice, as quoted above;
   - a town condition of approval: "No alcohol, cannabis or cigarette smoking allowed at time of events". ([6/3/2025 minutes](https://bridgtonmaine.org/wp-content/uploads/2025/07/6.3.25-Minutes.pdf))
@@ -104,33 +107,70 @@ The calls to action they repeat:
 | Date | Event | Source |
 | --- | --- | --- |
 | c. 1820 | Barn built (inferred from "rocks were under the barn since 1820"; the videos also say "200+ year old") | [RJ_yIakwVtU](https://www.youtube.com/watch?v=RJ_yIakwVtU) |
+| 1914 | Susan's great-grandfather buys and rebuilds the Bridgton House after a fire (it had been a 70-room hotel). Whether that is this property is **unclear**. | [bwpAuoFhddQ](https://www.youtube.com/watch?v=bwpAuoFhddQ) at 1:28 |
+| 2020 (Aug–Oct) | Susan retires in August. The Voths purchase the property and return that October to begin work, starting with the house. | [bwpAuoFhddQ](https://www.youtube.com/watch?v=bwpAuoFhddQ) at 2:01 |
 | 2024-11-05 | First Planning Board appearance. Application ruled incomplete, pending a septic plan, perimeter survey, drainage and financial capacity. An abutter raised traffic concerns. | [Minutes](https://bridgtonmaine.org/wp-content/uploads/2024/12/11.5.24-Minutes.pdf) |
 | 2025-05-06 | Application complete; public hearing set. Capacity 135, season May–October. Electrical passed state inspection that day, with stairs and drywall left. They targeted opening "next year" (2026). | [Minutes](https://bridgtonmaine.org/wp-content/uploads/2025/06/5.6.25-Minutes.pdf) |
 | 2025-06-03 | Public hearing. Five abutting households spoke against it, citing noise, traffic, safety and enforceability. The board tentatively approved it 4–0 with conditions: amber down-facing lighting, fenced porta-potties, noise limits from the sound study, no-parking signs on the road, and no alcohol, cannabis or smoking. | [Minutes](https://bridgtonmaine.org/wp-content/uploads/2025/07/6.3.25-Minutes.pdf) |
 | 2025-08-04 | Plumbing permit (Richard Voth): "Complete Non-Engineered System" | [Aug 2025 permits](https://bridgtonmaine.org/wp-content/uploads/2025/09/CEO-08.2025.pdf) |
 | 2025-08-05 | **Final approval:** Findings of Fact approved 5–0 | [Minutes](https://bridgtonmaine.org/wp-content/uploads/2025/09/8.5.25-Minutes.pdf) |
 | 2025-08-25 | Building permit (Susan Bobbitt-Voth): patio, paved walkway | [Aug 2025 permits](https://bridgtonmaine.org/wp-content/uploads/2025/09/CEO-08.2025.pdf) |
-| 2026-09-08 | Maine Lakes Chamber ribbon cutting, filmed by Lake Region TV | [bwpAuoFhddQ](https://www.youtube.com/watch?v=bwpAuoFhddQ) (title) |
+| Aug 2026 (about "a few weeks" before 9/8) | Open house with live music from the "High Street Jazz Band" (name as captioned) | [bwpAuoFhddQ](https://www.youtube.com/watch?v=bwpAuoFhddQ) at 4:42 |
+| 2026-09-08 | Maine Lakes Chamber ribbon cutting, filmed by Lake Region TV | [bwpAuoFhddQ](https://www.youtube.com/watch?v=bwpAuoFhddQ) |
 | 2026-09-30 | Date in a video title: "9 30 2026 Updated Fall R&SVP Hio Ridge" | [kyZlEkoaAZw](https://www.youtube.com/watch?v=kyZlEkoaAZw) |
 | 2026-10-08 to 10-13 | 8 promotional videos posted to YouTube | Channel feed |
 | Oct 2026 | "Now Booking 2027"; tours offered in October | [Lgsspp5eT5M](https://www.youtube.com/watch?v=Lgsspp5eT5M) |
 | 2026-10-18 | Fall cardmaking event and open-house invite | Your notes on the Facebook posts (**unconfirmed**; not reached) |
 
-- **Events held so far:** besides the ribbon cutting, the only event I could document is the cardmaking event in your notes (**unconfirmed**). I found no weddings on record.
+- **Events held so far:**
+  - the summer 2026 open house with a jazz band;
+  - the 9/8/2026 ribbon cutting;
+  - the 10/18 cardmaking event in your notes (**unconfirmed**).
+
+  I found no weddings on record.
 - **Ribbon-cutting coverage:** a Bridgton News item says the Maine Lakes Chamber "is pleased to celebrate the ribbon cutting and opening of R&SVP – Hio Ridge, a newly restored historic barn venue at 437 Hio Ridge Road in Bridgton". I saw this text only as a search snippet and couldn't open the article (**unconfirmed**).
 - **Citizen Portal (both unconfirmed):** two AI-written Citizen Portal summaries dated October 2026 mention a "Susan Viboth" restoring a historic house, turning a barn into a venue, and presenting at a Chamber networking event. This is very likely a transcription error for Susan Voth, but the site blocked access. The articles: [10727635](https://citizenportal.ai/articles/10727635/Maine/Cumberland-County/Bridgton/Venue-owner-Susan-Viboth-opens-renovated-Bridgton-House-to-community-events) and [10727629](https://citizenportal.ai/articles/10727629/Maine/Cumberland-County/Bridgton/Chamber-networking-event-spotlights-venue-charitable-offer-and-support-plans-for-families).
 
 ## The ribbon-cutting video (bwpAuoFhddQ)
 
-[Maine Lakes Chamber Ribbon Cutting 9-8-2026](https://www.youtube.com/watch?v=bwpAuoFhddQ), posted by Lake Region TV (@LakeRegionTV), not the venue's own channel.
+[Maine Lakes Chamber Ribbon Cutting 9-8-2026](https://www.youtube.com/watch?v=bwpAuoFhddQ), posted by Lake Region TV (@LakeRegionTV), not the venue's own channel. The video runs about 6.5 minutes.
 
-YouTube blocked the description and captions from this environment, so I can't summarize what was said. The four stills show:
+The summary below comes from the YouTube auto-captions you pasted (`raw/ribbon-cutting-transcript.txt`, with timestamps). Auto-captions garble names, so every spelling marked "as captioned" is **unconfirmed**. I've corrected the obvious errors, such as "NSVP" for R&SVP, "Vboth" for Voth, "Hy Ridge" for Hio Ridge and "Greg Bully" for Greg Bouley.
 
-1. An older couple speaking into a microphone inside the barn. You can see exposed timber framing and the reclaimed multi-pane windows. They are almost certainly Susan Bobbitt-Voth and Richard Voth, but that is **unconfirmed** from the image alone.
-2. The same couple again (two stills).
-3. A group gathered in front of white barn doors, with a woman holding a microphone. The people are not identified. One man's shirt has a logo, possibly the Chamber's (**unconfirmed**).
+**What it shows**
+- The ribbon cutting is held at the venue.
+- The Chamber's executive director opens (name captioned as "Mrs. Tux", **unconfirmed**). She hands over to the Chamber president, "Lori Allen of Key Bank" (as captioned).
+- The president introduces board members, captioned as Jeff Haramman, Lucas Jordan, Ken Murphy and Katrina Padlerani (spellings **unconfirmed**). She says the Chamber rebranded "back in February" and now covers 13 communities. (0:05–1:15)
+- Susan speaks for about five minutes, with Richard beside her. The stills match: the couple speaks inside the timber-frame barn.
 
-What the video says about capacity, amenities or the owners is **unconfirmed** until someone watches it. The capacity figure above (135) comes from the town record instead.
+**The owners and the property's history** (Susan, 1:21–2:20)
+- Susan's great-grandfather bought "the Bridgton House" after it burned, when it was a 70-room hotel, in 1914. He rebuilt it into "the Bridgton House you see today", and Susan's grandmother and great-aunt were raised there.
+- Her grandmother inherited "this property" and lived there for 25 years in retirement; then Susan's father did the same for 25 years.
+  - It's **unclear from the captions** whether the Bridgton House is the house at 437 Hio Ridge Rd or a different building. The Citizen Portal headline "opens renovated Bridgton House" suggests the speech was read as the same place. Worth asking.
+- Susan retired in August 2020; her retirement party was on Zoom. She says "we had just purchased this" and that they came back that October.
+  - Her saying the couple "purchased" it fits with the "4 generations in the family" line if they bought it from relatives, but that is **unconfirmed**.
+- **Richard was a college professor.** The venue idea came from a mutual friend from California who had been head of facilities at Richard's college for 17 years. They reconnected at church. He said it "would be a great Airbnb", but Susan didn't want people staying overnight, so the answer was an event venue. (2:41–3:05)
+
+**The renovation** (3:05–4:05)
+- They started with the house. Richard wanted dual-pane windows, so the old windows went into the barn.
+- The barn had been the garage for many years, so they built a new garage first. They then lowered the barn "12 in" (captions; probably 12 inches) and remodeled it.
+- The inside is lined with the barn's original exterior boards.
+- Greg Bouley built a rock garden and two big planter boxes from rocks that were under the barn: "They say Maine grows rocks".
+- More rocks were added behind the rock wall the week of the ribbon cutting.
+- **Planned:** the old floorboards will become **20 benches for ceremonies in the field facing Pleasant Mountain**. Susan: "I can't imagine an October wedding with all that color popping out on Pleasant Mountain".
+
+**What they want to host** (4:28–6:05)
+- Susan explains the name: "R and SVP, isn't that clever? It's Richard and Susan Voth Properties", and Hio Ridge after Hio Ridge Road.
+- "Any kind of an event." She mentions concerts, for example a bluegrass band.
+- **An open house was held "a few weeks" before the ribbon cutting**, with live music from the "High Street Jazz Band" (as captioned, **unconfirmed**).
+- **One charitable event a year:** they would donate use of the venue "so that we could do something very meaningful with other people in the community".
+- Baby showers.
+- **Retreats for parents of children with disabilities:**
+  - Susan's career was in special education. She has a daughter with autism and developmental delays.
+  - She wrote a book "a couple years ago" captioned as ***Amber's Mom: Lessons Learned***. A web search did not find it, so the title is **unconfirmed**.
+  - Her vision: parents stay at "the new Bridgton Hotel", come to the venue for a guest speaker, connect with one another, and return each year to reconnect.
+
+**Not mentioned in the video:** capacity, pricing, catering, alcohol, Sunday weddings or faith affiliation. The 135-guest figure and the no-alcohol rule come only from the town record.
 
 ## YouTube videos (all on @susanbobbitt-voth7401)
 
@@ -169,9 +209,11 @@ All of these are video stills at low resolution with captions burned in. Use the
 ## Gaps, and what would fill them
 
 1. **Facebook (page photos and videos, the About section, the three group posts, and a group search for "Hio Ridge").** Facebook requires login for groups, and I didn't log in or bypass it. The quickest fix is for you, while logged in, to save the photos (or take screenshots of the posts and the About section) and drop them into `hio-ridge/data/research/facebook/`, or upload them here. I'll then catalog them into this document. I don't recommend putting your Facebook login or cookies into this cloud environment: it risks your account and breaks Facebook's terms.
-2. **Ribbon-cutting video content.** If you watch it or send me the file or a transcript, I'll write the summary of the owners, capacity and amenities.
-3. **Full-resolution photos and the logo file.** These will ultimately have to come from Susan. Asking her is your call; I haven't contacted anyone.
-4. **To confirm:**
+2. **Full-resolution photos and the logo file.** These will ultimately have to come from Susan. Asking her is your call; I haven't contacted anyone.
+3. **To confirm:**
+   - whether "the Bridgton House" is the house at 437 Hio Ridge Rd;
+   - the exact title of Susan's book;
+   - the spellings of the Chamber names and of the jazz band;
    - Seventh-day Adventist affiliation;
    - the 619 number;
    - indoor restrooms;
