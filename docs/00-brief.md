@@ -112,3 +112,5 @@ QA: the website-build harness (`measure.mjs`, `contrast.mjs`, `copy_check.py`) a
 18. Season for 2027: May through October, as told to the town.
 19. Wedding photographs: the first booked couple's photographer, or a styled shoot in the barn (a florist, a dress shop, two hours). Every strong reference site opens on one.
 20. A line-drawn version of the wreath for ornament (rose, daisy, pine cone, bell), if Susan wants it; the painted logo will not trace clean.
+21. Susan's reply time, to state on the site (the research says responsiveness is the first trust signal).
+22. The access window on a wedding day: setup the day before, end time, when vendors may arrive.

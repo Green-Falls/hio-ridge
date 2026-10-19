@@ -2,7 +2,7 @@
   "title": "The Barn | R&SVP – Hio Ridge, Bridgton, Maine",
   "description": "Inside the restored 1820 barn at Hio Ridge: main floor and loft for 135 guests, bridal and groom rooms, a prep kitchen, a patio and a ceremony field.",
   "heading": "The Barn",
-  "lede": "Taken down to its frame in 2020 and put back together with its own boards and the windows from the house. Lowered twelve inches for headroom. Tables and chairs come with it.",
+  "lede": "Raised in 1820. Taken down to its frame in 2020 and put back together with its own boards and the windows from the house. Yours for the day, with the tables and chairs.",
   "hero_image": "barn-aisle",
   "hero_alt": "Looking down the barn toward the French doors, a chandelier overhead and the loft rail on both sides",
   "spaces": [
@@ -89,9 +89,39 @@
     }
   ],
   "closing": {
-    "heading": "See it in person",
-    "body": "The beams are better in the room than in a photo. Tours by appointment, any day but Saturday.",
+    "heading": "The beams are better in the room",
+    "body": "Tours by appointment, any day but Saturday. Susan walks you through all of it.",
     "cta": "Schedule a tour",
     "cta_href": "/inquire/"
+  },
+  "seating": {
+    "heading": "Three ways to seat 135",
+    "intro": "Susan has set the room every way a couple has asked. Pick a layout and see it.",
+    "layouts": [
+      {
+        "label": "Ceremony",
+        "image": "ceremony-rows",
+        "alt": "Ceremony rows on the main floor facing the French doors",
+        "body": "Rows on the main floor facing the doors, with the loft looking down. The rain plan, and some couples' first choice."
+      },
+      {
+        "label": "Round tables",
+        "image": "rounds-main-floor",
+        "alt": "Round tables on the main floor",
+        "body": "Five-foot rounds downstairs, 44 to 46 seats, with the loft seating the rest. Room to dance in the middle."
+      },
+      {
+        "label": "Long tables",
+        "image": "head-table",
+        "alt": "The head table set at the open French doors",
+        "body": "Six- and eight-foot tables down the length of the barn, the head table at the open doors."
+      },
+      {
+        "label": "The patio",
+        "image": "barn-patio",
+        "alt": "Round tables on the patio beside the barn",
+        "body": "Nine tables and 72 seats outside, with the string lights for the evening."
+      }
+    ]
   }
 }

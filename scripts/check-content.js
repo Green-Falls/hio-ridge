@@ -42,7 +42,7 @@ if (site) {
   walk(site, "", "site.json");
 }
 
-for (const f of ["home.json", "barn.json", "weddings.json", "pricing.json", "events.json", "story.json", "inquire.json", "privacy.json"]) {
+for (const f of ["home.json", "barn.json", "weddings.json", "pricing.json", "events.json", "story.json", "inquire.json", "privacy.json", "gallery.json"]) {
   const p = load(f);
   if (!p) continue;
   if (!p.title || !p.description) fail(`${f}: needs a title and a description (they appear in search results)`);

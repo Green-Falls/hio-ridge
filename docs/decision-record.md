@@ -22,6 +22,17 @@ A running record. Newest entries at the bottom. One entry per decision or pass, 
 - Brief and guardrails: `docs/00-brief.md`. Photo picks: `docs/photo-shortlist.md`.
 - Source: `content/*.json`, `build.mjs`, `src/`. Output: `dist/`. QA: `qa/`.
 
+## Round 5: components, bride research, copy, October 19
+
+Mike: "look at refero and 21st dev to find better components that are much better UX? Copy is still too literal and not aspiring enough. research what brides are looking for in their venues."
+- **Refero:** its MCP needs a sign-in; not available this session. **21st.dev:** searched (hero, gallery, testimonial, FAQ, date picker; `get_inspiration` for the whole site). It is a React/shadcn catalog with paid code; the site is static HTML with no dependencies, so patterns were taken, not code: the editorial image hero (photo above, serif headline below: what round 4 already built), the masonry gallery with a lightbox, the thumbnail viewer, the testimonial accordion (nothing to put in it yet).
+- **Built from those patterns, native:** a Photos page (`/photos/`, 31 photographs in four groups) with a `<dialog>` lightbox in `site.js` (arrow keys, Esc, focus return, no library); a seating viewer on The Barn page ("Three ways to seat 135", radio-driven, no script, degrades to a stacked list); a month select on the inquiry form in place of the date input.
+- **Research:** `docs/research/brides-2026-10.md`. The three things couples ask first (price, one place for both, availability) now sit in the facts row under the hero. Rain plan, children and the access window joined the FAQ. The reply-time promise is on the inquiry page, marked `[CONFIRM]`.
+- **Nav:** Weddings, The Barn, Photos | Pricing, Our Story, Inquire. Events moved to the menu, the footer and the home page: the nav is for brides; showers and classes are one click further.
+- **Copy:** rewritten to moments a bride can picture, each tied to a real thing here. "Vows in front of the mountain. Dinner under the beams." "Hang your dress on the hook. The rest of the day is ours to worry about." "Four generations have kept this farm. For one Sunday, it keeps you." "The string lights come on." "Stand in the field. Then decide."
+- **Photos:** 18 added. Susan's ceremony photos carry a burned-in label; the pipeline now crops it (`file.jpg#cb=0.1` in `photos.json`).
+- Set aside: a testimonial block (no couples yet); a date picker (79% have no date); the animated 21st.dev heroes (motion for its own sake).
+
 ## Round 4: references, palette off brown, copy, October 19
 
 Mike: "brand identity is still weak. lots of brown for a wedding. not very good UX/UI design. copy is pretty lame. lots of AI slop design. what skills and references sites can we use to improve?"

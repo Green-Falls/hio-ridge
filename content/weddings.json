@@ -2,27 +2,27 @@
   "title": "Maine Barn Weddings | R&SVP – Hio Ridge, Bridgton",
   "description": "Sunday weddings for up to 135 guests in a restored 1820 barn in Bridgton, Maine. Ceremony in the field, reception in the barn. Alcohol-free. May through October.",
   "heading": "Weddings",
-  "lede": "A Sunday wedding on a farm that has been in one family since 1941. The ceremony in the field facing Pleasant Mountain, the reception under 206-year-old beams, and the two of you getting ready in the rooms next door.",
+  "lede": "The mountain in front of you and everyone you love behind you. Then dinner under beams raised in 1820, on a farm one family has kept since 1941.",
   "hero_image": "ceremony-field",
   "hero_alt": "Ceremony benches in the field at Hio Ridge, birches and the tree line behind",
   "day": {
-    "heading": "How the day goes",
+    "heading": "The day, the way it goes here",
     "steps": [
       {
-        "title": "Get ready in the ell",
-        "body": "A room for the bride and a room for the groom, steps from the barn. A mirror, a chair, a hook for the dress."
+        "title": "Morning in the ell",
+        "body": "Your dress on its hook, your people on the benches, the field outside the window. The groom's room is across the hall."
       },
       {
-        "title": "Ceremony in the field",
-        "body": "Benches made from the barn's old floorboards, facing Pleasant Mountain. If it rains, you marry in the barn."
+        "title": "Vows in the field",
+        "body": "Benches made from the barn's old floorboards, facing Pleasant Mountain. If it rains, you marry under the beams and lose nothing."
       },
       {
         "title": "Dinner under the beams",
-        "body": "Your caterer in the prep kitchen, your guests on the main floor and in the loft, the French doors open to the patio."
+        "body": "Long tables down the barn or rounds with room to dance. Your caterer works in the prep kitchen. The French doors stay open to the patio."
       },
       {
-        "title": "Sunset on the patio",
-        "body": "String lights come on, the stone circle fills up, and the field goes gold."
+        "title": "The string lights come on",
+        "body": "The field goes gold, the patio fills, and the last photographs are the ones you keep."
       }
     ]
   },
@@ -70,8 +70,8 @@
     }
   ],
   "sunday": {
-    "heading": "Why Sundays",
-    "body": "We keep Saturday as our day of rest, so our weddings are on Sundays. For you it means a quieter weekend for your guests, a Monday to recover, and vendors who have the date open. [CONFIRM: wording Susan is comfortable with]"
+    "heading": "Why a Sunday",
+    "body": "Saturday is our day of rest, so our weddings are on Sundays. Most couples find the photographer and the band they want are open, the weekend starts a day early for guests who travel, and the day itself is quieter. [CONFIRM: wording Susan is comfortable with]"
   },
   "faq_heading": "Questions couples ask",
   "faq": [
@@ -84,12 +84,20 @@
       "a": "Yes. The ceremony field faces Pleasant Mountain, with benches made from the barn's old floorboards. In rain, the ceremony moves into the barn."
     },
     {
+      "q": "What if it rains?",
+      "a": "You marry in the barn, under the beams, with the French doors open. The ceremony rows are set either way, so nothing is decided until the morning."
+    },
+    {
       "q": "Can we bring our own caterer?",
       "a": "Yes. There is a prep kitchen with barn doors your caterer can close while they finish the meal."
     },
     {
       "q": "Can we serve alcohol?",
       "a": "No. We are an alcohol-free venue, and that is part of our town permit. Many couples tell us it makes for a family day."
+    },
+    {
+      "q": "Can children come?",
+      "a": "Yes. We are a family venue. Grandparents, babies and the flower girl's little brother are all welcome."
     },
     {
       "q": "Do you host Saturday weddings?",
@@ -110,11 +118,19 @@
     {
       "q": "How do we book?",
       "a": "Email or text Susan to schedule a tour. After the tour we send the contract and the pricing brochure. [CONFIRM: deposit and booking steps]"
+    },
+    {
+      "q": "How long do we have the barn?",
+      "a": "The whole day. [CONFIRM: access window, setup the day before, end time]"
+    },
+    {
+      "q": "How fast does Susan reply?",
+      "a": "The same day, by email or text, most days. [CONFIRM: Susan's reply time]"
     }
   ],
   "closing": {
-    "heading": "Pick a Sunday in 2027",
-    "body": "Tell us the date you have in mind and about how many guests. We will set up a private tour and send the open dates.",
+    "heading": "Pick your Sunday",
+    "body": "No date yet? Most couples don't have one when they start looking. Tell us the season and about how many guests, and we will send the open Sundays and the pricing brochure.",
     "cta": "Ask about a date",
     "cta_href": "/inquire/?type=wedding"
   }

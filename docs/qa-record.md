@@ -4,6 +4,18 @@ One section per audit pass. Each finding is one bullet: what was wrong, how it w
 
 Harness: `node qa/measure.mjs dist/index.html --viewports 320x568,375x667,390x844,430x932,844x390,768x1024,1280x650,1440x900`, `node qa/contrast.mjs`, `python3 qa/copy_check.py`, axe at 375 and 1440, three mobile Lighthouse runs. Every pass records the build stamp it measured.
 
+## Round 5, Photos page, seating viewer, month picker, copy, October 19, 2026
+
+Measured: `run-qa.mjs` on all 11 pages at 375/768/1440.
+
+Found and fixed:
+- The seating viewer's hidden radios were 1px, so the tap-target check flagged them. Each radio now covers its label (44px and more), invisible, so the hit area and the focus ring are real.
+- The lightbox image had no `src` until opened, which the broken-image check flagged. It holds a 1px gif when closed.
+- The lightbox image overflowed the viewport: `max-height: 100%` in a grid with an auto row is indefinite. The figure is flex now.
+- Three of Susan's ceremony photos carry a burned-in "Ceremony from front" label. Cropped 10% off the bottom in the pipeline.
+
+Measured, passing: `run-qa.mjs` 0 problems on 11 pages. Lighthouse and the contrast sheet are unchanged from round 4 for the home page; the Photos page carries 31 lazy images at 480 to 800px and loads 8 before the fold at 1440.
+
 ## Round 4, palette, hero, type, copy, October 19, 2026
 
 Measured: `run-qa.mjs` on all 10 pages at 375/768/1440; `contrast.mjs` on the home page at 390 and 1440 (new fir and blush surfaces); three mobile Lighthouse runs.

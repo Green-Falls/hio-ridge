@@ -1,0 +1,158 @@
+{
+  "title": "Photos | R&SVP – Hio Ridge, Bridgton, Maine",
+  "description": "Photographs of the barn, the ell, the field and the patio at Hio Ridge in Bridgton, Maine, through the seasons. Weddings and events, May through October.",
+  "heading": "The farm through the year",
+  "lede": "Every photograph here was taken on the property by Susan. The first couples' photographs arrive with the first couples.",
+  "groups": [
+    {
+      "heading": "The barn",
+      "photos": [
+        [
+          "barn-interior",
+          "Inside the barn in the evening, chandeliers and the loft rail"
+        ],
+        [
+          "barn-aisle",
+          "Looking down the barn to the French doors"
+        ],
+        [
+          "head-table",
+          "The head table at the open French doors"
+        ],
+        [
+          "ceremony-rows",
+          "Ceremony rows on the main floor, facing the doors"
+        ],
+        [
+          "rounds-main-floor",
+          "Round tables on the main floor"
+        ],
+        [
+          "loft-view",
+          "The main floor from the loft"
+        ],
+        [
+          "barn-loft",
+          "The loft and the hay door"
+        ],
+        [
+          "band",
+          "The High Street Jazz Band at the open house"
+        ]
+      ]
+    },
+    {
+      "heading": "The ell",
+      "photos": [
+        [
+          "dress",
+          "A wedding dress on the hook in the bridal room"
+        ],
+        [
+          "bridal-room",
+          "The bridal room vanity and mirror"
+        ],
+        [
+          "bridal-mirror",
+          "The arched mirror and chandelier"
+        ],
+        [
+          "bridal-curtains",
+          "Sheer curtains in the bridal room"
+        ],
+        [
+          "ell-hall",
+          "The hallway to the two rooms"
+        ],
+        [
+          "groom-room",
+          "The groom's room"
+        ],
+        [
+          "ell-door",
+          "The ell door with its transom window"
+        ]
+      ]
+    },
+    {
+      "heading": "The field and the patio",
+      "photos": [
+        [
+          "ceremony-field",
+          "Benches made from the barn's floorboards, among the birches"
+        ],
+        [
+          "field-benches-evening",
+          "The benches and the farmhouse in evening light"
+        ],
+        [
+          "boulder-circle",
+          "The boulder seating circle"
+        ],
+        [
+          "patio-rock-garden",
+          "The patio and the stone planters"
+        ],
+        [
+          "barn-patio",
+          "Round tables on the patio"
+        ],
+        [
+          "field-from-deck",
+          "The field from the deck at sunset"
+        ],
+        [
+          "sunset-field",
+          "Sunset over the field"
+        ],
+        [
+          "sunset-pines",
+          "Sunset through the pines"
+        ]
+      ]
+    },
+    {
+      "heading": "The seasons",
+      "photos": [
+        [
+          "barn-october",
+          "The barn in October"
+        ],
+        [
+          "fall-foliage",
+          "Fall color on the property"
+        ],
+        [
+          "field-sunset-fall",
+          "The field at sunrise in autumn"
+        ],
+        [
+          "barn-dusk-gable",
+          "The barn gable at dusk"
+        ],
+        [
+          "barn-night",
+          "The barn lit at night"
+        ],
+        [
+          "barn-night-drive",
+          "The driveway lights at night"
+        ],
+        [
+          "barn-ell-side",
+          "The barn and the ell from the field"
+        ],
+        [
+          "winter-field",
+          "The field under snow"
+        ]
+      ]
+    }
+  ],
+  "closing": {
+    "heading": "Photographs only go so far",
+    "body": "The light in the barn at five o'clock on a Sunday is the thing to see. Come stand in it.",
+    "cta": "Schedule a tour",
+    "cta_href": "/inquire/"
+  }
+}

@@ -47,6 +47,21 @@
     reveals.forEach(function (el) { el.classList.add("in"); });
   }
 
+  // Lightbox: one <dialog>, fed by the gallery buttons. Arrow keys move, Esc closes (native), focus returns.
+  var lb = d.querySelector("[data-lightbox]");
+  var items = Array.prototype.slice.call(d.querySelectorAll(".gal-item"));
+  if (lb && items.length && typeof lb.showModal === "function") {
+    var img = lb.querySelector("img"), cur = 0, opener = null;
+    var show = function (i) { cur = (i + items.length) % items.length; img.src = items[cur].getAttribute("data-full"); img.alt = items[cur].getAttribute("data-alt"); };
+    items.forEach(function (btn, i) { btn.addEventListener("click", function () { opener = btn; show(i); lb.showModal(); }); });
+    lb.querySelector("[data-lb-close]").addEventListener("click", function () { lb.close(); });
+    lb.querySelector("[data-lb-prev]").addEventListener("click", function () { show(cur - 1); });
+    lb.querySelector("[data-lb-next]").addEventListener("click", function () { show(cur + 1); });
+    lb.addEventListener("click", function (e) { if (e.target === lb) lb.close(); });
+    lb.addEventListener("keydown", function (e) { if (e.key === "ArrowRight") show(cur + 1); if (e.key === "ArrowLeft") show(cur - 1); });
+    lb.addEventListener("close", function () { img.src = "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="; if (opener) opener.focus(); });
+  }
+
   // Inquiry form: prefill the type from ?type=, check required fields, announce errors.
   var form = d.querySelector("form.form");
   if (form) {

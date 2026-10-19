@@ -28,7 +28,11 @@ def find(f):
 
 meta = {}
 for name, f in picks.items():
+    # "file.jpg#cb=0.09" crops that fraction off the bottom (Susan's photos sometimes carry a burned-in label).
+    f, _, opts = f.partition('#')
     im = ImageOps.exif_transpose(Image.open(find(f))).convert('RGB')
+    if opts.startswith('cb='):
+        im = im.crop((0, 0, im.width, int(im.height * (1 - float(opts[3:])))))
     w, h = im.size
     px = list(im.resize((8, 8)).get_flattened_data() if hasattr(im, 'get_flattened_data') else im.resize((8, 8)).getdata())
     avg = tuple(sum(c[i] for c in px) // len(px) for i in range(3))

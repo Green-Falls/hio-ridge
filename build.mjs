@@ -22,21 +22,26 @@ import { fileURLToPath } from "node:url";
 const ROOT = path.dirname(fileURLToPath(import.meta.url));
 const read = (f) => JSON.parse(fs.readFileSync(path.join(ROOT, "content", f), "utf8"));
 const SITE = read("site.json");
-const PAGES = { home: read("home.json"), barn: read("barn.json"), weddings: read("weddings.json"), pricing: read("pricing.json"), events: read("events.json"), story: read("story.json"), inquire: read("inquire.json"), privacy: read("privacy.json") };
+const PAGES = { home: read("home.json"), barn: read("barn.json"), weddings: read("weddings.json"), pricing: read("pricing.json"), events: read("events.json"), story: read("story.json"), inquire: read("inquire.json"), privacy: read("privacy.json"), gallery: read("gallery.json") };
 const IMAGES = JSON.parse(fs.readFileSync(path.join(ROOT, "src/images/manifest.json"), "utf8"));
 const PREVIEW = process.env.PREVIEW_HOST || "";
 const BASE = PREVIEW ? `https://${PREVIEW}` : SITE.url;
 const DIST = path.join(ROOT, "dist");
 const STAMP = (() => { try { return execSync("git rev-parse --short HEAD", { cwd: ROOT }).toString().trim(); } catch { return "local"; } })() + " " + new Date().toISOString().slice(0, 10);
 
+// Left of the lockup: the three things a bride checks first (WeddingPro: price, one place for ceremony
+// and reception, availability; Zola: photos). Right: pricing, story, inquire. Events lives in the
+// menu, the footer and the home page.
 const NAV = [
-  ["/the-barn/", "The Barn"],
   ["/weddings/", "Weddings"],
+  ["/the-barn/", "The Barn"],
+  ["/photos/", "Photos"],
   ["/pricing/", "Pricing"],
-  ["/events/", "Events"],
   ["/our-story/", "Our Story"],
 ];
+const EVENTS = ["/events/", "Events"];
 const INQUIRE = ["/inquire/", "Inquire"];
+const BLANK = "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==";
 
 const esc = (s) => String(s ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 // Typographic care: curly quotes and apostrophes in running text. Content is written with straight marks.
@@ -96,7 +101,7 @@ function bar(pathname) {
   const link = ([href, label], cls = "") => `<li><a href="${href}"${pathname === href ? ' aria-current="page"' : ""}${cls ? ` class="${cls}"` : ""}>${label}</a></li>`;
   const left = NAV.slice(0, 3).map((l) => link(l)).join("");
   const right = NAV.slice(3).map((l) => link(l)).join("") + link(INQUIRE, "nav-inq");
-  const menuLinks = [...NAV, INQUIRE].map((l) => link(l)).join("");
+  const menuLinks = [...NAV, EVENTS, INQUIRE].map((l) => link(l)).join("");
   return `<a class="skip" href="#main">Skip to content</a>
 <header class="head">
 <div class="bar" data-bar>
@@ -115,7 +120,7 @@ function bar(pathname) {
 }
 
 function footer() {
-  const links = [...NAV, INQUIRE].map(([href, label]) => `<li><a href="${href}">${label}</a></li>`).join("");
+  const links = [...NAV, EVENTS, INQUIRE].map(([href, label]) => `<li><a href="${href}">${label}</a></li>`).join("");
   const social = [["Facebook", SITE.social.facebook], ["YouTube", SITE.social.youtube], ["Instagram", SITE.social.instagram]].filter(([, u]) => u).map(([n, u]) => `<li><a href="${esc(u)}" rel="noopener">${n}</a></li>`).join("");
   return `<footer class="foot">
 <div class="wrap foot-grid">
@@ -175,6 +180,14 @@ const pageHero = (p) => `<section class="phero"><div class="wrap"><h1>${typo(p.h
 const facts = (heading, list) => section("facts", `<h2 class="reveal">${typo(heading)}</h2><dl class="dl">${list.map((f) => `<div><dt>${typo(f.label)}</dt><dd>${typo(f.value)}</dd></div>`).join("")}</dl>`);
 const splitRow = (s, i, { sizes = "(min-width: 48em) 50vw, 100vw" } = {}) => `<div class="split${i % 2 ? " split-flip" : ""}"><div class="split-text"><h2 class="reveal">${typo(s.heading || s.title)}</h2>${Array.isArray(s.body) ? paras(s.body) : `<p>${typo(s.body)}</p>`}${s.href ? `<p><a class="more" href="${esc(s.href)}">${typo(s.link || "Learn more")}</a></p>` : ""}</div><figure>${picture(s.image, { alt: s.alt, sizes })}</figure></div>`;
 
+// Seating viewer: radio inputs drive which layout shows. No script; keyboard works; one figure per layout.
+const seating = (s) => `<h2 class="reveal">${typo(s.heading)}</h2><p>${typo(s.intro)}</p><div class="seat">
+<div class="seat-tabs" role="radiogroup" aria-label="${esc(s.heading)}">${s.layouts.map((l, i) => `<label class="seat-tab"><input type="radio" name="seat" value="${i}"${i ? "" : " checked"}><span>${typo(l.label)}</span></label>`).join("")}</div>
+<div class="seat-panes">${s.layouts.map((l, i) => `<figure class="seat-pane" data-seat="${i}">${picture(l.image, { alt: l.alt, sizes: "(min-width: 48em) 60vw, 100vw", eager: i === 0 })}<p>${typo(l.body)}</p></figure>`).join("")}</div>
+</div>`;
+// Gallery: a grid per group; each photo is a button that opens the one dialog lightbox in site.js.
+const galleryGroup = (g) => `<h2 class="reveal">${typo(g.heading)}</h2><ul class="gal">${g.photos.map(([k, alt]) => { const im = IMAGES[k]; const maxw = im ? Math.max(...im.renditions.map((r) => r[0])) : 1200; return `<li><button type="button" class="gal-item" data-full="/images/${k}-${maxw}.jpg" data-alt="${esc(alt)}">${picture(k, { alt, sizes: "(min-width: 64em) 25vw, (min-width: 48em) 33vw, 50vw" })}</button></li>`; }).join("")}</ul>`;
+
 // ---------- pages ----------
 function homePage() {
   const p = PAGES.home;
@@ -191,7 +204,7 @@ ${picture(h.image, { eager: true, alt: h.alt, sizes: "100vw", cls: "hero-pic" })
 ${section("sec-linen", `<div class="statement"><div><span class="amp-big" aria-hidden="true">&amp;</span><h2 class="reveal">${typo(p.statement.quote)}</h2><p class="small">${typo(p.statement.who)}</p></div><figure class="arch">${picture("dress", { alt: "A wedding dress on the hook in the bridal room", sizes: "(min-width: 48em) 40vw, 100vw" })}</figure></div>`)}
 ${section("intro", splitRow(p.intro, 0))}
 ${section("paths", `<ul class="paths-list">${p.paths.map((x) => `<li><a href="${esc(x.href)}">${picture(x.image, { alt: x.alt, sizes: "(min-width: 48em) 33vw, 100vw" })}<h2>${typo(x.title)}</h2><p>${typo(x.body)}</p><span class="more"><span>${typo(x.link || "See " + x.title.toLowerCase())}</span><span aria-hidden="true">&rarr;</span></span></a></li>`).join("")}</ul>`)}
-${section("sec-moss", `<div class="split split-wide"><div class="split-text"><h2 class="reveal">The barn, the ell, the field and the patio. Tables and chairs. Susan and Richard.</h2><p>${typo(PAGES.pricing.compare)}</p><p><a class="btn btn-paper" href="/pricing/">See pricing and what is included</a></p></div><figure>${picture("head-table", { alt: "The head table set at the open French doors, the patio and field beyond", sizes: "(min-width: 48em) 55vw, 100vw" })}</figure></div>`)}
+${section("sec-moss", `<div class="split split-wide"><div class="split-text"><h2 class="reveal">${typo(p.included_heading)}</h2><p>${typo(PAGES.pricing.compare)}</p><p><a class="btn btn-paper" href="/pricing/">See pricing and what is included</a></p></div><figure>${picture("head-table", { alt: "The head table set at the open French doors, the patio and field beyond", sizes: "(min-width: 48em) 55vw, 100vw" })}</figure></div>`)}
 <figure class="photo-band">${picture("barn-october", { alt: p.setting.alt, sizes: "100vw" })}</figure>
 ${section("setting", `<div class="narrow"><h2 class="reveal">${typo(p.setting.heading)}</h2><p>${typo(p.setting.body)}</p></div>`)}
 ${section("proof", `<h2 class="reveal">${typo(p.proof_heading)}</h2><ul class="proof">${p.proof.map((x) => `<li><span class="small">${typo(x.date)}</span><h3>${x.href ? `<a href="${esc(x.href)}" rel="noopener">${typo(x.title)}</a>` : typo(x.title)}</h3><p>${typo(x.body)}</p></li>`).join("")}</ul>`)}
@@ -224,11 +237,26 @@ ${bar("/the-barn/")}
 <main id="main">
 ${pageHero(p)}
 ${section("spaces", p.spaces.map((s, i) => splitRow(s, i)).join(""))}
+${section("seating", seating(p.seating))}
 ${facts(p.facts_heading, p.facts)}
 ${closing(p.closing)}
 </main>
 ${footer()}`;
   return head({ title: p.title, description: p.description, pathname: "/the-barn/", ogImage: "barn-interior", jsonld: graph([breadcrumb("/the-barn/", p.heading)]) }) + body;
+}
+
+function galleryPage() {
+  const p = PAGES.gallery;
+  const body = `<body>
+${bar("/photos/")}
+<main id="main">
+<section class="phero phero-plain"><div class="wrap"><h1>${typo(p.heading)}</h1><p class="lede">${typo(p.lede)}</p></div></section>
+${p.groups.map((g) => section("gallery", galleryGroup(g))).join("")}
+${closing(p.closing)}
+</main>
+<dialog class="lightbox" data-lightbox aria-label="Photo"><button type="button" class="lb-close" data-lb-close>Close</button><button type="button" class="lb-prev" data-lb-prev aria-label="Previous photo">&larr;</button><figure><img src="${BLANK}" alt="" width="1600" height="1200"></figure><button type="button" class="lb-next" data-lb-next aria-label="Next photo">&rarr;</button></dialog>
+${footer()}`;
+  return head({ title: p.title, description: p.description, pathname: "/photos/", ogImage: "field-benches-evening", jsonld: graph([breadcrumb("/photos/", p.heading)]) }) + body;
 }
 
 function weddingsPage() {
@@ -299,7 +327,7 @@ ${section("inquire", `<div class="inq-grid">
 <div class="field"><label for="f-phone">Phone <span class="opt">optional</span></label><input id="f-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel"></div>
 <div class="field"><label for="f-type">What are you planning?</label><select id="f-type" name="event_type">${types}</select></div>
 <div class="field-row">
-<div class="field"><label for="f-date">Date, if you have one <span class="opt">optional</span></label><input id="f-date" name="event_date" type="date"></div>
+<div class="field"><label for="f-month">${typo(f.month_label)}</label><select id="f-month" name="event_month">${f.months.map((m) => `<option>${esc(m)}</option>`).join("")}</select></div>
 <div class="field"><label for="f-guests">About how many guests <span class="opt">optional</span></label><input id="f-guests" name="guests" type="number" inputmode="numeric" min="1" max="135"></div>
 </div>
 <div class="field"><label for="f-message">Anything else</label><textarea id="f-message" name="message" rows="5"></textarea></div>
@@ -358,6 +386,7 @@ ${footer()}`;
 const OUT = {
   "index.html": homePage(),
   "the-barn/index.html": barnPage(),
+  "photos/index.html": galleryPage(),
   "weddings/index.html": weddingsPage(),
   "pricing/index.html": pricingPage(),
   "events/index.html": eventsPage(),
@@ -367,7 +396,7 @@ const OUT = {
   "privacy/index.html": privacyPage(),
   "404.html": notFoundPage(),
 };
-const INDEXABLE = ["/", "/the-barn/", "/weddings/", "/pricing/", "/events/", "/our-story/", "/inquire/", "/privacy/"];
+const INDEXABLE = ["/", "/the-barn/", "/photos/", "/weddings/", "/pricing/", "/events/", "/our-story/", "/inquire/", "/privacy/"];
 
 // RELATIVE mode: root-absolute URLs become relative to each page's depth and directory links point at
 // their index.html, so the folder works from any sub-path. Pages are marked noindex.

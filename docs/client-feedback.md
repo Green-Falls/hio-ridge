@@ -45,3 +45,9 @@ Open: Mike's read of round 3.
 Mike: "nav is better. brand identity is still weak. lots of brown for a wedding. not very good UX/UI design. copy is pretty lame. lots of AI slop design. what skills and references sites can we use to improve?"
 
 What changed (round 4): the method. Eight reference sites captured and measured, a reference lock written (`docs/research/references-2026-10.md`), then the build: brown out (fir green frame, white page, one blush band), text off the hero photo, headline size doubled, hairline link rows, the dress photo, home copy rewritten with the stop-slop pass. Kept: the centered lockup nav, no captions, no eyebrows.
+
+## October 19, after round 4
+
+Mike: "can you look at refero and 21st dev to find better components that are much better UX? Copy is still too literal and not aspiring enough. research what brides are looking for in their venues."
+
+What changed (round 5): a Photos page with a lightbox, a seating viewer on The Barn, a month picker on the form, the nav reordered for brides, the FAQ extended from the tour checklists, and the copy rewritten to moments rather than facts. Research in `docs/research/brides-2026-10.md`; the 21st.dev and Refero notes in the decision record.
