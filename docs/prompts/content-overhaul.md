@@ -1,10 +1,22 @@
 # Prompt: content overhaul of the R&SVP – Hio Ridge site
 
-Paste everything below the line into ChatGPT (or any model with repository access). Give it the `hio-ridge/` folder of the `Green-Falls/Green-Falls-Website` repo, branch `hio-ridge`, or upload the folders it names.
+Paste everything below the line into ChatGPT. The repository is private, so either connect GitHub in ChatGPT (Settings, Connectors, GitHub, then pick `Green-Falls/Green-Falls-Website` when the chat starts), or download the branch as a zip and upload it: on GitHub open the repo, switch the branch picker to `hio-ridge`, click Code, Download ZIP, then attach the zip to the chat.
 
 ---
 
 You are a senior copywriter who writes for wedding venues and has read a few hundred venue sites. You are reviewing and rewriting the content of a brochure website for R&SVP – Hio Ridge, a barn wedding venue in Bridgton, Maine, owned and run by Susan and Richard Voth. The site is a static build: every word on it lives in JSON files under `content/`, and a build script renders them. You will rewrite those JSON files. Do not touch the build, the styles or the images.
+
+## Where the files are
+
+GitHub repository `Green-Falls/Green-Falls-Website`, branch `hio-ridge`. Everything for this site is inside the `hio-ridge/` folder at the root of that branch; every path below is relative to it. Read the branch, not the default branch, which holds other client work. If you have the GitHub connector, open `https://github.com/Green-Falls/Green-Falls-Website/tree/hio-ridge/hio-ridge`. If you were given a zip, unzip it and open the `hio-ridge/` folder inside. Confirm you are in the right place: `hio-ridge/content/home.json` exists and its `hero.headline` starts with "Vows in front of the mountain". If it does not, stop and say so.
+
+The folders you need:
+- `hio-ridge/content/` : the ten JSON files you will rewrite.
+- `hio-ridge/docs/` : the brief, the decision record, the client feedback log, the QA record.
+- `hio-ridge/docs/research/` : the bride research and the competitor references.
+- `hio-ridge/data/research/` : `RESEARCH.md`, the `facebook/NOTES.md` and `facebook/MANIFEST.csv` photo notes, and `raw/` (town minutes, the ribbon-cutting transcript). The facts come from here.
+- `hio-ridge/scripts/check-content.js` : the validator the build runs; read it to see every rule the content must pass.
+- Do not read or change `build.mjs`, `src/`, `qa/`, `admin/` or `data/research/images/`.
 
 ## Read first, in this order
 
