@@ -1,17 +1,17 @@
 {
   "title": "R&SVP – Hio Ridge | Barn wedding venue, Bridgton, Maine",
-  "description": "A barn raised in 1820 on a family farm in Bridgton, Maine. Sunday weddings for up to 135, the ceremony facing Pleasant Mountain. Alcohol-free. Now booking 2027.",
+  "description": "Our barn wedding venue in Bridgton, Maine pairs vows facing Pleasant Mountain with dinner under 1820 beams. Up to 135 guests. Sundays, May through October.",
   "hero": {
     "image": "barn-interior",
     "alt": "Inside the barn at Hio Ridge in the evening: the timber frame, chandeliers, and the loft rail",
-    "headline": "Vows in front of the mountain. *Dinner under the beams.*",
-    "line": "A Sunday wedding on a family farm in Bridgton, Maine",
+    "headline": "Vows facing Pleasant Mountain. *Dinner under the beams.*",
+    "line": "A barn wedding venue on our family farm in Bridgton, Maine",
     "cta": "Schedule a tour",
     "cta_href": "/inquire/",
     "facts": [
       {
         "value": "135",
-        "label": "guests"
+        "label": "guests maximum"
       },
       {
         "value": "22",
@@ -22,20 +22,20 @@
         "label": "May through October"
       },
       {
-        "value": "1820",
-        "label": "the barn was raised"
+        "value": "One farm",
+        "label": "ceremony and reception"
       }
     ]
   },
   "statement": {
-    "quote": "Hang your dress on the hook. The rest of the day is ours to worry about.",
-    "who": "Susan, who gives every tour herself"
+    "quote": "There's something about these 1820 beams you have to see in person.",
+    "who": "Susan Voth"
   },
   "intro": {
-    "heading": "Four generations have kept this farm. *For one Sunday, it keeps you.*",
+    "heading": "Your first meal as a married couple.",
     "body": [
-      "Susan's great-grandparents bought the land in 1941. In 2020 she and Richard took the 1820 barn down to its frame and rebuilt it from its own boards, with the windows from the house.",
-      "It seats 135 under the beams. The ell beside it has a room for the bride and a room for the groom. The field in front faces Pleasant Mountain."
+      "Take your seats at the head table, with the field beyond the open French doors. The people who watched you say your vows are here for dinner, too. We have space for your ceremony and reception on the same farm.",
+      "We welcome up to 135 guests, with separate rooms for getting ready and a prep kitchen for your caterer. Tables and chairs come with the rental. We host weddings without alcohol, on Sundays and weekdays from May through October."
     ],
     "image": "head-table",
     "alt": "The head table set at the open French doors, the field beyond",
@@ -44,24 +44,24 @@
   },
   "paths": [
     {
-      "title": "The field",
-      "body": "Vows facing Pleasant Mountain, on benches cut from the barn's old floorboards.",
+      "title": "Your walk down the aisle",
+      "body": "Say your vows facing Pleasant Mountain. Your guests sit on benches we made from the barn's old floorboards.",
       "href": "/weddings/",
       "image": "field-benches-evening",
       "alt": "Benches in the field and the farmhouse in evening light",
       "link": "The wedding day"
     },
     {
-      "title": "The barn",
-      "body": "Dinner and dancing for 135 under beams raised in 1820, the French doors open to the patio.",
+      "title": "Dinner beneath the beams",
+      "body": "Choose long tables or rounds for the meal you'll share. We include tables and chairs. Susan can talk through the dining spaces with you.",
       "href": "/the-barn/",
       "image": "barn-interior",
       "alt": "Inside the barn in the evening, chandeliers and the loft rail",
       "link": "See the barn"
     },
     {
-      "title": "The ell",
-      "body": "A room for the bride and a room for the groom, with a hook made for the dress.",
+      "title": "Your dress, ready in the ell",
+      "body": "Get ready with your wedding party beside you. Our bridal room and separate groom's room are in the ell beside the barn.",
       "href": "/photos/",
       "image": "dress",
       "alt": "A wedding dress on the hook in the bridal room",
@@ -69,52 +69,52 @@
     }
   ],
   "setting": {
-    "heading": "Come in October, *when the color comes down to the barn door*",
-    "body": "The field looks straight at Pleasant Mountain. Susan gives tours every day of the month, and the late light is the best argument we have.",
+    "heading": "Say your vows *with October on the mountain.*",
+    "body": "Autumn brings color to the trees beyond our ceremony field. We host weddings from May through October. Come see the view of Pleasant Mountain as you consider a season.",
     "image": "barn-october",
     "alt": "The barn across the lawn in early October, trees turning along the tree line"
   },
   "evening": {
-    "heading": "Evenings on the ridge",
-    "body": "String lights on the patio, the stone circle in the field, and the sun going down behind the barn.",
+    "heading": "Step out into the evening.",
+    "body": "Sit beside each other in the stone seating circle or catch up with family on the patio. String lights hang outside the barn.",
     "image": "barn-night",
     "alt": "The barn at night, windows lit, French doors open onto the patio"
   },
-  "proof_heading": "Open since August",
+  "proof_heading": "Before you choose a venue",
   "proof": [
     {
-      "date": "August 16, 2026",
-      "title": "Open house",
-      "body": "Tours of the barn and the ell, with the High Street Jazz Band playing inside.",
-      "href": ""
+      "date": "",
+      "title": "Walk through the barn",
+      "body": "A private tour lets you see the rooms and ceremony field before choosing a date. Contact Susan to arrange a visit.",
+      "href": "/inquire/"
     },
     {
-      "date": "September 8, 2026",
-      "title": "Ribbon cutting",
-      "body": "The Maine Lakes Chamber of Commerce, filmed by Lakes Region TV.",
-      "href": "https://www.youtube.com/watch?v=bwpAuoFhddQ"
+      "date": "",
+      "title": "Plan around your budget",
+      "body": "Tables and chairs are included. Ask for our pricing brochure so you can compare the rental with the rest of your wedding plans.",
+      "href": "/pricing/"
     },
     {
-      "date": "July 2026",
-      "title": "Occupancy approved",
-      "body": "Town of Bridgton. 135 guests, May through October.",
-      "href": ""
+      "date": "",
+      "title": "Meet your hosts",
+      "body": "We're Susan and Richard. We restored the family barn, and we're on site at events.",
+      "href": "/our-story/"
     }
   ],
   "story_teaser": {
-    "heading": "Susan and Richard",
-    "body": "They spend the season here and the winter in California. They give every tour themselves, and they are at every event.",
+    "heading": "The boards we saved. *The farm we share.*",
+    "body": "Susan's family has kept this farm since 1941. When we restored the barn, we kept its old boards and added the house windows. Now we welcome other families to celebrate here.",
     "href": "/our-story/",
     "link": "Our story",
     "image": "susan-richard",
     "alt": "Susan and Richard Voth at the barn door"
   },
   "closing": {
-    "heading": "Stand in the field. *Then decide.*",
-    "body": "A tour takes an hour with the people who own the farm. You will see the barn, the ell and the field, and leave with the pricing brochure and the open Sundays.",
+    "heading": "Stand in the field. *Look toward the mountain.*",
+    "body": "No date yet? Come for a private tour. Contact Susan to schedule a visit or ask for our pricing brochure.",
     "cta": "Schedule a tour",
     "cta_href": "/inquire/"
   },
-  "included_heading": "One couple. One Sunday. The whole farm.",
-  "paths_heading": "Three settings, *one Sunday*"
+  "included_heading": "What you can plan on",
+  "paths_heading": "Before the vows. After the ceremony."
 }

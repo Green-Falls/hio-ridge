@@ -1,11 +1,11 @@
 {
   "title": "Privacy | R&SVP – Hio Ridge",
-  "description": "What R&SVP – Hio Ridge does with the information you send through the inquiry form.",
+  "description": "How we handle information you share when asking about a wedding, event or tour at R&SVP – Hio Ridge. Contact Susan with privacy questions.",
   "heading": "Privacy",
   "body": [
-    "This site is run by Richard and Susan Voth, R&SVP – Hio Ridge, 437 Hio Ridge Road, Bridgton, Maine 04009.",
-    "When you send the inquiry form, we receive your name, email address, phone number if you give it, your event date and details, and your message. We use them to reply to you and to plan your tour or event. The form is handled by our hosting company, Netlify, which stores submissions so we do not lose them. We do not sell or share your information. [CONFIRM: hosting provider at launch]",
-    "This site does not use advertising cookies. [CONFIRM: analytics tool, if any]",
-    "To ask what we hold about you or to have it deleted, email Susan@437hioridge.events."
+    "When you ask about a wedding or a tour, you share a little about your plans with us. We're Susan and Richard Voth of R&SVP – Hio Ridge, at 437 Hio Ridge Road, Bridgton, Maine 04009. This page explains how we handle that information.",
+    "[CONFIRM: the form collects your name, email, optional phone number, event type, preferred month and message. We use these details to reply and help plan your tour or event. Confirm every field, who can access submissions, how long we keep them and whether anyone else receives them.] [CONFIRM: hosting provider at launch]",
+    "[CONFIRM: analytics tool, if any] [CONFIRM: cookies and other tracking used by the live site]",
+    "Email Susan@437hioridge.events with a privacy question. [CONFIRM: how Susan will handle requests to see or delete inquiry information]"
   ]
 }

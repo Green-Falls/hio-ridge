@@ -1,11 +1,11 @@
 {
   "title": "Photos | R&SVP – Hio Ridge, Bridgton, Maine",
-  "description": "Photographs of the barn, the ell, the field and the patio at Hio Ridge in Bridgton, Maine, through the seasons. Weddings and events, May through October.",
-  "heading": "The farm through the year",
-  "lede": "Every photograph here was taken on the property by Susan. The first couples' photographs arrive with the first couples.",
+  "description": "Picture your wedding at Hio Ridge in Bridgton, Maine. Explore photographs of our barn and getting ready rooms, the ceremony field and the patio.",
+  "heading": "From the dressing room *to the evening lights.*",
+  "lede": "See the rooms where you'll get ready and the tables beneath the barn beams. Then look outside to the ceremony field and patio. These photographs show our spaces and gatherings at the farm. Our event season runs from May through October.",
   "groups": [
     {
-      "heading": "The barn",
+      "heading": "Dinner under the beams",
       "photos": [
         [
           "barn-interior",
@@ -42,7 +42,7 @@
       ]
     },
     {
-      "heading": "The ell",
+      "heading": "Getting ready in the ell",
       "photos": [
         [
           "dress",
@@ -75,7 +75,7 @@
       ]
     },
     {
-      "heading": "The field and the patio",
+      "heading": "Vows in the field",
       "photos": [
         [
           "ceremony-field",
@@ -112,7 +112,7 @@
       ]
     },
     {
-      "heading": "The seasons",
+      "heading": "Evening light and autumn color",
       "photos": [
         [
           "barn-october",
@@ -150,8 +150,8 @@
     }
   ],
   "closing": {
-    "heading": "Photographs only go so far",
-    "body": "The light in the barn at five o'clock on a Sunday is the thing to see. Come stand in it.",
+    "heading": "See how it all connects.",
+    "body": "A private tour lets you walk from the getting ready rooms to the ceremony field and back to the barn. Contact Susan to arrange a visit.",
     "cta": "Schedule a tour",
     "cta_href": "/inquire/"
   }

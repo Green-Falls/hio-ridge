@@ -1,7 +1,7 @@
 {
   "name": "R&SVP – Hio Ridge",
   "short_name": "Hio Ridge",
-  "tagline": "A restored 1820 barn venue on 22 acres in Bridgton, Maine",
+  "tagline": "Sunday weddings on our family farm in Bridgton, Maine",
   "url": "https://437hioridge.events",
   "phone": "207.400.6353",
   "phone_tel": "+12074006353",
@@ -17,7 +17,7 @@
     "lat": "",
     "lng": ""
   },
-  "hosts": "Susan Bobbitt-Voth and Richard Voth",
+  "hosts": "Susan and Richard Voth",
   "capacity": 135,
   "acres": 22,
   "season": "May through October",
@@ -31,11 +31,11 @@
   },
   "announcement": {
     "enabled": true,
-    "text": "Now booking 2027. Tours in October.",
+    "text": "Now booking 2027. Contact Susan to schedule a tour.",
     "link": "/inquire/"
   },
-  "inquiry_email_note": "Susan replies by email or text, usually within a few days.",
-  "footer_line": "A family venue on the Voth farm, Hio Ridge Road, Bridgton, Maine.",
+  "inquiry_email_note": "Contact Susan for a private tour, pricing brochure or available dates.",
+  "footer_line": "Sunday weddings and gatherings on our family farm in Bridgton, Maine.",
   "legal_name": "Richard & Susan Voth Properties",
   "booking_window": "2027",
   "privacy_page": "/privacy/"

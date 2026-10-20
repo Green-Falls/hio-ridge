@@ -1,59 +1,59 @@
 {
   "title": "The Barn | R&SVP – Hio Ridge, Bridgton, Maine",
-  "description": "Inside the restored 1820 barn at Hio Ridge: main floor and loft for 135 guests, bridal and groom rooms, a prep kitchen, a patio and a ceremony field.",
-  "heading": "The Barn",
-  "lede": "Raised in 1820. Taken down to its frame in 2020 and put back together with its own boards and the windows from the house. Yours for the day, with the tables and chairs.",
+  "description": "Explore our barn wedding venue in Bridgton, Maine. Original 1820 beams, rooms for getting ready and a field facing Pleasant Mountain. Up to 135 guests.",
+  "heading": "Take your seat *beneath the 1820 beams.*",
+  "lede": "From the head table, look out through the French doors toward the field. Above the main floor, the loft has more dining space among the old timbers. Explore the rooms below, then talk with Susan about an arrangement for your guests.",
   "hero_image": "barn-aisle",
   "hero_alt": "Looking down the barn toward the French doors, a chandelier overhead and the loft rail on both sides",
   "spaces": [
     {
-      "title": "The main floor",
-      "body": "Ceremony seating for your guests, or dining at 6-foot and 8-foot tables or 5-foot rounds. We have tried the layouts: rows for a ceremony, long tables down the length of the barn, or rounds with room to move. The main floor opens through French doors onto the patio.",
+      "title": "Dinner on the main floor",
+      "body": "Our French doors open from the main floor onto the patio. Choose long tables or rounds for dinner beneath the beams. We include tables and chairs with rental.",
       "image": "barn-interior",
       "alt": "The main floor of the barn, timber posts and beams, chandeliers, loft rail above"
     },
     {
-      "title": "The loft",
-      "body": "A second level with its own dining space, looking down into the barn. Upstairs dining seats 20 on one side and 18 on the other.",
+      "title": "A table in the loft",
+      "body": "Our loft offers dining space among the old timbers, overlooking the main floor. Ask Susan about seating and access before deciding who sits upstairs.",
       "image": "barn-loft",
       "alt": "The loft of the barn, roof structure and reclaimed windows, a doorway at the end"
     },
     {
-      "title": "The bridal room",
-      "body": "In the ell, off the hallway with its original celestial window. Sheer curtains, a vanity, an arched mirror, a chandelier, and a hook made for your wedding dress.",
+      "title": "Getting ready in the bridal room",
+      "body": "Your dress has its own hook beside the vanity and arched mirror. The bridal room is in the ell, the building beside the barn, with space to get ready with your wedding party.",
       "image": "bridal-room",
       "alt": "The bridal room with sheer curtains, a vanity and an arched mirror"
     },
     {
-      "title": "The groom's room",
-      "body": "A second room in the ell for the groom and groomsmen, with a mirror and a bench made from the barn's old beams.",
+      "title": "A room for the groom's party",
+      "body": "Take a moment with your wedding party before the ceremony. We have a separate groom's room in the ell, with a mirror and benches.",
       "image": "groom-room",
       "alt": "The groom's room, white walls, exposed beams, a wood bench and a window"
     },
     {
-      "title": "The prep kitchen",
-      "body": "A kitchen for your caterer, with barn doors on the open sides that close for privacy while they finish the meal. Outside caterers are welcome. [CONFIRM: any caterer requirements]",
+      "title": "A kitchen for your caterer",
+      "body": "Share the meal you've chosen with your guests. Our prep kitchen gives your outside caterer a place for the finishing touches, with barn doors they can close while they work. [CONFIRM: any caterer requirements]",
       "image": "prep-kitchen",
       "alt": "The prep kitchen: white cabinets, stainless appliances, barn doors on the open side"
     },
     {
-      "title": "The patio and the grounds",
-      "body": "A paved patio off the barn with room for nine tables and 72 seats, string lights for the evening, and a paved path around the barn. Two 12-foot stone planters and a seating circle were built from rocks that sat under the barn since 1820. Beyond them, the ceremony field looks at Pleasant Mountain.",
+      "title": "Conversations on the patio",
+      "body": "Step outside to catch up with someone you haven't seen in a while. Our patio has evening string lights and a paved path around the barn. Nearby, the stone planters and seating circle use rocks from beneath the old barn.",
       "image": "patio-rock-garden",
       "alt": "The patio, a stone planter and the boulder seating circle, birches behind"
     },
     {
-      "title": "The ceremony field",
-      "body": "Benches made from the barn's original floorboards, set in the field. An arbor made from the barn's posts and beams is planned. [CONFIRM: arbor built]",
+      "title": "Vows facing Pleasant Mountain",
+      "body": "See your guests waiting on the benches as you approach. Our ceremony field faces Pleasant Mountain. We made the benches from old barn floorboards. [CONFIRM: arbor built]",
       "image": "ceremony-field-2",
       "alt": "Benches in the field, birches at the edge, the barn in the distance"
     }
   ],
-  "facts_heading": "Good to know",
+  "facts_heading": "Space for your guests",
   "facts": [
     {
       "label": "Capacity",
-      "value": "135 guests"
+      "value": "Up to 135 guests per event. Ask about seating for your layout"
     },
     {
       "label": "Season",
@@ -65,7 +65,7 @@
     },
     {
       "label": "Included",
-      "value": "Tables and chairs. 6-foot and 8-foot tables and 5-foot rounds"
+      "value": "Tables and chairs, with long and round table options"
     },
     {
       "label": "Parking",
@@ -77,7 +77,7 @@
     },
     {
       "label": "Alcohol",
-      "value": "An alcohol-free, family friendly venue. No alcohol, cannabis or smoking at events"
+      "value": "No alcohol, cannabis or smoking at events"
     },
     {
       "label": "Catering",
@@ -89,38 +89,38 @@
     }
   ],
   "closing": {
-    "heading": "The beams are better in the room",
-    "body": "Tours by appointment, any day but Saturday. Susan walks you through all of it.",
+    "heading": "See the rooms, then plan the seating.",
+    "body": "See how the spaces connect and talk through where your guests would sit. Contact Susan to schedule a tour.",
     "cta": "Schedule a tour",
     "cta_href": "/inquire/"
   },
   "seating": {
-    "heading": "Three ways to seat 135",
-    "intro": "Susan has set the room every way a couple has asked. Pick a layout and see it.",
+    "heading": "Plan where everyone will sit.",
+    "intro": "These arrangements show different ways to use the barn and patio. Our total event capacity is 135. Ask Susan which combination of spaces works for your guest count, including an indoor plan for wet weather.",
     "layouts": [
       {
         "label": "Ceremony",
         "image": "ceremony-rows",
         "alt": "Ceremony rows on the main floor facing the French doors",
-        "body": "Rows on the main floor facing the doors, with the loft looking down. The rain plan, and some couples' first choice."
+        "body": "We've arranged ceremony rows on the main floor facing the French doors. Ask Susan how this setup would work with your reception."
       },
       {
         "label": "Round tables",
         "image": "rounds-main-floor",
         "alt": "Round tables on the main floor",
-        "body": "Five-foot rounds downstairs, 44 to 46 seats, with the loft seating the rest. Room to dance in the middle."
+        "body": "This downstairs arrangement seats 44 to 46, using five round tables and one rectangle. Ask Susan about the full dining layout for your group."
       },
       {
         "label": "Long tables",
         "image": "head-table",
         "alt": "The head table set at the open French doors",
-        "body": "Six- and eight-foot tables down the length of the barn, the head table at the open doors."
+        "body": "Seat your guests along tables measuring 6 or 8 feet long. The head table shown here sits at the French doors."
       },
       {
         "label": "The patio",
         "image": "barn-patio",
         "alt": "Round tables on the patio beside the barn",
-        "body": "Nine tables and 72 seats outside, with the string lights for the evening."
+        "body": "This patio arrangement seats 72 at nine tables. Discuss an indoor alternative with Susan before planning dinner outside."
       }
     ]
   }
