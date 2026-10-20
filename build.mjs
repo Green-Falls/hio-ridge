@@ -45,7 +45,7 @@ const BLANK = "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAI
 
 const esc = (s) => String(s ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 // Typographic care: curly quotes and apostrophes in running text. Content is written with straight marks.
-const typo = (s) => esc(s).replace(/(\w)'(\w)/g, "$1’$2").replace(/'(\d\d)/g, "’$1").replace(/"([^"]*)"/g, "“$1”").replace(/(^|\s)'/g, "$1‘").replace(/'/g, "’");
+const typo = (s) => esc(s).replace(/\*([^*]+)\*/g, "<em>$1</em>").replace(/(\w)'(\w)/g, "$1’$2").replace(/'(\d\d)/g, "’$1").replace(/"([^"]*)"/g, "“$1”").replace(/(^|\s)'/g, "$1‘").replace(/'/g, "’");
 const paras = (arr) => arr.map((p) => `<p>${typo(p)}</p>`).join("\n");
 const addr = `${SITE.address.street}, ${SITE.address.city}, ${SITE.address.state} ${SITE.address.zip}`;
 
@@ -85,12 +85,12 @@ ${PREVIEW || noindex ? '<meta name="robots" content="noindex, nofollow">' : ""}
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="${IMAGES[ogImage] ? IMAGES[ogImage].renditions.find((r) => r[0] === 1200 && r[1] === "jpg")?.[3] ?? 900 : 900}">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="theme-color" content="#ffffff">
+<meta name="theme-color" content="#FBF8F3">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="icon" href="/favicon.png" sizes="48x48">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-<link rel="preload" href="/fonts/caslon-400.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/fonts/plex-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/cormorant-300.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/jost-400.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/styles.css">
 <script>document.documentElement.className+=" js"</script>
 <script type="application/ld+json">${JSON.stringify(jsonld)}</script>
@@ -197,16 +197,15 @@ ${bar("/")}
 <main id="main">
 <section class="hero">
 ${picture(h.image, { eager: true, alt: h.alt, sizes: "100vw", cls: "hero-pic" })}
+<div class="hero-text"><div class="wrap"><h1>${typo(h.headline)}</h1><div class="hero-cta"><a class="btn btn-paper" href="${esc(h.cta_href)}">${typo(h.cta)}</a><span class="it">${typo(h.line)}</span></div></div></div>
 </section>
-<div class="hero-text"><div class="wrap"><h1>${typo(h.headline)}</h1><div class="hero-cta"><a class="btn" href="${esc(h.cta_href)}">${typo(h.cta)}</a><span class="it">${typo(h.line)}</span></div></div></div>
-</section>
-<div class="wrap"><ul class="facts">${h.facts.map((f) => `<li><strong>${esc(f.value)}</strong> ${esc(f.label)}</li>`).join("")}${SITE.announcement?.enabled ? `<li><a href="${esc(SITE.announcement.link || "/inquire/")}"><strong>${typo(SITE.announcement.text)}</strong></a></li>` : ""}</ul></div>
-${section("sec-linen", `<div class="statement"><div><span class="amp-big" aria-hidden="true">&amp;</span><h2 class="reveal">${typo(p.statement.quote)}</h2><p class="small">${typo(p.statement.who)}</p></div><figure class="arch">${picture("dress", { alt: "A wedding dress on the hook in the bridal room", sizes: "(min-width: 48em) 40vw, 100vw" })}</figure></div>`)}
-${section("intro", splitRow(p.intro, 0))}
-${section("paths", `<ul class="paths-list">${p.paths.map((x) => `<li><a href="${esc(x.href)}">${picture(x.image, { alt: x.alt, sizes: "(min-width: 48em) 33vw, 100vw" })}<h2>${typo(x.title)}</h2><p>${typo(x.body)}</p><span class="more"><span>${typo(x.link || "See " + x.title.toLowerCase())}</span><span aria-hidden="true">&rarr;</span></span></a></li>`).join("")}</ul>`)}
-${section("sec-moss", `<div class="split split-wide"><div class="split-text"><h2 class="reveal">${typo(p.included_heading)}</h2><p>${typo(PAGES.pricing.compare)}</p><p><a class="btn btn-paper" href="/pricing/">See pricing and what is included</a></p></div><figure>${picture("head-table", { alt: "The head table set at the open French doors, the patio and field beyond", sizes: "(min-width: 48em) 55vw, 100vw" })}</figure></div>`)}
+<div class="facts-band"><div class="wrap"><ul class="facts">${h.facts.map((f) => `<li><strong>${esc(f.value)}</strong><span>${esc(f.label)}</span></li>`).join("")}</ul></div></div>
+${section("sec-cream", splitRow(p.intro, 0, { sizes: "(min-width: 48em) 45vw, 100vw" }))}
+${section("paths", `<div class="paths-head"><h2 class="reveal">${typo(p.paths_heading)}</h2></div><ul class="paths-list">${p.paths.map((x) => `<li><a href="${esc(x.href)}">${picture(x.image, { alt: x.alt, sizes: "(min-width: 48em) 33vw, 100vw" })}<h2>${typo(x.title)}</h2><p>${typo(x.body)}</p><span class="more"><span>${typo(x.link || "See " + x.title.toLowerCase())}</span><span aria-hidden="true">&rarr;</span></span></a></li>`).join("")}</ul>`)}
+${section("sec-cream", `<div class="quote"><span class="amp-big" aria-hidden="true">&amp;</span><p>${typo(p.statement.quote)}</p><span class="small">${typo(p.statement.who)}</span></div>`)}
+${section("sec-moss", `<div class="split split-wide"><div class="split-text"><h2 class="reveal">${typo(p.included_heading)}</h2><p>${typo(PAGES.pricing.compare)}</p><p><a class="btn btn-paper" href="/pricing/">See pricing and what is included</a></p></div><figure>${picture("barn-aisle", { alt: "Looking down the barn to the French doors, a chandelier overhead", sizes: "(min-width: 48em) 55vw, 100vw" })}</figure></div>`)}
 <figure class="photo-band">${picture("barn-october", { alt: p.setting.alt, sizes: "100vw" })}</figure>
-${section("setting", `<div class="narrow"><h2 class="reveal">${typo(p.setting.heading)}</h2><p>${typo(p.setting.body)}</p></div>`)}
+${section("sec-centered", `<div class="narrow"><h2 class="reveal">${typo(p.setting.heading)}</h2><p>${typo(p.setting.body)}</p></div>`)}
 ${section("proof", `<h2 class="reveal">${typo(p.proof_heading)}</h2><ul class="proof">${p.proof.map((x) => `<li><span class="small">${typo(x.date)}</span><h3>${x.href ? `<a href="${esc(x.href)}" rel="noopener">${typo(x.title)}</a>` : typo(x.title)}</h3><p>${typo(x.body)}</p></li>`).join("")}</ul>`)}
 ${section("teaser", splitRow(p.story_teaser, 1, { sizes: "(min-width: 48em) 40vw, 100vw" }))}
 ${closing(p.closing)}

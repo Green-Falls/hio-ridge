@@ -22,6 +22,18 @@ A running record. Newest entries at the bottom. One entry per decision or pass, 
 - Brief and guardrails: `docs/00-brief.md`. Photo picks: `docs/photo-shortlist.md`.
 - Source: `content/*.json`, `build.mjs`, `src/`. Output: `dist/`. QA: `qa/`.
 
+## Round 6: the layout rebuilt to the reference, October 20
+
+Mike: "so even after the research our site layout is pretty bad. what are you doing to fix that". Seventeen venue sites captured in all; William Allen Farm (Pownal) is the primary lock, Silver Oaks and Garden Gate secondary (`docs/research/references-2026-10.md`).
+- **Canvas:** linen #FBF8F3 is the page, cream #F3EDE4 the alternate band, fir #233B2F the facts band, included band, buttons and footer. The pure-white rule from Generation Maine is reversed for this category: every strong wedding site here is off-white. Blush retired.
+- **Type:** Cormorant Garamond light (300, 300 italic, 500) for display, Jost (400, 500) for body, buttons and labels. 82KB for five files, metric-matched fallbacks measured. Caslon and Plex retired. One italic phrase per headline, written as `*phrase*` in the content; the pattern is the house style of the category, not an AI tell, when it carries the second half of a thought.
+- **Hero:** the headline back on the photograph, lower-left, 84px light, one white button, one italic line, under a scrim measured at 5.6:1 desktop and 5.8:1 phone (`qa/hero-scrim.mjs`, now measuring only the text over the photo).
+- **Facts band:** four numbers on fir in Cormorant with small tracked labels under them (stat labels under numbers, not eyebrows above headings).
+- **Order:** hero, facts band, intro on cream with the head table at 4:5 and "See the wedding day", "Three settings, one Sunday" at 4:5 (the field, the barn, the ell with the dress), Susan's line as the centered quote on cream with the one gold ampersand, the included band on fir, October full bleed, proof, Susan and Richard, closing on fir.
+- **Buttons and links:** tracked uppercase Jost at 13px, the category's convention; the paths' link rows became underlined uppercase links.
+- **Photos:** the Weddings hero is the benches in evening light instead of the bare field; the included band shows the aisle instead of repeating the head table.
+- Set aside: a cream bar over the hero (the bar stays on linen above the photo, as the reference); a second hero button ("Get the wedding guide" needs the brochure first); testimonials (none yet).
+
 ## Round 5: components, bride research, copy, October 19
 
 Mike: "look at refero and 21st dev to find better components that are much better UX? Copy is still too literal and not aspiring enough. research what brides are looking for in their venues."

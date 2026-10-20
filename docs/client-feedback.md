@@ -51,3 +51,9 @@ What changed (round 4): the method. Eight reference sites captured and measured,
 Mike: "can you look at refero and 21st dev to find better components that are much better UX? Copy is still too literal and not aspiring enough. research what brides are looking for in their venues."
 
 What changed (round 5): a Photos page with a lightbox, a seating viewer on The Barn, a month picker on the form, the nav reordered for brides, the FAQ extended from the tour checklists, and the copy rewritten to moments rather than facts. Research in `docs/research/brides-2026-10.md`; the 21st.dev and Refero notes in the decision record.
+
+## October 20, after round 5
+
+Mike: "we're still missing the mark on a lot of areas. tell me about other competitor websites and their aesthetic" and then "so even after the research our site layout is pretty bad. what are you doing to fix that".
+
+What changed (round 6): the layout rebuilt to the William Allen Farm lock. Linen page, Cormorant Garamond with an italic phrase, Jost, the headline back on the photo under a measured scrim, a fir facts band, three 4:5 settings, Susan's line as the quote block. The pure-white rule reversed. Six more competitor captures in `qa/refs3/`.

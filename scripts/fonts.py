@@ -18,12 +18,14 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CLONE = sys.argv[1] if len(sys.argv) > 1 else '/tmp/google-fonts'
 OUT = os.path.join(ROOT, 'src/fonts')
 os.makedirs(OUT, exist_ok=True)
+# Round 6: Cormorant Garamond (display) and Jost (body), the pairing the category reads as bridal
+# (reference lock: William Allen Farm). Caslon and Plex are gone.
 JOBS = [
-    ('librecaslontext/LibreCaslonText[wght].ttf', 'caslon-400', {'wght': 400}, 'OFL-LibreCaslonText.txt'),
-    ('librecaslontext/LibreCaslonText[wght].ttf', 'caslon-700', {'wght': 700}, None),
-    ('librecaslontext/LibreCaslonText-Italic[wght].ttf', 'caslon-400i', {'wght': 400}, None),
-    ('ibmplexsans/IBMPlexSans[wdth,wght].ttf', 'plex-400', {'wght': 400, 'wdth': 100}, 'OFL-IBMPlexSans.txt'),
-    ('ibmplexsans/IBMPlexSans[wdth,wght].ttf', 'plex-600', {'wght': 600, 'wdth': 100}, None),
+    ('cormorantgaramond/CormorantGaramond[wght].ttf', 'cormorant-300', {'wght': 300}, 'OFL-CormorantGaramond.txt'),
+    ('cormorantgaramond/CormorantGaramond[wght].ttf', 'cormorant-500', {'wght': 500}, None),
+    ('cormorantgaramond/CormorantGaramond-Italic[wght].ttf', 'cormorant-300i', {'wght': 300}, None),
+    ('jost/Jost[wght].ttf', 'jost-400', {'wght': 400}, 'OFL-Jost.txt'),
+    ('jost/Jost[wght].ttf', 'jost-500', {'wght': 500}, None),
 ]
 UNICODES = 'U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD'
 SAMPLE = "the quick brown fox jumps over the lazy dog and runs away, 1820 Hio Ridge Road Bridgton Maine"
@@ -35,7 +37,7 @@ def metrics(path):
 
 for src, name, loc, lic in JOBS:
     srcp = os.path.join(CLONE, 'ofl', src)
-    if not os.path.exists(srcp): sys.exit(f'missing {srcp}: run fonts_fetch.sh librecaslontext ibmplexsans first')
+    if not os.path.exists(srcp): sys.exit(f'missing {srcp}: fetch the ofl/<family> folder from github.com/google/fonts into the clone first')
     inst = instancer.instantiateVariableFont(TTFont(srcp), loc)
     tmp = f'{OUT}/{name}.ttf'; inst.save(tmp)
     opts = subset.Options(); opts.flavor = 'woff2'; opts.layout_features = ['kern', 'liga', 'tnum', 'pnum', 'lnum', 'onum', 'calt', 'case', 'ss01']; opts.name_IDs = ['*']; opts.notdef_outline = True

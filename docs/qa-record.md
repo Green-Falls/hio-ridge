@@ -4,6 +4,19 @@ One section per audit pass. Each finding is one bullet: what was wrong, how it w
 
 Harness: `node qa/measure.mjs dist/index.html --viewports 320x568,375x667,390x844,430x932,844x390,768x1024,1280x650,1440x900`, `node qa/contrast.mjs`, `python3 qa/copy_check.py`, axe at 375 and 1440, three mobile Lighthouse runs. Every pass records the build stamp it measured.
 
+## Round 6, layout rebuild, October 20, 2026
+
+Measured: `run-qa.mjs` on 11 pages at 375/768/1440; `hero-scrim.mjs` (now measuring the headline and the line only, since the bar no longer sits over the photo); `contrast.mjs` on the home and Weddings pages; three mobile Lighthouse runs.
+
+Found and fixed:
+- First scrim too light for the brightest-pixel rule: headline 1.4:1 at 1440 (the lit kitchen doorway and the chandeliers sat behind the text box). Scrim deepened and extended; photo shifted to 50% 62%. Now 5.58:1 at 1440×900, 5.77:1 at 390×844, 4.96:1 at 1280×650; the line 10.6 to 12.8:1.
+- The lockup's HIO RIDGE line, the facts labels and the quote attribution were 11px. All 13px.
+- The footer "Home" link was 43px wide. Footer links get a 44px minimum width.
+- Lighthouse accessibility 95: the quote attribution in muted on cream missed 4.5:1. Muted darkened to #6B625A (5.3:1 on cream, 6.4:1 on linen).
+- The head table photo appeared twice on the home page. The included band shows the aisle.
+
+Measured, passing: `run-qa.mjs` 0 problems on 11 pages; `contrast.mjs` 0 under target on both pages; Lighthouse mobile 99 to 100 performance, LCP 2.1s, TBT 0, CLS 0.023 (the Cormorant swap on the hero headline; under the 0.1 threshold, recorded).
+
 ## Round 5, Photos page, seating viewer, month picker, copy, October 19, 2026
 
 Measured: `run-qa.mjs` on all 11 pages at 375/768/1440.

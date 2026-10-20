@@ -4,70 +4,72 @@
   "hero": {
     "image": "barn-interior",
     "alt": "Inside the barn at Hio Ridge in the evening: the timber frame, chandeliers, and the loft rail",
-    "headline": "Vows in front of the mountain. Dinner under the beams.",
-    "line": "A Sunday wedding on a family farm in Bridgton, Maine.",
+    "headline": "Vows in front of the mountain. *Dinner under the beams.*",
+    "line": "A Sunday wedding on a family farm in Bridgton, Maine",
     "cta": "Schedule a tour",
     "cta_href": "/inquire/",
     "facts": [
       {
-        "value": "Ceremony and reception",
-        "label": "on one farm"
-      },
-      {
         "value": "135",
         "label": "guests"
+      },
+      {
+        "value": "22",
+        "label": "acres"
       },
       {
         "value": "Sundays",
         "label": "May through October"
       },
       {
-        "value": "Pricing",
-        "label": "sent the same day"
+        "value": "1820",
+        "label": "the barn was raised"
       }
     ]
   },
   "statement": {
     "quote": "Hang your dress on the hook. The rest of the day is ours to worry about.",
-    "who": "Susan, who lives up the road and gives every tour herself"
+    "who": "Susan, who gives every tour herself"
   },
   "intro": {
-    "heading": "Four generations have kept this farm. For one Sunday, it keeps you.",
+    "heading": "Four generations have kept this farm. *For one Sunday, it keeps you.*",
     "body": [
       "Susan's great-grandparents bought the land in 1941. In 2020 she and Richard took the 1820 barn down to its frame and rebuilt it from its own boards, with the windows from the house.",
       "It seats 135 under the beams. The ell beside it has a room for the bride and a room for the groom. The field in front faces Pleasant Mountain."
     ],
-    "image": "barn-aisle",
-    "alt": "Looking down the barn toward the French doors, a chandelier overhead"
+    "image": "head-table",
+    "alt": "The head table set at the open French doors, the field beyond",
+    "href": "/weddings/",
+    "link": "See the wedding day"
   },
   "paths": [
     {
-      "title": "Weddings",
-      "body": "Vows facing the mountain, dinner under the beams, and dancing until the string lights come on.",
+      "title": "The field",
+      "body": "Vows facing Pleasant Mountain, on benches cut from the barn's old floorboards.",
       "href": "/weddings/",
-      "image": "ceremony-field",
-      "alt": "Benches made from the barn's old floorboards, set in the field among birches",
-      "link": "Plan your wedding"
+      "image": "field-benches-evening",
+      "alt": "Benches in the field and the farmhouse in evening light",
+      "link": "The wedding day"
     },
     {
-      "title": "The Barn",
-      "body": "Rebuilt from its own boards. 135 seats, a loft, two getting-ready rooms, a kitchen for your caterer, the patio.",
+      "title": "The barn",
+      "body": "Dinner and dancing for 135 under beams raised in 1820, the French doors open to the patio.",
       "href": "/the-barn/",
-      "image": "bridal-room",
-      "alt": "The bridal room: sheer curtains, a vanity, an arched mirror and a round rug",
+      "image": "barn-interior",
+      "alt": "Inside the barn in the evening, chandeliers and the loft rail",
       "link": "See the barn"
     },
     {
-      "title": "Photos",
-      "body": "The barn, the ell, the field and the patio, through the seasons.",
+      "title": "The ell",
+      "body": "A room for the bride and a room for the groom, with a hook made for the dress.",
       "href": "/photos/",
-      "image": "field-benches-evening",
-      "alt": "Benches in the field and the farmhouse in evening light",
+      "image": "dress",
+      "alt": "A wedding dress on the hook in the bridal room",
       "link": "See the photos"
     }
   ],
   "setting": {
-    "heading": "Come in October, when the color comes down to the barn door",
+    "heading": "Come in October, *when the color comes down to the barn door*",
     "body": "The field looks straight at Pleasant Mountain. Susan gives tours every day of the month, and the late light is the best argument we have.",
     "image": "barn-october",
     "alt": "The barn across the lawn in early October, trees turning along the tree line"
@@ -108,10 +110,11 @@
     "alt": "Susan and Richard Voth at the barn door"
   },
   "closing": {
-    "heading": "Stand in the field. Then decide.",
+    "heading": "Stand in the field. *Then decide.*",
     "body": "A tour takes an hour with the people who own the farm. You will see the barn, the ell and the field, and leave with the pricing brochure and the open Sundays.",
     "cta": "Schedule a tour",
     "cta_href": "/inquire/"
   },
-  "included_heading": "One couple. One Sunday. The whole farm."
+  "included_heading": "One couple. One Sunday. The whole farm.",
+  "paths_heading": "Three settings, *one Sunday*"
 }

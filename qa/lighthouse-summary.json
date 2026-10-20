@@ -2,34 +2,34 @@
   {
     "run": 1,
     "performance": 99,
-    "accessibility": 100,
+    "accessibility": 95,
     "bestPractices": 100,
     "seo": 100,
-    "fcp": "1.2 s",
-    "lcp": "2.0 s",
+    "fcp": "1.4 s",
+    "lcp": "2.1 s",
     "tbt": "0 ms",
-    "cls": "0"
+    "cls": "0.023"
   },
   {
     "run": 2,
-    "performance": 100,
-    "accessibility": 100,
+    "performance": 99,
+    "accessibility": 95,
     "bestPractices": 100,
     "seo": 100,
-    "fcp": "0.8 s",
-    "lcp": "1.9 s",
+    "fcp": "1.4 s",
+    "lcp": "2.1 s",
     "tbt": "0 ms",
-    "cls": "0"
+    "cls": "0.023"
   },
   {
     "run": 3,
-    "performance": 99,
-    "accessibility": 100,
+    "performance": 100,
+    "accessibility": 95,
     "bestPractices": 100,
     "seo": 100,
-    "fcp": "1.2 s",
-    "lcp": "2.0 s",
+    "fcp": "0.8 s",
+    "lcp": "1.5 s",
     "tbt": "0 ms",
-    "cls": "0"
+    "cls": "0.023"
   }
 ]

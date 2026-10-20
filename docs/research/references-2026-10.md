@@ -56,3 +56,19 @@ Tokens: ink #1A2420, paper #FFFFFF, moss (fir) #16342A, linen (blush) #F4E6E0, g
 ## What the references have that we cannot build yet
 - Photographs of a wedding: a couple, guests, flowers on the tables. Every strong reference opens on one. Susan has no wedding yet; the first booked couple's photographer, or a styled shoot (a florist, a dress shop, two hours in the barn), would change the site more than any design round. The brief's `[CONFIRM]` list gets this as item 19.
 - Line-drawn botanicals (Pippin Hill, Hidden Pond): the wreath logo is painted, not drawn, so it will not trace clean. A hand-drawn wreath from the logo's elements (rose, daisy, pine cone, bell) is a $300 to $500 illustration job, item 20.
+
+## Addendum, October 20: six more Maine venues, and the lock moved
+
+Captured in `qa/refs3/`: William Allen Farm (Pownal), The Barn at Silver Oaks Estate (Winthrop), Coolidge Family Farm (New Gloucester), Harmony Hill Farm (a working farm, not a venue), Caswell Farm and Livewell Farm (parked domains). With the round 2 set (Hardy Farm, Garden Gate, Granite Ridge, Bear Mountain Inn, King Hill, Noble House) that is 17 sites.
+
+| Site | Canvas | Display type | Headline | What carries it |
+|---|---|---|---|---|
+| William Allen Farm | linen #FBF8F3, cream, fir band | Cormorant Garamond 84px light, italic phrase | "Rustic elegance on a *historic Maine farm*" | the same plan as ours, with people in every photo, price on the page, two testimonials |
+| Silver Oaks | white | Cormorant, EB Garamond, tracked caps | "One of Maine's finest wedding venues" | 400 weddings of photography in collages |
+| King Hill | white, oxblood bar | tracked caps, script for one word | "Be a part of *history*" | film-look photography, script testimonial |
+| Garden Gate | white | Marcellus on the photo, terracotta pill | "Maine wedding barn and flower farm" | three photos: ceremony, barn, couple in the zinnias |
+| Coolidge | white, oxblood blocks | Proxima, script "Welcome" | | a Style Shoots nav item: how a new venue gets wedding photos |
+| Hardy Farm | white | Gotham, Georgia, brown | SEO sentence | photos and an availability calendar |
+| Bear Mountain Inn | white | Garamond 89px | "Welcome to Bear Mountain Inn + Barn" | award badges, a wedding photo per section |
+
+**Lock, round 6:** William Allen Farm primary. Preserve: linen page with a deeper cream band; fir band for the facts; Cormorant light at 84px with one italic phrase; the headline on the photograph under a light scrim; three 4:5 settings; quotes centered in italic. Borrow: Garden Gate's three-photo row logic; Coolidge's styled-shoot idea (for Susan, not the site). Reject: white page; Caslon; stat labels as eyebrows above headings; script fonts.

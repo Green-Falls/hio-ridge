@@ -13,9 +13,9 @@ for (const [w, h] of [[390, 844], [1440, 900], [1280, 650]]) {
   const page = await (await browser.newContext({ viewport: { width: w, height: h } })).newPage();
   await page.goto(base + '/', { waitUntil: 'networkidle' });
   await page.evaluate(() => document.fonts.ready);
-  const boxes = await page.evaluate(() => Object.fromEntries([['h1', '.hero h1'], ['line', '.hero-text p'], ['mark', '.mark'], ['nav', '.nav']].map(([k, s]) => { const el = document.querySelector(s); const b = el && el.getBoundingClientRect(); return [k, b && b.width ? { x: b.x, y: b.y, w: b.width, h: b.height } : null]; })));
+  const boxes = await page.evaluate(() => Object.fromEntries([['h1', '.hero h1'], ['line', '.hero-cta .it']].map(([k, s]) => { const el = document.querySelector(s); const b = el && el.getBoundingClientRect(); return [k, b && b.width ? { x: b.x, y: b.y, w: b.width, h: b.height } : null]; })));
   // Hide the text, screenshot what is behind it.
-  await page.addStyleTag({ content: '.hero h1, .hero-text p, .hero .btn, .mark, .nav, .btn-bar, .menu-btn { visibility: hidden !important; }' });
+  await page.addStyleTag({ content: '.hero h1, .hero-cta { visibility: hidden !important; }' });
   const buf = await page.screenshot({ type: 'png' });
   const png = PNG.parse(buf);
   const out = [];
