@@ -22,6 +22,13 @@ A running record. Newest entries at the bottom. One entry per decision or pass, 
 - Brief and guardrails: `docs/00-brief.md`. Photo picks: `docs/photo-shortlist.md`.
 - Source: `content/*.json`, `build.mjs`, `src/`. Output: `dist/`. QA: `qa/`.
 
+## Content rewrite by ChatGPT, merged, October 20
+
+Mike ran the content prompt (`docs/prompts/content-overhaul.md`) in ChatGPT. It pushed two commits to the old shared repository's `hio-ridge` branch; they were ported here as `content/chatgpt-overhaul` and, on Mike's call ("I want the whole rewrite"), merged into `main` whole.
+- Review, recorded for the next pass: the rewrite hedges several answers into "ask Susan" (rain plan, access window, music, capacity), adds four `[CONFIRM]` markers including a placeholder privacy page, drops the Sunday rationale, the 5-foot rounds, the Bridgton House history and the "No date yet?" close, and brings in a few taglines ("Raise a glass without a bar bill"). Its gains: the Weddings heading, the story section headings, the Photos group headings as moments, "Your first meal as a married couple".
+- The facts band now reads 135, 22, Sundays, One farm (was 1820).
+- The validator and the QA harness pass on the merged content; the hero scrim is unchanged.
+
 ## Round 6: the layout rebuilt to the reference, October 20
 
 Mike: "so even after the research our site layout is pretty bad. what are you doing to fix that". Seventeen venue sites captured in all; William Allen Farm (Pownal) is the primary lock, Silver Oaks and Garden Gate secondary (`docs/research/references-2026-10.md`).

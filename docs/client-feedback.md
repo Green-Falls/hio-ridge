@@ -57,3 +57,7 @@ What changed (round 5): a Photos page with a lightbox, a seating viewer on The B
 Mike: "we're still missing the mark on a lot of areas. tell me about other competitor websites and their aesthetic" and then "so even after the research our site layout is pretty bad. what are you doing to fix that".
 
 What changed (round 6): the layout rebuilt to the William Allen Farm lock. Linen page, Cormorant Garamond with an italic phrase, Jost, the headline back on the photo under a measured scrim, a fir facts band, three 4:5 settings, Susan's line as the quote block. The pure-white rule reversed. Six more competitor captures in `qa/refs3/`.
+
+## October 20, the ChatGPT rewrite
+
+Mike: "i want the whole rewrite but i'm also trying to get chatgpt to connect to the repo to preview and audit design." Merged whole; the reservations are in the decision record so the next copy pass starts from them. Preview on GitHub Pages waits on the Pages setting in the repository.
