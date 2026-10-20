@@ -1,31 +1,31 @@
 {
   "title": "Events, Retreats and Gatherings | R&SVP – Hio Ridge, Bridgton, Maine",
-  "description": "A barn on 22 acres in Bridgton, Maine, for showers, reunions, retreats, teas, small concerts, workshops and classes. Up to 135 guests. Tables and chairs included.",
-  "heading": "Pull up a chair. *There's plenty to catch up on.*",
-  "lede": "Gather the family around the barn tables for a reunion or shower. Step onto the patio between conversations. We host events for up to 135 guests, Sunday through Friday, May through October. Tables and chairs are included. Our events are alcohol free.",
+  "description": "Host a shower, reunion or retreat at R&SVP in Bridgton, Maine. Tables and chairs included. Sundays and weekdays, May through October. Ask Susan about your event.",
+  "heading": "Lunch in the barn. *An afternoon together.*",
+  "lede": "Our barn gives your family a place to sit down together, with a patio for catching up outside. We host private events on Sundays and weekdays, May through October. Our total event capacity is 135. Tables and chairs are included, and our events are alcohol free.",
   "hero_image": "barn-patio",
   "hero_alt": "The barn with round tables set on the patio, lawn in front",
-  "kinds_heading": "What brings you together",
+  "kinds_heading": "Host your own event",
   "kinds": [
     {
       "title": "Baby and wedding showers",
-      "body": "Set the round tables for the people closest to you. We welcome baby and wedding showers in the barn, with a patio outside."
+      "body": "The round tables give family and friends a place to sit together for a shower. We have a prep kitchen for your caterer and a patio beside the barn."
     },
     {
       "title": "Reunions and birthdays",
-      "body": "Share a meal with relatives you don't see often enough. We have room for gatherings of up to 135 guests and a prep kitchen for your caterer."
+      "body": "A birthday or reunion brings relatives back around the table. Tell Susan how many people you're inviting so you can discuss a seating arrangement and the rental rate."
     },
     {
       "title": "Retreats and company gatherings",
-      "body": "Meet in the barn, then take a break on the patio. We welcome women's retreats and company gatherings."
+      "body": "We welcome women's retreats and company gatherings in the barn. The patio offers a place to continue conversations between sessions. Contact Susan about your plans."
     },
     {
       "title": "Small concerts",
-      "body": "Hear music beneath the old beams. The High Street Jazz Band played at our open house. Contact Susan about hosting a small concert inside the barn."
+      "body": "The High Street Jazz Band played beneath the beams at our open house. We welcome inquiries about small concerts inside the barn. Susan can explain the sound limits before you book."
     },
     {
       "title": "Teas and workshops",
-      "body": "Bring friends around the tables for tea or a creative workshop. Tell Susan about the gathering you'd like to host."
+      "body": "We host teas and creative workshops around the barn tables. Contact Susan about renting the space for your group. For classes you can attend, see the announcements below."
     },
     {
       "title": "Community events",
@@ -33,12 +33,12 @@
     }
   ],
   "classes": {
-    "heading": "An afternoon of cardmaking",
-    "body": "Sit down with friends to make something by hand. We've hosted papercrafting and fall cardmaking in the barn. Check our Facebook page for upcoming classes and sign up details.",
+    "heading": "Join us around the craft tables",
+    "body": "We've hosted papercrafting and fall cardmaking in the barn. At our October gathering, guests toured the venue and spent time outside by the flowerbeds. We post class dates and sign up details on Facebook.",
     "image": "october-guests",
     "alt": "Guests beside the stone planter at the barn on a fall afternoon"
   },
-  "upcoming_heading": "What's coming up",
+  "upcoming_heading": "Classes and public events",
   "upcoming": [
     {
       "date": "",
@@ -47,17 +47,17 @@
       "link": ""
     }
   ],
-  "upcoming_empty": "Check our Facebook page for event announcements, or contact Susan about hosting your own gathering.",
+  "upcoming_empty": "Our Facebook page has the latest event announcements. Contact Susan if you'd like to ask about a class.",
   "retreats": {
     "heading": "A place for parents to connect",
-    "body": "We hope to give parents of children with disabilities a place to connect. Susan worked in special education and has a daughter with autism. We envision gatherings with a guest speaker and time for parents to talk. [CONFIRM: ready to announce]",
+    "body": "Susan worked in special education and has a daughter with autism. We hope to host retreats where parents of children with disabilities can hear a guest speaker and talk with one another. [CONFIRM: ready to announce]",
     "cta": "Ask about parent retreats",
     "cta_href": "/inquire/?type=retreat"
   },
   "closing": {
-    "heading": "Let's make room for your gathering.",
-    "body": "Tell Susan what you're planning and how many people you'd like to invite. A month or season is enough to start discussing dates and pricing.",
-    "cta": "Start an inquiry",
+    "heading": "Your next gathering at the barn",
+    "body": "Tell Susan about your event and roughly how many guests you're inviting. You can ask about the rental and available dates before making plans.",
+    "cta": "Ask about your event",
     "cta_href": "/inquire/?type=event"
   }
 }

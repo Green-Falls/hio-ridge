@@ -1,7 +1,7 @@
 {
   "name": "R&SVP – Hio Ridge",
-  "short_name": "Hio Ridge",
-  "tagline": "Sunday weddings on our family farm in Bridgton, Maine",
+  "short_name": "R&SVP",
+  "tagline": "Weddings on our family farm in Bridgton, Maine",
   "url": "https://437hioridge.events",
   "phone": "207.400.6353",
   "phone_tel": "+12074006353",
@@ -34,8 +34,8 @@
     "text": "Now booking 2027. Contact Susan to schedule a tour.",
     "link": "/inquire/"
   },
-  "inquiry_email_note": "Contact Susan for a private tour, pricing brochure or available dates.",
-  "footer_line": "Sunday weddings and gatherings on our family farm in Bridgton, Maine.",
+  "inquiry_email_note": "Contact Susan for wedding pricing, available dates or a private tour.",
+  "footer_line": "Sunday and weekday weddings on our family farm in Bridgton, Maine.",
   "legal_name": "Richard & Susan Voth Properties",
   "booking_window": "2027",
   "privacy_page": "/privacy/"

@@ -1,8 +1,8 @@
 {
-  "title": "Schedule a Tour or Inquire | R&SVP – Hio Ridge, Bridgton, Maine",
-  "description": "Schedule a tour of the barn at 437 Hio Ridge Road, Bridgton, Maine, or ask about a wedding or event date. Call or text 207.400.6353, or email Susan.",
-  "heading": "Come walk through the barn.",
-  "lede": "Stand in the ceremony field and see where you'd gather for dinner. Contact Susan to arrange a private tour, request the pricing brochure or discuss an event. No date yet? Tell us the season you're considering and your approximate guest count.",
+  "title": "Tours, Pricing and Dates | R&SVP – Hio Ridge, Bridgton, Maine",
+  "description": "Contact Susan at R&SVP in Bridgton, Maine, for a tour or pricing brochure. You can ask about dates before choosing one. Call or text 207.400.6353.",
+  "heading": "Come see where you'd say your vows.",
+  "lede": "A tour is a chance to see the barn and walk out to the ceremony field with Susan. If you're still comparing venues, you can ask for the pricing brochure first. No date yet? A season and approximate guest count are enough to start.",
   "form": {
     "name": "inquiry",
     "types": [
@@ -32,7 +32,7 @@
       },
       {
         "value": "tour",
-        "label": "Just a tour"
+        "label": "A tour of the venue"
       },
       {
         "value": "other",
@@ -40,8 +40,8 @@
       }
     ],
     "submit": "Send inquiry",
-    "privacy_line": "Read our privacy page for information about your inquiry.",
-    "month_label": "When you're thinking of celebrating",
+    "privacy_line": "Our privacy page explains how we handle inquiry information.",
+    "month_label": "Month, if you know",
     "months": [
       "Not sure yet",
       "May 2027",
@@ -57,7 +57,7 @@
     "heading": "Contact Susan directly",
     "reply_line": "Call or text 207.400.6353, or email Susan@437hioridge.events. [CONFIRM: Susan's reply time]",
     "directions_heading": "Find the farm",
-    "directions": "Find us at 437 Hio Ridge Road, Bridgton, Maine 04009. Our event parking lot is behind the tree line. We have three accessible spaces in the driveway. [CONFIRM: directions from Route 302]"
+    "directions": "We're at 437 Hio Ridge Road, Bridgton, Maine 04009. The event parking lot is behind the tree line, with three accessible spaces in the driveway. [CONFIRM: directions from Route 302]"
   },
   "thank_you": {
     "title": "Thank you | R&SVP – Hio Ridge",

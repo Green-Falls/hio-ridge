@@ -1,6 +1,6 @@
 {
   "title": "R&SVP – Hio Ridge | Barn wedding venue, Bridgton, Maine",
-  "description": "Our barn wedding venue in Bridgton, Maine pairs vows facing Pleasant Mountain with dinner under 1820 beams. Up to 135 guests. Sundays, May through October.",
+  "description": "A barn wedding venue in Bridgton, Maine, with a ceremony field facing Pleasant Mountain. Sunday and weekday weddings for up to 135 guests.",
   "hero": {
     "image": "barn-interior",
     "alt": "Inside the barn at Hio Ridge in the evening: the timber frame, chandeliers, and the loft rail",
@@ -14,16 +14,16 @@
         "label": "guests maximum"
       },
       {
-        "value": "22",
-        "label": "acres"
+        "value": "One farm",
+        "label": "ceremony and reception"
       },
       {
         "value": "Sundays",
         "label": "May through October"
       },
       {
-        "value": "One farm",
-        "label": "ceremony and reception"
+        "value": "No alcohol",
+        "label": "at our celebrations"
       }
     ]
   },
@@ -32,89 +32,89 @@
     "who": "Susan Voth"
   },
   "intro": {
-    "heading": "Your first meal as a married couple.",
+    "heading": "Your table, *right by the French doors.*",
     "body": [
-      "Take your seats at the head table, with the field beyond the open French doors. The people who watched you say your vows are here for dinner, too. We have space for your ceremony and reception on the same farm.",
-      "We welcome up to 135 guests, with separate rooms for getting ready and a prep kitchen for your caterer. Tables and chairs come with the rental. We host weddings without alcohol, on Sundays and weekdays from May through October."
+      "Picture your head table by the open French doors, with the field beyond. The original barn boards line the room, and the old house windows let in the light.",
+      "We include tables and chairs with rental. Your caterer has a prep kitchen for finishing the meal. Our total event capacity is 135; Susan can walk through a seating plan for your guest count."
     ],
     "image": "head-table",
     "alt": "The head table set at the open French doors, the field beyond",
     "href": "/weddings/",
-    "link": "See the wedding day"
+    "link": "Explore weddings at the farm"
   },
   "paths": [
     {
-      "title": "Your walk down the aisle",
-      "body": "Say your vows facing Pleasant Mountain. Your guests sit on benches we made from the barn's old floorboards.",
-      "href": "/weddings/",
-      "image": "field-benches-evening",
-      "alt": "Benches in the field and the farmhouse in evening light",
-      "link": "The wedding day"
-    },
-    {
-      "title": "Dinner beneath the beams",
-      "body": "Choose long tables or rounds for the meal you'll share. We include tables and chairs. Susan can talk through the dining spaces with you.",
-      "href": "/the-barn/",
-      "image": "barn-interior",
-      "alt": "Inside the barn in the evening, chandeliers and the loft rail",
-      "link": "See the barn"
-    },
-    {
-      "title": "Your dress, ready in the ell",
-      "body": "Get ready with your wedding party beside you. Our bridal room and separate groom's room are in the ell beside the barn.",
+      "title": "Before the walk down the aisle",
+      "body": "Your wedding party can get ready with you in the bridal room. The groom's party has a separate room in the ell beside the barn.",
       "href": "/photos/",
       "image": "dress",
       "alt": "A wedding dress on the hook in the bridal room",
-      "link": "See the photos"
+      "link": "See the rooms"
+    },
+    {
+      "title": "Your vows, with the mountain in view",
+      "body": "Pleasant Mountain lies beyond the ceremony field. Your guests sit on benches we made from the barn's old floorboards.",
+      "href": "/weddings/",
+      "image": "field-benches-evening",
+      "alt": "Benches in the field and the farmhouse in evening light",
+      "link": "Explore the ceremony field"
+    },
+    {
+      "title": "Around the table together",
+      "body": "Explore the main floor and loft as you think about where everyone will sit. We have long tables and rounds for your reception.",
+      "href": "/the-barn/",
+      "image": "barn-interior",
+      "alt": "Inside the barn in the evening, chandeliers and the loft rail",
+      "link": "See the dining spaces"
     }
   ],
   "setting": {
-    "heading": "Say your vows *with October on the mountain.*",
-    "body": "Autumn brings color to the trees beyond our ceremony field. We host weddings from May through October. Come see the view of Pleasant Mountain as you consider a season.",
+    "heading": "An October wedding, *with color on the mountain.*",
+    "body": "The trees beyond the ceremony field turn in autumn. If you're drawn to an October wedding, come see the view of Pleasant Mountain. We host events from May through October.",
     "image": "barn-october",
     "alt": "The barn across the lawn in early October, trees turning along the tree line"
   },
   "evening": {
-    "heading": "Step out into the evening.",
-    "body": "Sit beside each other in the stone seating circle or catch up with family on the patio. String lights hang outside the barn.",
+    "heading": "A few more minutes *on the patio.*",
+    "body": "Some conversations carry on after dinner. Our patio gives guests a place to sit outside, with string lights beside the barn. The stone seating circle is nearby in the field.",
     "image": "barn-night",
     "alt": "The barn at night, windows lit, French doors open onto the patio"
   },
-  "proof_heading": "Before you choose a venue",
+  "proof_heading": "Before you choose a date",
   "proof": [
     {
       "date": "",
-      "title": "Walk through the barn",
-      "body": "A private tour lets you see the rooms and ceremony field before choosing a date. Contact Susan to arrange a visit.",
+      "title": "See the spaces in person",
+      "body": "A tour gives you a feel for the barn and the ceremony field. Susan can walk through the layout with your guest list in mind.",
       "href": "/inquire/"
     },
     {
       "date": "",
-      "title": "Plan around your budget",
-      "body": "Tables and chairs are included. Ask for our pricing brochure so you can compare the rental with the rest of your wedding plans.",
+      "title": "Get the rental details",
+      "body": "Our pricing brochure is the place to start comparing costs. Tables and chairs are included. You can request the brochure before arranging a tour.",
       "href": "/pricing/"
     },
     {
       "date": "",
-      "title": "Meet your hosts",
-      "body": "We're Susan and Richard. We restored the family barn, and we're on site at events.",
+      "title": "Meet Susan and Richard",
+      "body": "We restored the barn on Susan's family farm. We host the events here, and we're on site when you celebrate.",
       "href": "/our-story/"
     }
   ],
   "story_teaser": {
-    "heading": "The boards we saved. *The farm we share.*",
-    "body": "Susan's family has kept this farm since 1941. When we restored the barn, we kept its old boards and added the house windows. Now we welcome other families to celebrate here.",
+    "heading": "The house windows *found a home in the barn.*",
+    "body": "When Richard wanted new windows for the house, Susan wanted the old ones in the barn. We kept its original boards, too. Susan's family has owned the farm since 1941.",
     "href": "/our-story/",
-    "link": "Our story",
+    "link": "Meet Susan and Richard",
     "image": "susan-richard",
     "alt": "Susan and Richard Voth at the barn door"
   },
   "closing": {
-    "heading": "Stand in the field. *Look toward the mountain.*",
-    "body": "No date yet? Come for a private tour. Contact Susan to schedule a visit or ask for our pricing brochure.",
+    "heading": "Come see where *you’d say your vows.*",
+    "body": "Walk through the barn and out to the field with Susan. No date yet? A season and an approximate guest count are enough to start. You can request our pricing brochure before visiting.",
     "cta": "Schedule a tour",
     "cta_href": "/inquire/"
   },
-  "included_heading": "What you can plan on",
-  "paths_heading": "Before the vows. After the ceremony."
+  "included_heading": "The spaces and the rental",
+  "paths_heading": "Get ready here. *Celebrate here, too.*"
 }

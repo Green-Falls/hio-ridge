@@ -1,11 +1,11 @@
 {
   "title": "Photos | R&SVP – Hio Ridge, Bridgton, Maine",
-  "description": "Picture your wedding at Hio Ridge in Bridgton, Maine. Explore photographs of our barn and getting ready rooms, the ceremony field and the patio.",
-  "heading": "From the dressing room *to the evening lights.*",
-  "lede": "See the rooms where you'll get ready and the tables beneath the barn beams. Then look outside to the ceremony field and patio. These photographs show our spaces and gatherings at the farm. Our event season runs from May through October.",
+  "description": "See R&SVP in Bridgton, Maine, from the getting ready rooms to the barn and ceremony field. Photos of our spaces and gatherings at the farm.",
+  "heading": "Your wedding, *room by room.*",
+  "lede": "These are our barn and grounds, from the getting ready rooms to the patio after dark. You'll also see our open house and community gatherings. We host weddings and events from May through October.",
   "groups": [
     {
-      "heading": "Dinner under the beams",
+      "heading": "Inside the barn",
       "photos": [
         [
           "barn-interior",
@@ -42,7 +42,7 @@
       ]
     },
     {
-      "heading": "Getting ready in the ell",
+      "heading": "The getting ready rooms",
       "photos": [
         [
           "dress",
@@ -75,7 +75,7 @@
       ]
     },
     {
-      "heading": "Vows in the field",
+      "heading": "The ceremony field and patio",
       "photos": [
         [
           "ceremony-field",
@@ -112,7 +112,7 @@
       ]
     },
     {
-      "heading": "Evening light and autumn color",
+      "heading": "The farm through the seasons",
       "photos": [
         [
           "barn-october",
@@ -150,8 +150,8 @@
     }
   ],
   "closing": {
-    "heading": "See how it all connects.",
-    "body": "A private tour lets you walk from the getting ready rooms to the ceremony field and back to the barn. Contact Susan to arrange a visit.",
+    "heading": "Next, a walk through the barn.",
+    "body": "The photos give you a first look. A tour lets you see the spaces together and discuss a layout for your guests. Contact Susan to arrange a visit.",
     "cta": "Schedule a tour",
     "cta_href": "/inquire/"
   }

@@ -1,43 +1,43 @@
 {
   "title": "Our Story | R&SVP – Hio Ridge, Bridgton, Maine",
-  "description": "Meet Susan and Richard Voth. Our family has kept this Bridgton, Maine farm since 1941. We restored its 1820 barn with original boards and windows from the house.",
-  "heading": "We kept the old boards. *And opened the barn doors.*",
-  "lede": "Susan's father spent summers here helping his grandfather. Now families can gather for weddings in the barn we restored. We're Susan and Richard Voth. Susan is the fourth generation of her family to own this farm.",
+  "description": "Meet Susan and Richard Voth, the owners of R&SVP in Bridgton, Maine. Their wedding barn holds original boards and windows saved from the family home.",
+  "heading": "We kept the house windows. *They're in the barn now.*",
+  "lede": "When Richard suggested replacing the house windows, Susan wanted to put the old ones in the barn. That decision became part of a much bigger project. We're Susan and Richard Voth. We restored this barn for weddings and events on the farm Susan's family has owned since 1941.",
   "hero_image": "susan-richard",
   "hero_alt": "Susan and Richard Voth, smiling, at the barn door",
   "sections": [
     {
-      "heading": "Summers with Howard and Rosa",
+      "heading": "Summers on the family farm",
       "body": [
         "Susan's father and his brother spent summers here helping their grandfather, Howard Burnham. Howard and Rosa, Susan's great grandparents, bought the farm in 1941.",
-        "Susan's grandmother, Phyllis Shackley, later spent 25 retirement years on the farm. Susan's father followed with 25 years of his own. The Burnhams also had roots in town: they rebuilt the burned Bridgton Hotel as the Bridgton House in 1914."
+        "Susan's grandmother, Phyllis Shackley, later spent 25 retirement years here. Susan's father followed with 25 years of his own. Susan is now the fourth generation to own the farm."
       ],
       "image": "burnhams",
       "alt": "A black and white portrait of Rosa and Howard Burnham"
     },
     {
-      "heading": "It started with the house windows.",
+      "heading": "We came back to work on the house.",
       "body": [
-        "We came back to the farm in October 2020 after Susan retired. We started work on the house. Richard wanted new windows, and Susan wanted to keep the old ones for the barn.",
-        "A friend suggested a place for overnight guests. We chose to make room for events instead. R&SVP stands for Richard and Susan Voth Properties. Hio Ridge is our road."
+        "We returned in October 2020 after Susan retired. The barn was still serving as a garage. As we worked on the house, we began finding ways to use its old materials in the barn.",
+        "A friend suggested turning the property into a place for overnight guests. We decided to host events. We named the venue R&SVP for Richard and Susan Voth Properties. Hio Ridge is the name of our road."
       ],
       "image": "barn-2020",
       "alt": "The barn in 2020: dark weathered boards, a sagging roofline, grass in front"
     },
     {
-      "heading": "The old floorboards became ceremony benches.",
+      "heading": "We made ceremony benches from the old floorboards.",
       "body": [
-        "We started with a new garage because the barn had served as one for years. Tim Brown and his team at Brown Solutions restored the barn. They lowered the floor 12 inches to give more headroom above the old stalls.",
-        "We kept the original exterior boards inside and cured new boards for the outside. The house windows now light the barn. Old floorboards became ceremony benches. Greg Bouley of River's Edge Landscaping used stones from beneath the barn for the planters and seating circle."
+        "We made ceremony benches from the barn's old floorboards. We used its original exterior boards to line the walls inside, and kept the old house windows for the barn.",
+        "Tim Brown and his team at Brown Solutions restored the building. Greg Bouley of River's Edge Landscaping used stones from beneath it for the planters and seating circle. You can see their work as you walk through the barn and grounds."
       ],
       "image": "ell-before",
       "alt": "The ell and barn during renovation, new boards on the ell, the old barn beside it"
     },
     {
-      "heading": "We opened the doors to our neighbors.",
+      "heading": "Music in the barn, neighbors at the tables",
       "body": [
-        "The High Street Jazz Band played as visitors explored the barn at our August 2026 open house. The Maine Lakes Chamber joined us for the ribbon cutting in September.",
-        "We want people to keep gathering here. We're on site at events, and we've pledged to donate the venue for one charitable event each year. We'd love to hear what brings your family together."
+        "The High Street Jazz Band played at our open house. Since then, we've welcomed guests for cardmaking and tours of the farm.",
+        "We want the barn to serve our community, too. We've pledged to donate use of the venue for one charitable event each year. When you hold an event here, we're on site."
       ],
       "image": "stone-planter",
       "alt": "A stone planter filled with perennials, the field behind"
@@ -60,7 +60,7 @@
   ],
   "closing": {
     "heading": "Meet us at the barn.",
-    "body": "Come see the windows we saved and the benches we made from the old floorboards. Contact Susan to schedule a tour. We'd love to hear what you're planning.",
+    "body": "Susan can show you through the barn and hear what you have in mind for your wedding or event. Contact her to schedule a tour.",
     "cta": "Schedule a tour",
     "cta_href": "/inquire/"
   }

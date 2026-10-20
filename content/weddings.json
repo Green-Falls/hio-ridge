@@ -1,28 +1,28 @@
 {
   "title": "Weddings | R&SVP – Hio Ridge, Bridgton, Maine",
   "description": "Picture your day at our barn wedding venue in Bridgton, Maine. Ceremony and reception on one farm. Up to 135 guests. Sundays and weekdays, May through October.",
-  "heading": "Your guests in the field. *The mountain beyond.*",
-  "lede": "Stand beside each other facing Pleasant Mountain, with your family and friends on the benches. Then gather in the barn for dinner. We host ceremonies and receptions on our 22 acre farm in Bridgton, Maine, for up to 135 guests.",
+  "heading": "The walk down the aisle. *The mountain in view.*",
+  "lede": "Your guests are seated in the field, with Pleasant Mountain beyond. After the vows, the celebration continues here on our family farm in Bridgton, Maine. We host weddings for up to 135 guests on Sundays and weekdays, May through October.",
   "hero_image": "field-benches-evening",
   "hero_alt": "Benches in the ceremony field and the farmhouse in evening light",
   "day": {
-    "heading": "From getting dressed to gathering for dinner",
+    "heading": "Before the ceremony. *After the vows.*",
     "steps": [
       {
-        "title": "Get ready in the ell",
-        "body": "Hang your dress on its hook and get ready with your wedding party nearby. We have separate rooms for the bride's and groom's parties in the ell beside the barn."
+        "title": "Getting ready with your wedding party",
+        "body": "Your dress has its own hook in the bridal room. There's a vanity with an arched mirror, and your wedding party can get ready with you. The groom's party has a separate room in the ell beside the barn."
       },
       {
-        "title": "Say your vows facing Pleasant Mountain",
-        "body": "Your guests take their seats on benches made from the barn's old floorboards. Our ceremony field faces Pleasant Mountain. Ask Susan about indoor arrangements as you plan for the weather."
+        "title": "Your walk into the field",
+        "body": "Pleasant Mountain forms the view beyond the ceremony field. We made the benches from old barn floorboards. Your reception stays on the same farm, so guests won't need to drive to another venue."
       },
       {
-        "title": "Sit down to dinner together",
-        "body": "Take your seats beneath the old beams and share the meal you've chosen. Tables and chairs come with the rental. Your caterer can finish the food in our prep kitchen."
+        "title": "Your first meal as newlyweds",
+        "body": "You can take your seats by the French doors for your first meal as newlyweds. We include tables and chairs with rental. Your caterer has a prep kitchen for finishing the meal."
       },
       {
-        "title": "Catch up on the patio",
-        "body": "Take a photograph in the evening light or catch up with family on the patio. We have outdoor string lights and a stone seating circle in the field."
+        "title": "A conversation that carries on outside",
+        "body": "The patio gives guests somewhere to sit outside the barn. We have outdoor string lights and a stone seating circle in the field."
       }
     ]
   },
@@ -30,7 +30,7 @@
   "details": [
     {
       "label": "Guests",
-      "value": "Up to 135"
+      "value": "Up to 135 guests per event. Dining capacity depends on the layout"
     },
     {
       "label": "When",
@@ -38,7 +38,7 @@
     },
     {
       "label": "Ceremony",
-      "value": "The field faces Pleasant Mountain. Ask Susan about indoor ceremony arrangements"
+      "value": "A field facing Pleasant Mountain, with benches made from old barn floorboards"
     },
     {
       "label": "Getting ready",
@@ -46,7 +46,7 @@
     },
     {
       "label": "Tables and chairs",
-      "value": "Included. Tables measuring 6 or 8 feet long, plus round tables"
+      "value": "Included. Tables measuring 6 or 8 feet long, plus 5 foot rounds"
     },
     {
       "label": "Food",
@@ -58,7 +58,7 @@
     },
     {
       "label": "Music",
-      "value": "Plan music inside the barn. Ask Susan about sound limits and outdoor restrictions"
+      "value": "Music inside the barn. Sound limits and outdoor restrictions apply"
     },
     {
       "label": "Parking",
@@ -70,34 +70,18 @@
     }
   ],
   "sunday": {
-    "heading": "A Sunday wedding at the farm",
-    "body": "A Sunday ceremony gives guests the option of traveling on Saturday. We host weddings on Sundays and weekdays, May through October. We don't book Saturdays. Compare your vendors' Sunday and weekday rates as you plan your budget, and let guests know early so they can plan for Monday. [CONFIRM: wording Susan is comfortable with]"
+    "heading": "A Sunday for your wedding. *Saturday to get here.*",
+    "body": "A Sunday wedding gives travelling guests the option of arriving on Saturday. We also host weekday weddings from May through October. If your plans are flexible, compare Sunday and weekday quotes from your vendors. We don't book Saturdays. [CONFIRM: wording Susan is comfortable with]"
   },
   "faq_heading": "Before you book",
   "faq": [
     {
       "q": "How many guests can we invite?",
-      "a": "We welcome up to 135 guests per event. That is our total event capacity. Ask Susan to review dining and ceremony layouts for your guest count."
-    },
-    {
-      "q": "Can we have our ceremony outside?",
-      "a": "Yes. Our ceremony field faces Pleasant Mountain. Your guests sit on benches made from the barn's old floorboards, and your reception can be on the same farm."
+      "a": "We host up to 135 guests across the venue. Seating varies between the main floor, loft and patio. Susan can help you review the dining arrangement for your guest count."
     },
     {
       "q": "What if it rains?",
       "a": "Ask Susan to walk through the indoor ceremony and reception arrangements for your guest count before you book. [CONFIRM: indoor ceremony capacity, room changeover and when the rain decision is made]"
-    },
-    {
-      "q": "Can we bring our own caterer?",
-      "a": "We have a prep kitchen for your caterer. They can close its barn doors while they finish your meal. Ask Susan about caterer requirements before you book a vendor."
-    },
-    {
-      "q": "Can we serve alcohol?",
-      "a": "We host weddings without alcohol. Guests of all ages are welcome, and there's no alcohol bill to add to your budget. Our town permit requires events to stay alcohol free."
-    },
-    {
-      "q": "Can children come?",
-      "a": "Yes. We welcome families with children. Tell Susan about any needs you'd like to discuss for your youngest guests."
     },
     {
       "q": "Do you host Saturday weddings?",
@@ -105,23 +89,39 @@
     },
     {
       "q": "What months are you open?",
-      "a": "We host events from May through October. For an autumn wedding, picture the foliage on Pleasant Mountain beyond the ceremony field."
+      "a": "May through October. Autumn brings color to the trees beyond the ceremony field, with Pleasant Mountain in view."
+    },
+    {
+      "q": "Can we serve alcohol?",
+      "a": "We host weddings without alcohol. Guests of all ages are welcome, and there's no alcohol bill to add to your budget."
     },
     {
       "q": "Are tables and chairs included?",
-      "a": "Yes. We include tables and chairs with rental. We have tables measuring 6 or 8 feet long and round tables. Ask Susan which arrangement suits your guest count."
+      "a": "Yes. We include tables and chairs with rental. We have tables measuring 6 or 8 feet long and 5 foot rounds. The arrangement depends on your guest count and the spaces you use."
+    },
+    {
+      "q": "Can we bring our own caterer?",
+      "a": "We provide a prep kitchen for your outside caterer, with barn doors they can close while finishing your meal. Confirm the caterer requirements with Susan before hiring anyone."
+    },
+    {
+      "q": "How long do we have the barn?",
+      "a": "Confirm the rental hours with Susan before arranging deliveries or setting your wedding schedule. [CONFIRM: access window, setup the day before, end time]"
+    },
+    {
+      "q": "Can we have our ceremony outside?",
+      "a": "Yes. Our ceremony field faces Pleasant Mountain. Your guests sit on benches made from the barn's old floorboards, and your reception can be on the same farm."
     },
     {
       "q": "Is the barn accessible?",
       "a": "We have three accessible parking spaces in the driveway and a wooden ramp to the main floor. We also have an ADA bathroom and a paved path to the patio. Ask Susan about access to the ceremony field and other rooms."
     },
     {
-      "q": "How do we book?",
-      "a": "Contact Susan to schedule a tour and request our pricing brochure. You can ask about dates before choosing one. [CONFIRM: deposit and booking steps]"
+      "q": "Can children come?",
+      "a": "Yes. We welcome families with children. Let Susan know if you have questions about the spaces for your youngest guests."
     },
     {
-      "q": "How long do we have the barn?",
-      "a": "Tell Susan what time you'd like to gather and what your vendors need. Ask about access before setting your schedule. [CONFIRM: access window, setup the day before, end time]"
+      "q": "How do we book?",
+      "a": "Contact Susan for the pricing brochure and available dates, or arrange a private tour. You can start with a season if you haven't chosen a date. [CONFIRM: deposit and booking steps]"
     },
     {
       "q": "How fast does Susan reply?",
@@ -129,9 +129,9 @@
     }
   ],
   "closing": {
-    "heading": "Walk your ceremony route.",
-    "body": "Come see the field and the barn before settling on a date. Tell Susan your approximate guest count and the season you're considering.",
-    "cta": "Ask about a date",
+    "heading": "Walk through the barn *with your wedding in mind.*",
+    "body": "Come see the rooms and ceremony field with Susan. You can request pricing and ask about available dates before arranging a visit.",
+    "cta": "Contact Susan",
     "cta_href": "/inquire/?type=wedding"
   }
 }
