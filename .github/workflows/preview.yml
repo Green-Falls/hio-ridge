@@ -27,7 +27,7 @@ jobs:
           enablement: true
       - run: node scripts/check-content.js
       - run: RELATIVE=1 node build.mjs
-      - run: printf 'User-agent: *\nDisallow: /\n' > dist/robots.txt
+      - run: "printf 'User-agent: *\\nDisallow: /\\n' > dist/robots.txt"
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
