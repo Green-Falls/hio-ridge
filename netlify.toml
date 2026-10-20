@@ -1,8 +1,7 @@
 # Netlify configuration for R&SVP – Hio Ridge.
-# Base directory in the Netlify UI: hio-ridge (this folder). Node 22.
+# Base directory in the Netlify UI: leave empty, the site is at the repository root. Node 22.
 # The validator runs first so a bad save in the editor fails the build and the last good site stays live.
 [build]
-  base = "hio-ridge"
   command = "node scripts/check-content.js && node build.mjs"
   publish = "dist"
 

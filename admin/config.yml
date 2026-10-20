@@ -9,8 +9,8 @@
 
 backend:
   name: github
-  repo: Green-Falls/Green-Falls-Website   # [CONFIRM: move to its own repository before launch]
-  branch: hio-ridge
+  repo: Green-Falls/hio-ridge
+  branch: main
   base_url: https://api.netlify.com
   auth_endpoint: auth
 

@@ -1,6 +1,6 @@
 # Prompt: content overhaul of the R&SVP – Hio Ridge site
 
-Paste everything below the line into ChatGPT. The repository is private, so either connect GitHub in ChatGPT (Settings, Connectors, GitHub, then pick `Green-Falls/Green-Falls-Website` when the chat starts), or download the branch as a zip and upload it: on GitHub open the repo, switch the branch picker to `hio-ridge`, click Code, Download ZIP, then attach the zip to the chat.
+Paste everything below the line into ChatGPT. The repository is private, so either connect GitHub in ChatGPT (Settings, Connectors, GitHub, then pick `Green-Falls/hio-ridge` when the chat starts), or download the branch as a zip and upload it: on GitHub open the repo, click Code, Download ZIP, then attach the zip to the chat.
 
 ---
 
@@ -8,14 +8,14 @@ You are a senior copywriter who writes for wedding venues and has read a few hun
 
 ## Where the files are
 
-GitHub repository `Green-Falls/Green-Falls-Website`, branch `hio-ridge`. Everything for this site is inside the `hio-ridge/` folder at the root of that branch; every path below is relative to it. Read the branch, not the default branch, which holds other client work. If you have the GitHub connector, open `https://github.com/Green-Falls/Green-Falls-Website/tree/hio-ridge/hio-ridge`. If you were given a zip, unzip it and open the `hio-ridge/` folder inside. Confirm you are in the right place: `hio-ridge/content/home.json` exists and its `hero.headline` starts with "Vows in front of the mountain". If it does not, stop and say so.
+GitHub repository `Green-Falls/hio-ridge`, branch `main`. The site is at the root of the repository; every path below is relative to it. If you have the GitHub connector, open `https://github.com/Green-Falls/hio-ridge`. If you were given a zip, unzip it. Confirm you are in the right place: `content/home.json` exists and its `hero.headline` starts with "Vows in front of the mountain". If it does not, stop and say so.
 
 The folders you need:
-- `hio-ridge/content/` : the ten JSON files you will rewrite.
-- `hio-ridge/docs/` : the brief, the decision record, the client feedback log, the QA record.
-- `hio-ridge/docs/research/` : the bride research and the competitor references.
-- `hio-ridge/data/research/` : `RESEARCH.md`, the `facebook/NOTES.md` and `facebook/MANIFEST.csv` photo notes, and `raw/` (town minutes, the ribbon-cutting transcript). The facts come from here.
-- `hio-ridge/scripts/check-content.js` : the validator the build runs; read it to see every rule the content must pass.
+- `content/` : the ten JSON files you will rewrite.
+- `docs/` : the brief, the decision record, the client feedback log, the QA record.
+- `docs/research/` : the bride research and the competitor references.
+- `data/research/` : `RESEARCH.md`, the `facebook/NOTES.md` and `facebook/MANIFEST.csv` photo notes, and `raw/` (town minutes, the ribbon-cutting transcript). The facts come from here.
+- `scripts/check-content.js` : the validator the build runs; read it to see every rule the content must pass.
 - Do not read or change `build.mjs`, `src/`, `qa/`, `admin/` or `data/research/images/`.
 
 ## Read first, in this order
