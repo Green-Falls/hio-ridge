@@ -29,7 +29,7 @@ jobs:
       - run: RELATIVE=1 node build.mjs
       - run: "printf 'User-agent: *\\nDisallow: /\\n' > dist/robots.txt"
       - name: Include standalone design preview
-        run: mkdir -p dist/design-preview && cp design-preview/index.html dist/design-preview/index.html
+        run: mkdir -p dist/design-preview && cp -R design-preview/. dist/design-preview/
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
