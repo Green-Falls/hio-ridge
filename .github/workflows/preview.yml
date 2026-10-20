@@ -1,11 +1,11 @@
-# Client preview for the Hio Ridge site on GitHub Pages: noindex on every page, robots disallow-all,
-# CNAME for hioridge.greenfalls.co. Enable Pages (Settings → Pages → Source: GitHub Actions) and add a
-# DNS CNAME from hioridge.greenfalls.co to green-falls.github.io before the first run.
+# Client preview on GitHub Pages at https://green-falls.github.io/hio-ridge/ : every page noindex,
+# links relative so the site works under the /hio-ridge/ path. No custom domain until the DNS CNAME
+# for hioridge.greenfalls.co exists; then switch the build line to PREVIEW_HOST=hioridge.greenfalls.co.
+# If the first run fails at "configure-pages", enable Pages once: Settings → Pages → Source: GitHub Actions.
 name: preview
 on:
   push:
     branches: [main]
-    paths: ["**"]
   workflow_dispatch:
 permissions:
   contents: read
@@ -17,15 +17,17 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    defaults:
-      run:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+      - uses: actions/configure-pages@v5
+        with:
+          enablement: true
       - run: node scripts/check-content.js
-      - run: PREVIEW_HOST=hioridge.greenfalls.co node build.mjs
+      - run: RELATIVE=1 node build.mjs
+      - run: printf 'User-agent: *\nDisallow: /\n' > dist/robots.txt
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
